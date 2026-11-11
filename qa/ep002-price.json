@@ -1,0 +1,5 @@
+{"id":"ep002-price","auto":"engine/qa_check.py passed (43.6 s, 3840x2160, 30 fps, -12.6 LUFS, no still stretch, saturation 0.60)",
+ "rubric":{"hook":4,"pace":4,"message":5,"colour_energy":4,"offer_appeal":4,"technical":4},
+ "facts":"checked 2026-11-11 against nightshift-ai.studio: 100 credits once/no card; 60 credits per minute; min 30; 5 min = 300; failed run costs nothing; Plus $19/2,000, Pro $49/6,000, Business $129/18,000; uploads private until you decide",
+ "caveat":"proxy for a viewer, not audience data; hook is text-only, a stronger visual hook is the next thing to try",
+ "verdict":"pass (avg 4.2) - shown to owner before the daily schedule is enabled"}
