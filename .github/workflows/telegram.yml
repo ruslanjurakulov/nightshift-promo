@@ -1,0 +1,40 @@
+# Sends a finished promo video to the Nightshift Telegram channel.
+# Why it lives here: the bot token is a GitHub secret that only Actions can read, so the daily Claude session never sees it.
+# Why it re-encodes: Telegram's Bot API refuses files over 50 MB and our 4K masters are ~65 MB.
+name: telegram
+on:
+  push:
+    branches: [main]
+    paths: ["captions/*.txt"]          # the caption is committed AFTER the video, so the video is already on main when this fires
+  workflow_dispatch:
+    inputs:
+      id:
+        description: "Episode id, e.g. ep002-price (needs videos/<id>.mp4 and captions/<id>.txt)"
+        required: true
+concurrency: telegram
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    env:
+      CHAT_ID: "-1003945140661"
+      BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: Pick the episodes to send
+        id: pick
+        run: |
+          if [ -n "${{ github.event.inputs.id }}" ]; then ids="${{ github.event.inputs.id }}"
+          else ids=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'captions/*.txt' | sed 's|captions/||; s|\.txt$||'); fi
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"; echo "episodes: $ids"
+      - name: Send
+        run: |
+          [ -n "$BOT_TOKEN" ] || { echo "TELEGRAM_BOT_TOKEN secret is missing: add it in Settings > Secrets and variables > Actions"; exit 1; }
+          for id in ${{ steps.pick.outputs.ids }}; do
+            [ -f "videos/$id.mp4" ] && [ -f "captions/$id.txt" ] || { echo "missing video or caption for $id"; exit 1; }
+            ffmpeg -v error -y -i "videos/$id.mp4" -vf scale=1920:1080 -c:v libx264 -crf 24 -preset medium -pix_fmt yuv420p -c:a aac -b:a 128k -movflags +faststart "tg.mp4"
+            size=$(stat -c %s tg.mp4); echo "$id re-encoded: $size bytes"
+            [ "$size" -lt 50000000 ] || { echo "still over 50 MB, raise the crf"; exit 1; }
+            curl -sS -m 300 -o resp.json -F chat_id="$CHAT_ID" -F supports_streaming=true -F video=@tg.mp4 -F caption="$(head -c 1000 captions/$id.txt)" "https://api.telegram.org/bot${BOT_TOKEN}/sendVideo"
+            python3 -c "import json;r=json.load(open('resp.json'));print('ok' if r.get('ok') else 'FAILED: '+str(r.get('description')));raise SystemExit(0 if r.get('ok') else 1)"
+          done
