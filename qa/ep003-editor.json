@@ -1,0 +1,7 @@
+{"id":"ep003-editor","auto":"engine/qa_check.py passed (41.1 s, 3840x2160, 30 fps, -12.5 LUFS, peak -2.7 dBFS, no still stretch, saturation 0.56, 4 hues, 64.9 MB)",
+ "attempts":"ocean failed auto gate (3 hues); remake with ember (2 hues) and aurora (2 hues) also failed; forest passed. Same script each time; only palette changed.",
+ "rubric":{"hook":3,"pace":4,"message":5,"colour_energy":4,"offer_appeal":4,"technical":4},
+ "facts":"checked 2026-11-11 against nightshift-ai.studio (home, /pricing, /studio): editing and exports use no credits; trim and split; text on screen (size/position/timing); music with fades and auto-lowering under speech; speed 0.5x-2x; cross-fade 0.2-2 s; captions in four looks, .srt/.vtt; frame shape 9:16, 16:9, 1:1; channel languages Uzbek, Russian, English; finished videos upload private; 'Nothing airs until you say so' is the site's own heading; 100 free credits once, no card.",
+ "not_checked":"A daily limit applies to free exports (site) - video says editing and exports use no credits, which matches the site but omits that limit. Audio was not listened to by a human; pacing judged from contact sheet and scene timings only. Hook is text-only with a faint '0'.",
+ "caveat":"proxy for a viewer, not audience data",
+ "verdict":"pass (avg 4.0, no score <3, facts OK)"}

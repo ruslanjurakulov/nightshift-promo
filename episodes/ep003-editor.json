@@ -1,0 +1,37 @@
+{
+ "id": "ep003-editor",
+ "palette": "forest",
+ "scenes": [
+  {"type": "hook", "lines": ["Editing costs", "*zero* credits."], "mark": "0",
+   "sentences": ["Editing your video costs zero credits."]},
+  {"type": "bubble", "big": "Hi, I'm Nox.", "small": "Your night-shift video editor.", "lock": true,
+   "sentences": ["Hi, I'm Nox.", "Nightshift makes the video. Then the cutting room is yours."]},
+  {"type": "steps", "topic": "Fix it your way, free",
+   "items": [
+    {"label": "1  TRIM AND SPLIT", "sub": "Cut at the playhead"},
+    {"label": "2  ADD TEXT", "sub": "Size, position, timing"},
+    {"label": "3  ADD MUSIC", "sub": "Fades, lowers under speech"}
+   ],
+   "sentences": ["Here is what the editor does.", "Trim and split any clip.", "Put text on screen, and choose where it sits.", "Add music that fades in, and lowers under the voice."]},
+  {"type": "chips", "header": "ALSO IN THE EDITOR",
+   "items": [
+    {"title": "Speed", "sub": "0.5x up to 2x"},
+    {"title": "Cross-fades", "sub": "0.2 to 2 seconds"},
+    {"title": "Captions", "sub": "Four looks, .srt or .vtt"},
+    {"title": "Frame shape", "sub": "9:16, 16:9 or 1:1"}
+   ],
+   "sentences": ["Change the speed, from half to double.", "Blend clips with a cross-fade.", "Add captions in four looks.", "And pick vertical, wide or square."]},
+  {"type": "chips", "header": "EDIT IN YOUR LANGUAGE",
+   "items": [
+    {"title": "Uzbek", "sub": "Channel language"},
+    {"title": "Russian", "sub": "Channel language"},
+    {"title": "English", "sub": "Channel language"},
+    {"title": "No credits", "sub": "Edit and export"}
+   ],
+   "sentences": ["Each channel speaks Uzbek, Russian or English.", "Editing and exporting use no credits."]},
+  {"type": "approve", "headline": "Nothing airs until you say so.", "button": "Approve", "sign": "You decide  ·  always",
+   "sentences": ["Finished videos upload as private.", "You watch first.", "Nothing airs until you say so."]},
+  {"type": "cta", "pills": ["100 free credits", "No card needed"], "tagline": "Edit free. Publish when you decide.",
+   "sentences": ["Try it free today at nightshift-ai dot studio."]}
+ ]
+}
