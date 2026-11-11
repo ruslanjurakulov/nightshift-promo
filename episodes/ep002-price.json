@@ -1,0 +1,119 @@
+{
+ "id": "ep002-price",
+ "palette": "candy",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Know the *price*",
+    "before you",
+    "press *start*."
+   ],
+   "mark": "$",
+   "sentences": [
+    "Know the price before you press start."
+   ]
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "At Nightshift, nothing is a surprise."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Why night owls make great editors",
+   "items": [
+    {
+     "label": "1  GIVE A TOPIC",
+     "sub": "Script, voice, visuals, captions"
+    },
+    {
+     "label": "2  SEE THE PRICE",
+     "sub": "Shown on the button first"
+    },
+    {
+     "label": "3  WATCH, THEN DECIDE",
+     "sub": "Private until you say so"
+    }
+   ],
+   "sentences": [
+    "Here is how it works.",
+    "Give it a topic. Nightshift writes the script, voice, visuals and captions.",
+    "Start at a price you have seen.",
+    "Then watch the private video before you decide."
+   ]
+  },
+  {
+   "type": "price",
+   "minutes": 5,
+   "rate": 60,
+   "min_credits": 30,
+   "quote": "You see the cost first.",
+   "button": "Start",
+   "sentences": [
+    "Pick your length, and the credit price moves with it.",
+    "You see the cost first, then you decide."
+   ]
+  },
+  {
+   "type": "fail",
+   "note": "Failed runs are refunded automatically.",
+   "sentences": [
+    "And if a run fails, you are charged zero credits."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing goes public until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Every upload waits as private.",
+    "You watch it first, then you approve it.",
+    "Nothing goes public until you say so."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "PLANS",
+   "items": [
+    {
+     "title": "Free",
+     "sub": "100 credits, no card"
+    },
+    {
+     "title": "Plus",
+     "sub": "$19 / 2,000 credits"
+    },
+    {
+     "title": "Pro",
+     "sub": "$49 / 6,000 credits"
+    },
+    {
+     "title": "Business",
+     "sub": "$129 / 18,000 credits"
+    }
+   ],
+   "sentences": [
+    "Start free with one hundred credits, no card needed.",
+    "Plus, Pro and Business scale from nineteen dollars."
+   ]
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Price first. Then press start.",
+   "sentences": [
+    "Try it free today at nightshift-ai dot studio."
+   ]
+  }
+ ]
+}
