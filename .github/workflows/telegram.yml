@@ -21,6 +21,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 2 }
+      - name: Install ffmpeg
+        # the runner image has no ffmpeg: the first run died with exit 127 on the re-encode
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Pick the episodes to send
         id: pick
         run: |
