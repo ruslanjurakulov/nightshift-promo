@@ -70,7 +70,9 @@ def owl_layer(pal, K, wR, wL, look, mouth, blink, squint, sway, SS=2):
             ell(px, py, 40, ry, acc); ell(px, py, 28, max(3, ry * 0.7), (24, 18, 40))
             if blink < 0.5: ell(px - 11, py - 13 * (1 - blink), 10, 10 * (1 - blink) + 1, (255, 255, 255))
             if blink > 0.05:
-                d.rectangle([(ex - 84 - CX0) * sc, (ey - 84 - CY0) * sc, (ex + 84 - CX0) * sc, (ey - 84 + 168 * blink * 0.5 - CY0) * sc], fill=A(body))
+                # lid = chord of the eye circle, so it never spills over the headband like a rectangle did
+                dy = max(-83.0, min(83.0, -84 + 168 * blink)); phi = math.degrees(math.asin(dy / 84))
+                d.chord([(ex - 84 - CX0) * sc, (ey - 84 - CY0) * sc, (ex + 84 - CX0) * sc, (ey + 84 - CY0) * sc], 180 - phi, 360 + phi, fill=A(body))
     # beak (opens with the voice)
     poly([(-20, -330), (20, -330), (0, -322 + 14 + 22 * mouth)], tuple(int(c * 0.65) for c in beak), line, 2)
     poly([(-30, -362), (30, -362), (0, -320)], beak, line, 3)

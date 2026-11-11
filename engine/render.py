@@ -204,7 +204,7 @@ def sc_steps(cv, D, t, a, sc):
         rr(D, (880 + xo, y + 14, 890 + xo, y + h - 14), 5, fill=rgba(cols[i % 4], ai))
         put(cv, text_layer(it["label"], HEAD, 38, 2), 925 + xo, y + 36, ai, left=True)
         put(cv, text_layer(it["sub"], BODY, 25), 925 + xo, y + 74, 0.7 * ai, color=MUTED, left=True)
-        bx0, bx1, by = 1330 + xo, 1620 + xo, y + h / 2 + 4
+        bx0, bx1, by = 1450 + xo, 1625 + xo, y + h / 2 + 4
         rr(D, (bx0, by - 5, bx1, by + 5), 5, fill=rgba(WHITE, 0.18 * ai))
         if prog > 0: rr(D, (bx0, by - 5, bx0 + (bx1 - bx0) * ease(prog), by + 5), 5, fill=rgba(mix(ACC, ACC2, prog), ai))
         if done:
