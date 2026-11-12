@@ -1,0 +1,93 @@
+{
+ "id": "ep004-failfree",
+ "palette": "sunrise",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "A failed run",
+    "costs *nothing*."
+   ],
+   "mark": "0",
+   "sentences": [
+    "A failed run costs nothing. Not one credit."
+   ]
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is how Nightshift charges for a video."
+   ]
+  },
+  {
+   "type": "price",
+   "minutes": 5,
+   "rate": 60,
+   "min_credits": 30,
+   "quote": "The price is on the button first.",
+   "button": "Start",
+   "sentences": [
+    "A five minute video is quoted at three hundred credits, sixty a minute.",
+    "No run is quoted below thirty credits.",
+    "You see that price on the button before anything starts."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Quote, hold, charge, return",
+   "items": [
+    {
+     "label": "1  HOLD",
+     "sub": "Set aside when the run starts"
+    },
+    {
+     "label": "2  CHARGE",
+     "sub": "What it used, never more than the quote"
+    },
+    {
+     "label": "3  RETURN",
+     "sub": "The rest comes back"
+    }
+   ],
+   "sentences": [
+    "When the run starts, the credits are held.",
+    "On finish, you pay what it used, never more than the quote.",
+    "The rest comes back to you."
+   ]
+  },
+  {
+   "type": "fail",
+   "note": "A failed run returns it all.",
+   "sentences": [
+    "And if a run fails, every held credit comes back on its own.",
+    "You pay for what you make. Never for a failure."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  ·  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch first.",
+    "Nothing goes public until you say so."
+   ]
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Pay for what you make. Never for a failure.",
+   "sentences": [
+    "Start free with one hundred credits at nightshift-ai dot studio."
+   ]
+  }
+ ]
+}
