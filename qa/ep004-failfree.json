@@ -2,9 +2,23 @@
  "id": "ep004-failfree",
  "auto": "engine/qa_check.py passed (42.0 s, 3840x2160, 30 fps, -12.6 LUFS area, peak below -0.5 dBFS, no still stretch, saturation ~0.57, 5 hues, under 299 MB)",
  "attempts": "first render (sunrise) passed the auto gate but ran 37.3 s, under the runbook's 40-60 s target; remade once with two more site-backed lines ('No run is quoted below 30 credits', 'Pay for what you make. Never for a failure.') -> 42.0 s.",
- "rubric": {"hook": 4, "pace": 3, "message": 5, "colour_energy": 4, "offer_appeal": 4, "technical": 4},
+ "rubric": {
+  "hook": 4,
+  "pace": 3,
+  "message": 5,
+  "colour_energy": 4,
+  "offer_appeal": 4,
+  "technical": 4
+ },
  "facts": "checked 2026-11-12 against nightshift-ai.studio home page: 'A failed run costs nothing'; '60 credits a minute of finished video'; quote example '5 min x 60 credits a minute = 300 credits'; 'No run is quoted below 30 credits'; 'The price is on the button before anything starts'; Hold 'Set aside when the run starts'; Charge 'What it used, never more than the hold' / 'Charged on finish, never more than the quote'; Return 'The rest - or all of it, if the run failed'; 'If a run fails, the credits come back on their own'; 'Pay for what you make. Never for a failure.' (site heading); 'Finished videos upload to YouTube as private'; 'Nothing goes public until you say so'; '100 free credits, once, when you sign up. No card.'",
  "not_checked": "Audio not listened to by a human; pacing judged from contact sheet and scene timings. The price scene runs ~10 s (animated slider, quote, button) which is why pace scored 3. Video does not mention the 'Publish when approved' option; it only says nothing goes public until you say so, which is the site's own wording.",
  "caveat": "proxy for a viewer, not audience data",
- "verdict": "pass (avg 4.0, no score <3, facts OK)"
+ "verdict": "pass (avg 4.0, no score <3, facts OK)",
+ "posted": {
+  "youtube": "https://www.youtube.com/watch?v=oO_VO4i0LVQ (public)",
+  "instagram": "https://www.instagram.com/reel/DfoZnKBi3_u/",
+  "x": "https://x.com/i/status/2120763881765167156",
+  "telegram": "https://t.me/nightshiftaistudio via Actions run 43167547365 (success)"
+ },
+ "posted_at": "2026-11-12 ~06:25 UTC (11:25 Asia/Samarkand; later than the 08:00 target)"
 }

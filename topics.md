@@ -4,6 +4,7 @@
 | ep001 | 2026-11 | Meet Nox: what Nightshift is (first 55 s ad, 8K, sent by hand) | sunrise | posted manually |
 | ep002-price | test | Know the price before you press start | candy | test, awaiting owner OK |
 | ep003-editor | 2026-11-11 | Editing costs zero credits (free editor: trim, split, text, music, speed, captions, frame shapes) | forest | posted: YouTube public, Instagram, X, Telegram |
+| ep004-failfree | 2026-11-12 | A failed run costs nothing (quote, hold, charge, return) | sunrise | posted: YouTube public, Instagram, X, Telegram |
 
 ## Topic bank (all must be backed by facts read from the live site that day)
 - Why failed runs cost 0 credits  · Private until you say so (approve step)  · 100 free credits: what you can make
