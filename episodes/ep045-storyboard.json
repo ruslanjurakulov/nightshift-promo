@@ -1,0 +1,73 @@
+{
+ "id": "ep045-storyboard",
+ "palette": "sunrise",
+ "title": "Read the plan before it is rendered.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "Read the *plan*.",
+   "sentences": [
+    "Read the plan,"
+   ],
+   "broll": "broll/ep045-storyboard-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Before it's *rendered*.",
+   "sentences": [
+    "before anything is rendered."
+   ],
+   "broll": "broll/ep045-storyboard-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Move *scenes*.",
+   "sentences": [
+    "Move scenes, delete one, or add one."
+   ],
+   "broll": "broll/ep045-storyboard-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Edit the *words*.",
+   "sentences": [
+    "Edit a scene's narration or visual."
+   ],
+   "broll": "broll/ep045-storyboard-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Approve and *render*.",
+   "sentences": [
+    "Approve and render, at the price on the button."
+   ],
+   "broll": "broll/ep045-storyboard-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Or discard. *Free.*",
+   "sentences": [
+    "Or discard it. Saying no costs nothing."
+   ],
+   "broll": "broll/ep045-storyboard-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Your *story*.",
+   "sentences": [
+    "Your story. Your call."
+   ],
+   "broll": "broll/ep045-storyboard-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "How a lighthouse lens works",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

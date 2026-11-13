@@ -1,0 +1,73 @@
+{
+ "id": "ep043-noswap",
+ "palette": "ember",
+ "title": "Your voice, or no video.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "*Your* voice.",
+   "sentences": [
+    "You picked the voice."
+   ],
+   "broll": "broll/ep043-noswap-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "*Unavailable?*",
+   "sentences": [
+    "What if it is unavailable?"
+   ],
+   "broll": "broll/ep043-noswap-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "No *swap*.",
+   "sentences": [
+    "Nightshift will not swap in a different voice or model."
+   ],
+   "broll": "broll/ep043-noswap-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "The run *stops*.",
+   "sentences": [
+    "The run stops,"
+   ],
+   "broll": "broll/ep043-noswap-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "...and says *why*.",
+   "sentences": [
+    "and says why."
+   ],
+   "broll": "broll/ep043-noswap-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Credits *come back*.",
+   "sentences": [
+    "If a run fails, the credits come back on their own."
+   ],
+   "broll": "broll/ep043-noswap-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Your voice, or *no video*.",
+   "sentences": [
+    "Your voice, or no video."
+   ],
+   "broll": "broll/ep043-noswap-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "How bread rises",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "ep044-free",
+ "palette": "candy",
+ "title": "100 free credits. No card.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "Try it *free*.",
+   "sentences": [
+    "Try it free."
+   ],
+   "broll": "broll/ep044-free-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "*100* credits.",
+   "sentences": [
+    "One hundred credits, once, when you sign up."
+   ],
+   "broll": "broll/ep044-free-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "*No* card.",
+   "sentences": [
+    "No card."
+   ],
+   "broll": "broll/ep044-free-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "About *1 minute* of video.",
+   "sentences": [
+    "That covers about one minute of finished video."
+   ],
+   "broll": "broll/ep044-free-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Just your *email*.",
+   "sentences": [
+    "You sign up with your email."
+   ],
+   "broll": "broll/ep044-free-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Pay only when *you* choose.",
+   "sentences": [
+    "You pay only when you pick a plan or a pack."
+   ],
+   "broll": "broll/ep044-free-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Start *tonight*.",
+   "sentences": [
+    "Start tonight."
+   ],
+   "broll": "broll/ep044-free-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "Why the Silk Road ran through Samarkand",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

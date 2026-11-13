@@ -1,0 +1,73 @@
+{
+ "id": "ep039-airs",
+ "palette": "ember",
+ "title": "Nothing airs until you say so.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "Nothing *airs*...",
+   "sentences": [
+    "Nothing airs"
+   ],
+   "broll": "broll/ep039-airs-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "...until *you* say so.",
+   "sentences": [
+    "until you say so."
+   ],
+   "broll": "broll/ep039-airs-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Uploads as *private*.",
+   "sentences": [
+    "Every finished video uploads to YouTube as private."
+   ],
+   "broll": "broll/ep039-airs-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Publish check *first*.",
+   "sentences": [
+    "And passes a publish check first."
+   ],
+   "broll": "broll/ep039-airs-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "You *watch* it.",
+   "sentences": [
+    "You watch it."
+   ],
+   "broll": "broll/ep039-airs-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Auto-publish: *off*.",
+   "sentences": [
+    "Auto-publish is off, unless you turn it on."
+   ],
+   "broll": "broll/ep039-airs-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Your *call*.",
+   "sentences": [
+    "Going public is your decision."
+   ],
+   "broll": "broll/ep039-airs-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "How bread rises",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

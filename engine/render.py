@@ -117,12 +117,25 @@ CLIPS = {}
 def broll_layer(t):
     """B-roll sits under the scene: dimmed and tinted toward the palette so the cards and Nox stay readable.
     Returns (frame, weight) for the scene active at t, or (None, 0)."""
-    for sc in TL["scenes"]:
-        if sc.get("broll") and sc["start"] - 0.3 <= t <= sc["end"]:
+    for sc in reversed(TL["scenes"]):            # the latest scene wins, so back-to-back shots hard-cut instead of dipping
+        if sc["type"] == "shot" and sc.get("broll") and sc["start"] <= t <= sc["end"]:
+            c = CLIPS.get(sc["broll"]) or CLIPS.setdefault(sc["broll"], Clip(os.path.join(ROOT, sc["broll"]), sc["end"] - sc["start"] + 0.4))
+            return c.get(max(0, int((t - sc["start"]) * FPS))), 1.0
+        if sc.get("broll") and sc["type"] != "shot" and sc["start"] - 0.3 <= t <= sc["end"]:
             w = eio(win(t, sc["start"] - 0.3, sc["start"] + 0.3)) * (1 - eio(win(t, sc["end"] - 0.4, sc["end"])))
             c = CLIPS.get(sc["broll"]) or CLIPS.setdefault(sc["broll"], Clip(os.path.join(ROOT, sc["broll"]), sc["end"] - sc["start"] + 0.4))
             return c.get(max(0, int((t - sc["start"] + 0.3) * FPS))), w
     return None, 0
+def SHOT_AT(t):
+    return any(sc["type"] == "shot" and sc["start"] - 0.1 <= t <= sc["end"] for sc in TL["scenes"])
+_shade = None
+def shade(cv):
+    """Bottom-up dark gradient so a title over bright footage still reads."""
+    global _shade
+    if _shade is None:
+        g = np.clip((np.linspace(0, 1, H) - 0.45) / 0.55, 0, 1) ** 1.6 * 200
+        _shade = Image.fromarray(np.repeat(g[:, None], W, 1).astype(np.uint8))
+    cv.paste((0, 0, 0), (0, 0), _shade)
 def background(t):
     g = BASE.copy()
     for i, col in enumerate(PAL["blobs"]):
@@ -133,7 +146,8 @@ def background(t):
     fr, w = broll_layer(t)
     if fr is not None and w > 0.004:
         b = Image.fromarray(fr).resize((W, H), Image.BICUBIC)
-        b = Image.blend(Image.eval(b, lambda v: int(v * 0.62)), im, 0.38)   # dim + palette tint: text must win over footage
+        if SHOT_AT(t): b = Image.eval(b, lambda v: int(v * 0.86))         # cinematic shot: footage is the hero, only a touch darker
+        else: b = Image.blend(Image.eval(b, lambda v: int(v * 0.62)), im, 0.38)   # dim + palette tint: text must win over footage
         im = Image.blend(im, b, w)
     return Image.fromarray(np.clip(np.asarray(im).astype(np.int16) + NOISE, 0, 255).astype(np.uint8))
 random.seed(11)
@@ -355,7 +369,38 @@ def sc_cta(cv, D, t, a, sc):
     pill(cv, D, CXC, yb, sc.get("url", "nightshift-ai.studio"), u, 46, filled=True, h=112, fnt=HEAD, minw=620 * sp)
     put(cv, text_layer(sc.get("tagline", "We make the video. You press publish."), MEDF, 40), CXC, yb + 120, A(t, tt["url"] + 0.5, 0.6) * a, color=WHITE)
 
-SCENES = dict(hook=sc_hook, bubble=sc_bubble, steps=sc_steps, price=sc_price, fail=sc_fail, chips=sc_chips, approve=sc_approve, cta=sc_cta)
+def sc_shot(cv, D, t, a, sc):
+    shade(cv) if a > 0.5 else None
+    tt = sc["t"]; p = A(t, tt["in"], 0.45); b = back(win(t, tt["in"], tt["in"] + 0.5))
+    size = 118; segs = parse_line(sc["big"])
+    layers = [(text_layer(s_, HEAD, size), h) for s_, h in segs]; width = sum(tw(l) for l, _ in layers)
+    if width > 1640:
+        size *= 1640 / width; layers = [(text_layer(s_, HEAD, size), h) for s_, h in segs]; width = sum(tw(l) for l, _ in layers)
+    x = 960 - width / 2; y = 860 + (1 - b) * 60
+    for l, h in layers:
+        put(cv, l, x, y, p * a, color=ACC if h else WHITE, left=True); x += tw(l)
+    if sc.get("sub"): put(cv, text_layer(sc["sub"], MEDF, 40), 960, 965, A(t, tt["in"] + 0.35, 0.4) * a, color=MUTED)
+
+def sc_try(cv, D, t, a, sc):
+    tt = sc["t"]; topic = sc["topic"]
+    label(cv, "TRY IT ON THE SITE  ·  NOTHING IS GENERATED", CXC, 215, A(t, sc["start"] + 0.2, 0.5) * a, 22)
+    glass(D, (850, 270, 1730, 380), 40, a, edge=ACC)
+    k = int(len(topic) * win(t, tt["type0"], tt["type1"])); shown = topic[:k]
+    label(cv, "YOUR TOPIC", 940, 300, a, 16)
+    tl_ = text_layer(shown or " ", MEDF, 36 if len(topic) < 40 else 30); put(cv, tl_, 890, 340, a, left=True)
+    if (t * 2) % 1 < 0.5 and t < tt["button"]: D.rectangle([U(894 + tw(tl_)), U(322), U(898 + tw(tl_)), U(360)], fill=rgba(ACC, a))
+    press = 1 - 0.05 * math.sin(math.pi * min(max((t - tt["button"]) / 0.22, 0), 1))
+    pill(cv, D, CXC, 445, sc.get("button", "Show the plan"), A(t, tt["type1"] - 0.2, 0.3) * a, 32, filled=True, h=84 * press, fnt=HEAD, minw=420 * press)
+    for i, it in enumerate(["Working titles", "Script outline", "Shot list", "Thumbnail brief"]):
+        ai = A(t, tt["plan"] + i * 0.18, 0.35) * a; cx = 1075 + (i % 2) * 430; cy = 560 + (i // 2) * 92
+        glass(D, (cx - 205, cy - 36, cx + 205, cy + 36), 26, ai, edge=[ACC, ACC2, GOOD, ACC][i])
+        put(cv, text_layer(it, MEDF, 30), cx, cy, ai)
+    u = A(t, tt["url"], 0.5) * a; sp = 1 + 0.025 * math.sin(t * 5) * (1 if u > 0.9 else 0)
+    pill(cv, D, CXC, 800, "nightshift-ai.studio", u, 46, filled=True, h=108, fnt=HEAD, minw=620 * sp)
+    put(cv, text_layer(sc.get("tagline", "Type your topic. See the plan. Free."), MEDF, 38), CXC, 905, A(t, tt["url"] + 0.4, 0.5) * a)
+    pill(cv, D, CXC, 985, "100 free credits  ·  No card", A(t, tt["url"] + 0.8, 0.5) * a, 26, h=60)
+
+SCENES = dict(shot=sc_shot, hook=sc_hook, bubble=sc_bubble, steps=sc_steps, price=sc_price, fail=sc_fail, chips=sc_chips, approve=sc_approve, cta=sc_cta, **{"try": sc_try})
 
 
 def frame(t):
@@ -364,9 +409,10 @@ def frame(t):
         yy = (p["y"] - p["v"] * t) % 1080; tw_ = 0.55 + 0.45 * math.sin(t * 1.3 + p["ph"]); r = U(p["r"])
         cx, cy = U(p["x"] + 8 * math.sin(t * 0.4 + p["ph"])), U(yy)
         D.ellipse([cx - r, cy - r, cx + r, cy + r], fill=rgba(p["c"], p["a"] * tw_ * eio(win(t, 0, 0.8))))
-    draw_owl(cv, D, t); eq_bars(cv, D, t)
+    if not SHOT_AT(t): draw_owl(cv, D, t); eq_bars(cv, D, t)     # Nox steps aside while the footage tells the story
     for i, sc in enumerate(TL["scenes"]):
-        a = eio(win(t, sc["start"], sc["start"] + 0.45)) * (1 - eio(win(t, sc["end"] - 0.3, sc["end"])))
+        fi, fo = (0.12, 0.12) if sc["type"] == "shot" else (0.45, 0.3)     # cuts, not dissolves, between shots
+        a = eio(win(t, sc["start"], sc["start"] + fi)) * (1 - eio(win(t, sc["end"] - fo, sc["end"])))
         if i == 0: a = eio(win(t, 0.5, 1.0)) * (1 - eio(win(t, sc["end"] - 0.3, sc["end"])))
         if a > 0.004: SCENES[sc["type"]](cv, D, t, a, sc)
     _, bw = broll_layer(t) if any(sc.get("broll") for sc in TL["scenes"]) else (None, 0)

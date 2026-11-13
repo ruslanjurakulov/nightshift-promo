@@ -1,0 +1,73 @@
+{
+ "id": "ep038-silkroad",
+ "palette": "forest",
+ "title": "One topic. See the whole plan first.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "One *topic*.",
+   "sentences": [
+    "One topic."
+   ],
+   "broll": "broll/ep038-silkroad-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Why the Silk Road ran through *Samarkand*",
+   "sentences": [
+    "Why the Silk Road ran through Samarkand."
+   ],
+   "broll": "broll/ep038-silkroad-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Working *titles*.",
+   "sentences": [
+    "First, working titles."
+   ],
+   "broll": "broll/ep038-silkroad-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Script *outline*.",
+   "sentences": [
+    "A script outline."
+   ],
+   "broll": "broll/ep038-silkroad-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Shot *list*.",
+   "sentences": [
+    "A shot list."
+   ],
+   "broll": "broll/ep038-silkroad-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Thumbnail *brief*.",
+   "sentences": [
+    "And a thumbnail brief."
+   ],
+   "broll": "broll/ep038-silkroad-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "See the plan *first*.",
+   "sentences": [
+    "See the plan, before anything is made."
+   ],
+   "broll": "broll/ep038-silkroad-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "Why the Moon always shows the same face",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

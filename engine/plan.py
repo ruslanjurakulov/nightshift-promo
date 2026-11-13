@@ -68,6 +68,15 @@ def _timing(sc, start, end):
         n = len(sc.get("pills", [])); t["lock"] = round(start + 0.2, 3)
         t["pills"] = [round(first + 0.3 + i * 0.4, 3) for i in range(n)]; t["url"] = round(S[min(1, len(S) - 1)]["start"] + 0.1, 3)   # the URL lands with the line that says it, not the last line
         cues += [(x, "blip") for x in t["pills"]] + [(t["url"], "pop")]
+    elif ty == "shot":
+        # cinematic format: one full-screen clip, one line of text, one line of voice
+        t["in"] = round(start + 0.15, 3); cues.append((t["in"], "pop"))
+    elif ty == "try":
+        # the site's own "type a topic, see the plan" box, typed out on screen: the ask is to go and try it
+        t["type0"] = round(first + 0.2, 3); t["type1"] = round(t["type0"] + min(2.4, S[0]["dur"] * 0.8), 3)
+        t["button"] = round(t["type1"] + 0.35, 3); t["plan"] = round(t["button"] + 0.45, 3)
+        t["url"] = round((S[1]["start"] if len(S) > 1 else t["plan"] + 0.6), 3)
+        cues += [(t["type0"] + k * 0.12, "tick") for k in range(int((t["type1"] - t["type0"]) / 0.12))][::2] + [(t["button"], "click"), (t["url"], "pop")]
     else:
         raise ValueError("unknown scene type " + ty)
     cues.append((start + 0.05, "thump"))
@@ -82,7 +91,7 @@ def make_plan(ep, work):
         for text in sc["sentences"]:
             p = synth(text, model, vdir); d = _dur(p)
             sents.append(dict(start=round(cur, 3), dur=round(d, 3), path=p)); cur += d + 0.22
-        end = sents[-1]["start"] + sents[-1]["dur"] + 0.5
+        end = sents[-1]["start"] + sents[-1]["dur"] + (1.0 if sc["type"] == "shot" else 0.5)   # let the footage breathe after the line
         s = dict(sc); s.update(start=round(start, 3), end=round(end, 3), sents=sents)
         s["t"], s["cues"] = _timing(s, start, end); scenes.append(s); t = end - 0.25
     total = round(scenes[-1]["end"] + 0.5, 2)

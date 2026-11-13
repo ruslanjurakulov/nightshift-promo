@@ -1,0 +1,73 @@
+{
+ "id": "ep048-data",
+ "palette": "candy",
+ "title": "Your Google data, only for your channel.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "Your *data*.",
+   "sentences": [
+    "Your Google data."
+   ],
+   "broll": "broll/ep048-data-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Only for *your* channel.",
+   "sentences": [
+    "Used only to upload to the channel you connect,"
+   ],
+   "broll": "broll/ep048-data-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Your *numbers*, for you.",
+   "sentences": [
+    "and to show you its analytics."
+   ],
+   "broll": "broll/ep048-data-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "*Encrypted.*",
+   "sentences": [
+    "Access tokens are encrypted,"
+   ],
+   "broll": "broll/ep048-data-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Never in the *browser*.",
+   "sentences": [
+    "and never reach the browser."
+   ],
+   "broll": "broll/ep048-data-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "*Never* for ads.",
+   "sentences": [
+    "Never used for advertising."
+   ],
+   "broll": "broll/ep048-data-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Revoke *any time*.",
+   "sentences": [
+    "Revoke access any time."
+   ],
+   "broll": "broll/ep048-data-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "Why the Silk Road ran through Samarkand",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

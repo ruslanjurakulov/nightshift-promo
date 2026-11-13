@@ -1,0 +1,73 @@
+{
+ "id": "ep036-nightshift",
+ "palette": "candy",
+ "title": "3 AM. Still editing? Put it on the night shift.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "3 AM. *Still* editing?",
+   "sentences": [
+    "Three A.M. Still editing?"
+   ],
+   "broll": "broll/ep036-nightshift-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Close the *laptop*.",
+   "sentences": [
+    "Close the laptop."
+   ],
+   "broll": "broll/ep036-nightshift-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Give Nightshift *one* topic.",
+   "sentences": [
+    "Give Nightshift one topic."
+   ],
+   "broll": "broll/ep036-nightshift-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Script. Voice. *Visuals.* Captions.",
+   "sentences": [
+    "It writes the script, the voice, the visuals and the captions."
+   ],
+   "broll": "broll/ep036-nightshift-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "It waits for *your* OK.",
+   "sentences": [
+    "Then it waits for your OK."
+   ],
+   "broll": "broll/ep036-nightshift-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Private until *you* say so.",
+   "sentences": [
+    "Finished videos upload as private, until you say so."
+   ],
+   "broll": "broll/ep036-nightshift-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "*You* press publish.",
+   "sentences": [
+    "You press publish."
+   ],
+   "broll": "broll/ep036-nightshift-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "Why the Silk Road ran through Samarkand",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

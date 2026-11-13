@@ -1,0 +1,73 @@
+{
+ "id": "ep037-price",
+ "palette": "sunrise",
+ "title": "Know the price before you press start.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "Surprise *bills?*",
+   "sentences": [
+    "Afraid of a surprise bill?"
+   ],
+   "broll": "broll/ep037-price-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "The price is on the *button*.",
+   "sentences": [
+    "On Nightshift, the price is on the button before anything starts."
+   ],
+   "broll": "broll/ep037-price-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "60 credits a *minute*.",
+   "sentences": [
+    "Sixty credits a minute of finished video."
+   ],
+   "broll": "broll/ep037-price-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Held when it *starts*.",
+   "sentences": [
+    "The credits are held when the run starts."
+   ],
+   "broll": "broll/ep037-price-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Run *failed?*",
+   "sentences": [
+    "And if a run fails?"
+   ],
+   "broll": "broll/ep037-price-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Every credit *comes back*.",
+   "sentences": [
+    "The credits come back on their own."
+   ],
+   "broll": "broll/ep037-price-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Pay for what you *make*.",
+   "sentences": [
+    "Pay for what you make. Never for a failure."
+   ],
+   "broll": "broll/ep037-price-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "How a lighthouse lens works",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

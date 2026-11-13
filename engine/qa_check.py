@@ -4,10 +4,14 @@
 The viewer-rubric half (hook, message, appeal, fact accuracy) is scored by the person/agent running the day and
 recorded next to this in qa/<id>.json, see QA_RUBRIC.md. These numbers are measurements; the rubric is judgement.
 """
-import json, re, subprocess, sys
+import json, os, re, subprocess, sys
 import numpy as np
 
 v = sys.argv[1]
+# A cinematic ad (owner, 2026-11-13) is cut short on purpose: 7 shots and the try-it card run ~30 s, Reels-length.
+_ep = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "episodes", os.path.basename(v)[:-4] + ".json")
+_cine = "--cine" in sys.argv or (os.path.exists(_ep) and json.load(open(_ep)).get("format") == "cine")   # detected, so no caller can forget the flag
+LO = 25 if _cine else 35
 def sh(*a): return subprocess.run(a, capture_output=True, text=True)
 pr = json.loads(sh("ffprobe", "-v", "error", "-show_streams", "-show_format", "-of", "json", v).stdout)
 vs = next(s for s in pr["streams"] if s["codec_type"] == "video"); au = next((s for s in pr["streams"] if s["codec_type"] == "audio"), None)
@@ -32,7 +36,7 @@ r["mean_saturation"] = round(float(sat[mx > 0.15].mean()), 3)
 hue_bins = np.histogram(np.arctan2(np.sqrt(3) * (c[..., 1] - c[..., 2]), 2 * c[..., 0] - c[..., 1] - c[..., 2])[sat > 0.3], bins=12, range=(-np.pi, np.pi))[0]
 r["hue_bins_used"] = int((hue_bins > hue_bins.sum() * 0.03).sum())
 
-checks = {"duration 35-65s": 35 <= dur <= 65, "4K 3840x2160": (vs["width"], vs["height"]) == (3840, 2160), "30 fps": abs(fps - 30) < 0.1,
+checks = {f"duration {LO}-65s": LO <= dur <= 65, "4K 3840x2160": (vs["width"], vs["height"]) == (3840, 2160), "30 fps": abs(fps - 30) < 0.1,
           "has audio": au is not None, "loudness -20..-12 LUFS": r["loudness_lufs"] is not None and -20 <= r["loudness_lufs"] <= -12,
           "no clipping (peak <= -0.5 dBFS)": r["true_peak_dbfs"] is not None and r["true_peak_dbfs"] <= -0.5,
           "no still stretch > 3 s": best / 2 <= 3, "colourful (saturation >= 0.25, >= 4 hues)": r["mean_saturation"] >= 0.25 and r["hue_bins_used"] >= 4,

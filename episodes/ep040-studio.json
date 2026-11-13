@@ -1,0 +1,73 @@
+{
+ "id": "ep040-studio",
+ "palette": "candy",
+ "title": "Need one picture, one clip, one voice-over?",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "Need *one* picture?",
+   "sentences": [
+    "Need one picture?"
+   ],
+   "broll": "broll/ep040-studio-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "One *clip?*",
+   "sentences": [
+    "One clip?"
+   ],
+   "broll": "broll/ep040-studio-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "One *voice-over?*",
+   "sentences": [
+    "One voice-over?"
+   ],
+   "broll": "broll/ep040-studio-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Bring a still to *life*.",
+   "sentences": [
+    "Bring a still picture to life."
+   ],
+   "broll": "broll/ep040-studio-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Sharper. *Larger.*",
+   "sentences": [
+    "Upscale it. Sharper and larger."
+   ],
+   "broll": "broll/ep040-studio-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Cut it *out*.",
+   "sentences": [
+    "Or remove the background."
+   ],
+   "broll": "broll/ep040-studio-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Edit it. *Free.*",
+   "sentences": [
+    "Then cut it together in the editor. Editing uses no credits."
+   ],
+   "broll": "broll/ep040-studio-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "Why the Silk Road ran through Samarkand",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

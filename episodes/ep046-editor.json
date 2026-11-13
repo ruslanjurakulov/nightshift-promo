@@ -1,0 +1,73 @@
+{
+ "id": "ep046-editor",
+ "palette": "forest",
+ "title": "Edit for zero credits.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "Edit for *zero* credits.",
+   "sentences": [
+    "Edit for zero credits."
+   ],
+   "broll": "broll/ep046-editor-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Trim. *Split.*",
+   "sentences": [
+    "Trim and split any clip."
+   ],
+   "broll": "broll/ep046-editor-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Text on *screen*.",
+   "sentences": [
+    "Put text on screen."
+   ],
+   "broll": "broll/ep046-editor-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Add *music*.",
+   "sentences": [
+    "Add music and sound."
+   ],
+   "broll": "broll/ep046-editor-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "0.5x to *2x*.",
+   "sentences": [
+    "Change the speed, from half to double."
+   ],
+   "broll": "broll/ep046-editor-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Cross-*fades*.",
+   "sentences": [
+    "Blend one clip into the next."
+   ],
+   "broll": "broll/ep046-editor-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "9:16. 16:9. *1:1.*",
+   "sentences": [
+    "Vertical, wide or square. Export free."
+   ],
+   "broll": "broll/ep046-editor-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "Why the Moon always shows the same face",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

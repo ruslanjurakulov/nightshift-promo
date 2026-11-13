@@ -1,0 +1,73 @@
+{
+ "id": "ep041-languages",
+ "palette": "sunrise",
+ "title": "Uzbek. Russian. English.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "big": "*Uzbek.*",
+   "sentences": [
+    "Uzbek."
+   ],
+   "broll": "broll/ep041-languages-0.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "*Russian.*",
+   "sentences": [
+    "Russian."
+   ],
+   "broll": "broll/ep041-languages-1.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "*English.*",
+   "sentences": [
+    "English."
+   ],
+   "broll": "broll/ep041-languages-2.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "One app. *Three* languages.",
+   "sentences": [
+    "The app is in Uzbek, Russian and English."
+   ],
+   "broll": "broll/ep041-languages-3.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Each channel, *its own*.",
+   "sentences": [
+    "Each channel is set to one of the three for its videos."
+   ],
+   "broll": "broll/ep041-languages-4.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Captions in its *language*.",
+   "sentences": [
+    "Captions come in the channel's language."
+   ],
+   "broll": "broll/ep041-languages-5.mp4"
+  },
+  {
+   "type": "shot",
+   "big": "Your *language*.",
+   "sentences": [
+    "Your channel, in your language."
+   ],
+   "broll": "broll/ep041-languages-6.mp4"
+  },
+  {
+   "type": "try",
+   "topic": "How a lighthouse lens works",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "Nothing is generated, and nothing leaves your browser.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

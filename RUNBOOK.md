@@ -22,7 +22,7 @@ claim still comes from the site. Footage is labelled "AI-GENERATED FOOTAGE" on s
 - Clips: Higgsfield `seedance_2_5` (or `seedance_2_0` with audio on when 2.5 answers 429; owner tip 2026-11-13), 5 s, 720p, 16:9, `use_unlim: true` (the unlimited window covers 720p only and ends
   2026-11-16 19:08 UTC; never spend credits on them). The account is rate-limited (429): submit one at a time; on 429 stop and try next run.
   After the window, `qstate.py expire`: a scene without a clip keeps the plain palette background. No paid or stock substitute.
-- Render: `python3 tools/prep_broll.py <id>` then `python3 engine/build.py work/<id>.json 2`, then `engine/qa_check.py`.
+- Render: `python3 tools/prep_broll.py <id>` then `python3 engine/build.py work/<id>.json 2`, then `engine/qa_check.py` (with `--cine` when the episode has `"format": "cine"`).
   If only the colour check fails, change `palette` in `episodes/<id>.json` to the next one in ocean/sunrise/candy/forest/ember (not aurora) and rebuild, max 2 remakes.
 - Store: `tools/stash.sh <id>` pushes the video on an orphan branch `stash/<id>`; `.github/workflows/stash.yml` uploads it to the
   `queue` release and deletes the branch. Asset URL: https://github.com/ruslanjurakulov/nightshift-promo/releases/download/queue/<id>.mp4
@@ -39,3 +39,9 @@ claim still comes from the site. Footage is labelled "AI-GENERATED FOOTAGE" on s
 1. Collect: each clip from `qstate.py pending` -> Higgsfield jobs_wait; completed -> `qstate.py set <key> done <job_id> <result_url>`, failed -> `set <key> todo`.
 2. Generate (only before 2026-11-16T19:00Z): `qstate.py next` -> Higgsfield generate_video {model seedance_2_5, duration 5, resolution 720p, aspect_ratio 16:9, use_unlim true, prompt as given}. Never spend credits. On 429 stop for today (normal). After the window: `qstate.py expire` once.
 3. Render up to 2 episodes from `qstate.py ready` (see Render/Store above). Commit ONLY queue/plan.json, qa/*.json, episodes/*.json; never `git add -A` (queued videos must not reach main).
+
+### Cinematic format (owner, 2026-11-13)
+The plain b-roll episodes were judged not engaging. The queue is now 13 cinematic ads (`tools/make_cine.py`, ep036-ep048):
+7 full-screen Higgsfield shots, each with one big title and one spoken line, then the site's own "type a topic, see the plan"
+box typed on screen as the call to action (interactive: it sends people to try the site). ~30 s. Every title and line is
+quoted from the site (facts[] in queue/plan.json). Captions end with a question to invite comments. ep006 (plain) is superseded, not published.
