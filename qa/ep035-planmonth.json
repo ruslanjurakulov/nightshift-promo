@@ -1,0 +1,31 @@
+{
+ "id": "ep035-planmonth",
+ "date": "2026-11-14",
+ "timezone": "Asia/Samarkand",
+ "status": "blocked_before_render",
+ "verdict": "not_evaluated; do not publish",
+ "generation": {
+  "clip_key": "ep035-planmonth-0",
+  "model": "seedance_2_0",
+  "mode": "std",
+  "duration_seconds": 5,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "generate_audio": true,
+  "use_unlim": true,
+  "attempts": 1,
+  "job_id": null,
+  "error": "seedance_2_0 backend request failed (429): rate_limit_reached"
+ },
+ "reason_for_selection": "Selected final episode clip to reduce overlap with owner-reported concurrent Claude production from the start of the queue.",
+ "facts": "Not rechecked for this episode; mandatory before rendering and publication.",
+ "auto": "Not run; no rendered video",
+ "rubric": null,
+ "posted": {
+  "youtube": false,
+  "instagram": false,
+  "x": false,
+  "telegram": false
+ },
+ "next_action": "Stop on 429 per RUNBOOK. Queue clip remains todo. Claude success reported by owner does not establish availability through this ChatGPT MCP connection."
+}
