@@ -1,0 +1,63 @@
+{
+ "id": "ep006-topic",
+ "date": "2026-11-14",
+ "timezone": "Asia/Samarkand",
+ "status": "blocked_before_render",
+ "verdict": "not_evaluated; publication prohibited",
+ "requested_output": {
+  "scale_K": 2,
+  "resolution": "3840x2160"
+ },
+ "palette": "ocean",
+ "previous_day_palette": "candy",
+ "generation": {
+  "model": "seedance_2_5",
+  "duration_seconds": 5,
+  "resolution": "720p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "use_unlim": true,
+  "clip_key": "ep006-topic-0",
+  "attempts": 1,
+  "job_id": null,
+  "error": "seedance_2_5 backend request failed (429): rate_limit_reached"
+ },
+ "facts": {
+  "status": "pass",
+  "method": "python3 tools/check_facts.py ep006-topic",
+  "result": "ep006-topic OK",
+  "checked_local_date": "2026-11-14",
+  "sources": [
+   "https://nightshift-ai.studio",
+   "https://nightshift-ai.studio/studio"
+  ],
+  "scope": "All stored plan quotes matched live pages. Final script and video QA still required before publication."
+ },
+ "auto": {
+  "status": "not_run",
+  "reason": "No completed render"
+ },
+ "rubric": {
+  "hook": null,
+  "pace": null,
+  "message": null,
+  "colour_energy": null,
+  "offer_appeal": null,
+  "technical": null
+ },
+ "remakes": 0,
+ "queue_snapshot": {
+  "completed_clips": 2,
+  "total_clips": 60,
+  "stashed_videos": 0,
+  "total_episodes": 30
+ },
+ "posted": {
+  "youtube": "not_attempted",
+  "instagram": "not_attempted",
+  "x": "not_attempted",
+  "telegram": "not_triggered; no caption commit"
+ },
+ "next_action": "Retry the missing clip on the next run after the provider rate limit clears, using unlimited allowance only. If it persists, ask Higgsfield support to investigate the unlimited-generation rate limit.",
+ "setup_note": "add_repo tool unavailable; cloned public repository and verified push permission through GitHub connector."
+}

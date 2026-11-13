@@ -11,3 +11,6 @@
 - Why failed runs cost 0 credits  · Private until you say so (approve step)  · 100 free credits: what you can make
 - Script, voice, visuals, captions in one run  · Editor: trim, split, text, music  · Plans compared (Plus/Pro/Business)
 - ~~Storyboard review~~ (ep005)  · Thumbnail brief & working titles  · Image / clip / voice / upscale / cut-out tools
+
+## Run log (not published; does not consume a topic)
+- 2026-11-14 (Asia/Samarkand): ep006-topic blocked before rendering. Seedance 2.5 unlimited request returned `429 rate_limit_reached`; stopped per RUNBOOK, with no paid fallback or platform posts. Queue remains 2/60 clips and 0/30 stashed videos. Selected ocean instead of yesterday's candy. See `qa/ep006-topic.json`.
