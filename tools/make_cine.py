@@ -6,7 +6,9 @@ Each ad: 7 full-screen Higgsfield shots with one spoken line and one big title e
 claim in a title or a line is still quoted from the live site (facts[]), and re-checked on the publish day.
 Replaces the 30 plain episodes in queue/plan.json (their files stay in episodes/ for reference).
 """
-import json, os
+import json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import cine_prompts   # director-level prompts; the short prompt in ADS is only the shot's intent
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOME, STUDIO, PRICING = "https://nightshift-ai.studio", "https://nightshift-ai.studio/studio", "https://nightshift-ai.studio/pricing"
 YT, CS = "https://nightshift-ai.studio/solutions/youtube-channels", "https://nightshift-ai.studio/solutions/creative-studio"
@@ -201,7 +203,7 @@ def main():
         json.dump({"id": eid, "palette": pal, "title": title, "format": "cine", "scenes": scenes},
                   open(os.path.join(ROOT, "episodes", eid + ".json"), "w"), indent=1)
         prev = {c["key"]: c for e in old if e["id"] == eid for c in e["clips"]}
-        clips = [dict(key=f"{eid}-{k}", scene=k, prompt="Recurring cast and set of this ad (use only what the shot needs): " + ANCHOR[slug] + " Shot: " + pr + LOOK, status=prev.get(f"{eid}-{k}", {}).get("status", "todo"),
+        clips = [dict(key=f"{eid}-{k}", scene=k, prompt=cine_prompts.BIBLE[slug] + " SHOT: " + cine_prompts.SHOTS[slug][k] + " " + cine_prompts.FILM, status=prev.get(f"{eid}-{k}", {}).get("status", "todo"),
                       job_id=prev.get(f"{eid}-{k}", {}).get("job_id"), url=prev.get(f"{eid}-{k}", {}).get("url")) for k, (pr, _, _) in enumerate(shots)]
         plan.append(dict(id=eid, day=n + 1, title=title, palette=pal, format="cine", x_text=xtext,
                          facts=[{"page": p, "quote": q} for p, q in facts + TRY_FACTS],
