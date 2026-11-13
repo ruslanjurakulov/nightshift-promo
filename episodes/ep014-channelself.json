@@ -1,0 +1,119 @@
+{
+ "id": "ep014-channelself",
+ "palette": "forest",
+ "title": "A channel that stays itself.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Two channels.",
+    "*Zero* mix-ups."
+   ],
+   "sentences": [
+    "Run two channels. Never mix them up.",
+    "Every channel keeps its own settings."
+   ],
+   "broll": "broll/ep014-channelself-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Every channel keeps its own settings.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "SET PER CHANNEL",
+   "items": [
+    {
+     "title": "Language",
+     "sub": "Its own"
+    },
+    {
+     "title": "Voice",
+     "sub": "Its own"
+    },
+    {
+     "title": "Visual style",
+     "sub": "Its own"
+    },
+    {
+     "title": "Schedule",
+     "sub": "Its own"
+    }
+   ],
+   "sentences": [
+    "Language.",
+    "Voice.",
+    "Visual style.",
+    "And schedule. Set per channel."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Never leaks",
+     "sub": "Into another channel"
+    },
+    {
+     "title": "One or several",
+     "sub": "Channels"
+    }
+   ],
+   "sentences": [
+    "They never leak into another channel.",
+    "Run one channel, or several."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep014-channelself-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Every channel stays itself.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

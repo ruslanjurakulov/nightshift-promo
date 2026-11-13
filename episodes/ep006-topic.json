@@ -1,0 +1,114 @@
+{
+ "id": "ep006-topic",
+ "palette": "ocean",
+ "title": "One topic in. A finished YouTube video out.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "One topic.",
+    "*One* finished video."
+   ],
+   "sentences": [
+    "Give it one topic. Get a finished video.",
+    "Script, voice, visuals and captions, from one line."
+   ],
+   "broll": "broll/ep006-topic-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Type a line, or let your channel pick its next topic.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "What one run makes",
+   "items": [
+    {
+     "label": "1  SCRIPT",
+     "sub": "Written from your topic"
+    },
+    {
+     "label": "2  VOICE",
+     "sub": "In the channel's voice"
+    },
+    {
+     "label": "3  VISUALS AND CAPTIONS",
+     "sub": "In the channel's look"
+    }
+   ],
+   "sentences": [
+    "Nightshift writes the script.",
+    "It voices it.",
+    "Then it adds the visuals and the captions."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "THEN IT WAITS",
+   "items": [
+    {
+     "title": "Your OK",
+     "sub": "Before anything goes out"
+    },
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    }
+   ],
+   "sentences": [
+    "Then it waits for your OK.",
+    "And you see the price before anything starts."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep006-topic-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "We make the video. You press publish.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "id": "ep030-pricetwice",
+ "palette": "ember",
+ "title": "You confirm the price twice.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Confirm it",
+    "*twice.*"
+   ],
+   "sentences": [
+    "You confirm the price twice.",
+    "And if it changes, you are asked again."
+   ],
+   "broll": "broll/ep030-pricetwice-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is how a run gets priced.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Before it starts",
+   "items": [
+    {
+     "label": "1  SEE THE PRICE",
+     "sub": "On the button"
+    },
+    {
+     "label": "2  CONFIRM AGAIN",
+     "sub": "A second time"
+    },
+    {
+     "label": "3  ASKED AGAIN",
+     "sub": "If the price changes"
+    }
+   ],
+   "sentences": [
+    "You see what a video costs before it starts.",
+    "You confirm a second time.",
+    "If the price changes in between, you are asked again."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "THEN",
+   "items": [
+    {
+     "title": "Held",
+     "sub": "When it starts"
+    },
+    {
+     "title": "Never more",
+     "sub": "Than the quote"
+    }
+   ],
+   "sentences": [
+    "The credits are held when it starts.",
+    "And you never pay more than the quote."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "ALSO IN THE STUDIO",
+   "items": [
+    {
+     "title": "One piece at a time",
+     "sub": "Picture, clip or voice"
+    },
+    {
+     "title": "Editor",
+     "sub": "No credits"
+    }
+   ],
+   "sentences": [
+    "Need just one piece? The Studio makes it.",
+    "And the editor uses no credits."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep030-pricetwice-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "No surprise prices.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

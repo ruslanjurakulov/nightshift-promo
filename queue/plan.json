@@ -1,0 +1,2265 @@
+{
+ "note": "30-day queue. See RUNBOOK.md 'Queue'. status: todo -> submitted -> done; render: todo -> stashed",
+ "episodes": [
+  {
+   "id": "ep006-topic",
+   "day": 1,
+   "title": "One topic in. A finished YouTube video out.",
+   "palette": "ocean",
+   "x_text": "Give Nightshift one topic. It writes the script, the voice, the visuals and the captions, then waits for your OK. Uploads stay private until you say so. 100 free credits, no card: nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nightshift writes the script, the voice, the visuals and the captions"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Type a line, or let your channel pick its next topic from its niche"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "then waits for your OK"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price before anything starts"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep006-topic-0",
+     "scene": 0,
+     "prompt": "A single glowing idea: a paper lantern lifting off a dark desk into a purple night sky over a city. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep006-topic-1",
+     "scene": 5,
+     "prompt": "A quiet home studio at night, a desk lamp and a monitor glow, city lights through the window. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "done",
+     "job_id": "bc6653ab-d0c5-4880-95de-cbf7d0c1a020",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261113_192440_bc6653ab-d0c5-4880-95de-cbf7d0c1a020.mp4"
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep007-threesteps",
+   "day": 2,
+   "title": "Three steps. The last one is yours.",
+   "palette": "sunrise",
+   "x_text": "Three steps on Nightshift: give it a topic, start it at a price you have seen, then watch it and publish. The last step is always yours. 100 free credits, no card: nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Three steps. The last one is yours."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Give it a topic"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Start it at a price you have seen"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Watch it, then publish"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "If a run fails, the credits come back on their own"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "The video waits on YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep007-threesteps-0",
+     "scene": 0,
+     "prompt": "Three lanterns rising one after another into a violet night sky above a river. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep007-threesteps-1",
+     "scene": 5,
+     "prompt": "A calm night river with a single lit boat drifting, reflections of city lights. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep008-freestart",
+   "day": 3,
+   "title": "100 free credits. No card.",
+   "palette": "candy",
+   "x_text": "Start Nightshift with 100 free credits, once, when you sign up. No card. That covers about one minute of finished video at 60 credits a minute. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Your 100 free credits cover about 1 min of finished video at this rate"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Email sign-up, no card. You pay only when you pick a plan or a pack."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "60 credits a minute of finished video"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep008-freestart-0",
+     "scene": 0,
+     "prompt": "A small gift box glowing softly on a wooden desk at night, warm light spilling out, bokeh city behind. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep008-freestart-1",
+     "scene": 5,
+     "prompt": "A night sky with a crescent moon and soft violet clouds, slow drift. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep009-images",
+   "day": 4,
+   "title": "Studio images, in the shape you need.",
+   "palette": "forest",
+   "x_text": "Need one picture, not a whole video? Nightshift's Studio makes images from a description in 16:9, 9:16 or square, then edits them by typing, upscales them or cuts them out. Priced on the button. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "From a description, in 16:9, 9:16 or square \u2014 then edit them by typing, upscale them or cut them out"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Edit Change a picture by typing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Upscale Sharper and larger"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Cut out Remove the background"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "Pictures, clips and voice\u2011overs, priced on the button."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep009-images-0",
+     "scene": 0,
+     "prompt": "A hot air balloon drifting over a mirror-still lake at blue hour, soft pink sky. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep009-images-1",
+     "scene": 5,
+     "prompt": "A framed picture on an easel in a dark studio, lit by a single warm spotlight. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep010-clips",
+   "day": 5,
+   "title": "Short clips from text, or from a picture.",
+   "palette": "ember",
+   "x_text": "Nightshift's Studio makes short video clips from text, or animates a picture you made or uploaded. Need a b-roll clip without starting a whole video? Price on the button. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "Short clips from text, or animate a picture you made or uploaded"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "a b-roll clip or a narration line, without starting a whole video"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Animate Bring a still picture to life"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "then cut them together in the editor"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep010-clips-0",
+     "scene": 0,
+     "prompt": "A sailboat at sunset on a calm sea, slow pan, golden and violet sky. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep010-clips-1",
+     "scene": 5,
+     "prompt": "A dove lifting out of a framed painting of the sky in a dark gallery. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep011-voice",
+   "day": 6,
+   "title": "Narration in your channel's voice.",
+   "palette": "ocean",
+   "x_text": "Nightshift's Studio does text to speech in the voices your workspace has. One narration line, priced on the button, without starting a whole video. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "Text to speech in the voices your workspace has"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "a narration line, without starting a whole video"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Narrator Your channel\u2019s voice, in its language."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep011-voice-0",
+     "scene": 0,
+     "prompt": "A studio microphone in a dark room, a soft violet rim light, dust drifting in the beam. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep011-voice-1",
+     "scene": 5,
+     "prompt": "Sound-wave ripples spreading across a dark lake at night under city glow. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep012-styles",
+   "day": 7,
+   "title": "28 art directions. Or your own look.",
+   "palette": "sunrise",
+   "x_text": "Nightshift's Studio has 28 written art directions in its style library, or save your own look from 3-12 pictures. A style adds no credits. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "Start from 28 written art directions in the style library, or save your own look from 3\u201312 pictures"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "A style adds no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "the price on the button is the whole price"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep012-styles-0",
+     "scene": 0,
+     "prompt": "Three identical vases on a shelf in a dark gallery, each lit in a different colour, slow dolly. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep012-styles-1",
+     "scene": 5,
+     "prompt": "A painter's palette with glowing violet and orange paint under a desk lamp at night. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep013-characters",
+   "day": 8,
+   "title": "Keep a character under an @name.",
+   "palette": "candy",
+   "x_text": "In Nightshift's Studio you can keep a recurring character or product under an @name, so it comes back the same way. Priced on the button. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "keep a recurring character or product under an @name"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "It will not start a generation you have not pressed \u2014 and the press shows the price"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep013-characters-0",
+     "scene": 0,
+     "prompt": "A small handmade clay figure on a pottery wheel turning slowly, warm lamp light at night. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep013-characters-1",
+     "scene": 5,
+     "prompt": "A cozy workshop shelf at night lined with small handmade figures, soft violet light. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep014-channelself",
+   "day": 9,
+   "title": "A channel that stays itself.",
+   "palette": "forest",
+   "x_text": "On Nightshift, language, voice, visual style and schedule are set per channel and never leak into another. Run one channel or several. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "Language, voice, visual style and schedule are set per channel and never leak into another"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "Run one channel or several"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep014-channelself-0",
+     "scene": 0,
+     "prompt": "Two lit windows side by side in a dark apartment building, each glowing a different colour, slow push-in. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep014-channelself-1",
+     "scene": 5,
+     "prompt": "A quiet night street with two separate glowing shopfronts, light rain, reflections. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep015-noswap",
+   "day": 10,
+   "title": "If the voice is down, the run stops.",
+   "palette": "ember",
+   "x_text": "Nightshift will not swap in a different voice or model when the chosen one is unavailable. The run stops and says why. No surprise substitutes. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "It will not swap in a different voice or model when the chosen one is unavailable \u2014 the run stops and says why"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "If a run fails, the credits come back on their own"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep015-noswap-0",
+     "scene": 0,
+     "prompt": "A single stage spotlight switching off in an empty dark theatre, dust in the air. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep015-noswap-1",
+     "scene": 5,
+     "prompt": "A calm empty radio studio at night, a red on-air lamp glowing softly. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep016-confirmed",
+   "day": 11,
+   "title": "Only a channel YouTube confirmed is yours.",
+   "palette": "ocean",
+   "x_text": "Nightshift will not run a channel YouTube has not confirmed is yours. You connect your own channel through Google's consent screen, and it uploads only there. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "You connect your own YouTube channel through Google\u2019s consent screen, and Nightshift uploads only to the channel you connect"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "You can disconnect it, or revoke access in your Google account, at any time"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "It will not run a channel YouTube has not confirmed is yours"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep016-confirmed-0",
+     "scene": 0,
+     "prompt": "A key turning slowly in an old wooden door lit by warm lamplight at night. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep016-confirmed-1",
+     "scene": 5,
+     "prompt": "A lighthouse beam sweeping over a calm dark sea at night. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep017-publishcheck",
+   "day": 12,
+   "title": "Every video passes a publish check.",
+   "palette": "sunrise",
+   "x_text": "Every Nightshift video passes a publish check first, and the verdict is shown on the video's page: passed, or blocked and why. Then it waits as private for you. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Every video passes a publish check, and the verdict is shown on the video\u2019s page: passed, or blocked and why"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Uploaded as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Publish check passed"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Waiting for your approval"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep017-publishcheck-0",
+     "scene": 0,
+     "prompt": "A watchful owl silhouette on a branch against a huge glowing moon, slow push-in. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep017-publishcheck-1",
+     "scene": 5,
+     "prompt": "A night harbour with a lighthouse, calm water, slow drifting camera. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep018-autopublishoff",
+   "day": 13,
+   "title": "Auto-publish is off unless you turn it on.",
+   "palette": "candy",
+   "x_text": "Can Nightshift publish without you? Only if you let it. Uploads are private by default, and auto-publish is off for a channel unless you turn it on. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Can it publish something without me? Only if you let it."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Uploads are private by default and every video passes a publish check first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Auto-publish is off unless you turn it on for a channel"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Auto-publish and \u201cPublish when approved\u201d are switches per channel, and both stay off until you turn them on"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep018-autopublishoff-0",
+     "scene": 0,
+     "prompt": "A light switch on a dark wall, a hand-free close-up, soft violet glow, slow focus pull. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep018-autopublishoff-1",
+     "scene": 5,
+     "prompt": "A closed theatre curtain glowing softly under a single spotlight, dust in the air. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep019-languages",
+   "day": 14,
+   "title": "Uzbek, Russian and English.",
+   "palette": "forest",
+   "x_text": "Nightshift's app is in Uzbek, Russian and English, and each channel is set to one of the three for its videos. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "The app is in Uzbek, Russian and English. Each channel is set to one of the three for its videos"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Captions On, in the channel\u2019s language."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep019-languages-0",
+     "scene": 0,
+     "prompt": "The Registan in Samarkand at blue hour, domes glowing, slow aerial drift. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep019-languages-1",
+     "scene": 5,
+     "prompt": "A night bazaar with warm lanterns and colourful fabrics, slow dolly. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep020-analytics",
+   "day": 15,
+   "title": "Your channel's numbers, shown only to you.",
+   "palette": "ember",
+   "x_text": "Nightshift shows views and analytics for the channel you connect, read with the access you granted, shown only to you. Never used for advertising. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "Views and analytics for the connected channel, read with the access you granted, shown only to you"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "the data is never used for advertising"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep020-analytics-0",
+     "scene": 0,
+     "prompt": "A night city skyline with soft rising light trails like a growing chart, slow push. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep020-analytics-1",
+     "scene": 5,
+     "prompt": "A desk at night with a glowing tablet face-down and a warm lamp, city bokeh. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep021-googledata",
+   "day": 16,
+   "title": "Your Google data, handled carefully.",
+   "palette": "ocean",
+   "x_text": "Nightshift uses your Google account only to upload to the channel you connect and show its analytics to you. Tokens are encrypted, never reach the browser, and you can revoke access any time. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nightshift uses your Google account only to upload videos to the YouTube channel you connect and to read that channel's data and analytics for your dashboard"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Access tokens are encrypted and never reach the browser"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "you can revoke access at any time"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep021-googledata-0",
+     "scene": 0,
+     "prompt": "A glowing padlock resting on a dark wooden desk at night, soft violet rim light, slow orbit. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep021-googledata-1",
+     "scene": 5,
+     "prompt": "A vault door slowly closing in a dim corridor, warm light leaking around the edges. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep022-history",
+   "day": 17,
+   "title": "Every hold, charge and return, on record.",
+   "palette": "sunrise",
+   "x_text": "On Nightshift every price shows before you start, and every hold, charge and return is in your organization's credit history. Nothing to ask for. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "The app shows every price before you start, and every hold, charge and return in your organization's credit history"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Hold Set aside when the run starts"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Charge What it used, never more than the hold"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "You do not need to ask, and your credit history shows each hold, charge and return"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep022-history-0",
+     "scene": 0,
+     "prompt": "An old brass ledger book open on a desk under a lamp at night, pages turning slowly in a breeze. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep022-history-1",
+     "scene": 5,
+     "prompt": "A calm night window with rain drops and warm interior light, slow focus pull. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep023-spendorder",
+   "day": 18,
+   "title": "Plan credits first. Then top-ups.",
+   "palette": "candy",
+   "x_text": "On Nightshift, plan credits are spent first, then top-up credits, soonest-expiring first. A run can keep going on top-up credits, and you can turn that off. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Credits are spent in this order: plan credits first, then top-up credits \u2014 soonest-expiring first"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Plan credits are spent first. When they run out, a run can keep going on credits from a top-up pack. You can turn that off on the Usage page."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep023-spendorder-0",
+     "scene": 0,
+     "prompt": "Glowing coins stacking one by one on a dark table, warm light, slow motion. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep023-spendorder-1",
+     "scene": 5,
+     "prompt": "An hourglass with glowing violet sand on a desk at night. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep024-cancel",
+   "day": 19,
+   "title": "Cancel any time.",
+   "palette": "forest",
+   "x_text": "Nightshift plans can be cancelled any time in Manage subscription. The plan stays active until the end of the period you paid for, with no further charges. Top-up packs never renew. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Cancel any time in Manage subscription on the Credits page"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "After you cancel, the plan stays active until the end of the period you paid for, with no further charges"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Top-up packs are one-time payments and never renew"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep024-cancel-0",
+     "scene": 0,
+     "prompt": "An open door at night letting warm light spill into a dark hallway, slow push. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep024-cancel-1",
+     "scene": 5,
+     "prompt": "A calm morning-blue sky over a quiet city just before dawn. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep025-drafts",
+   "day": 20,
+   "title": "Unsaved edits are kept as a draft.",
+   "palette": "ember",
+   "x_text": "In Nightshift's editor, unsaved changes are kept as a draft in your browser for up to 14 days and offered back when you reopen the project. Saving stays your button. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Unsaved changes are kept as a draft in this browser and offered back when you reopen the project. Saving stays your button."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "unsaved changes are kept as a draft in this browser for up to 14 days"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep025-drafts-0",
+     "scene": 0,
+     "prompt": "A film editing desk at night with reels and a warm lamp, slow dolly, no readable screens. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep025-drafts-1",
+     "scene": 5,
+     "prompt": "A notebook left open on a desk by a window at night, a pen resting on it, rain outside. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep026-export",
+   "day": 21,
+   "title": "Export up to 30 minutes. Free.",
+   "palette": "ocean",
+   "x_text": "Nightshift's editor exports for free: one export can be up to 30 minutes long, it is saved to your library, and nothing is published from it. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "One export can be up to 30 minutes long"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits, an export is saved to your library, and nothing is published from it"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep026-export-0",
+     "scene": 0,
+     "prompt": "Film strips unspooling slowly through warm light in a dark room, slow motion. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep026-export-1",
+     "scene": 5,
+     "prompt": "A projector beam in a dark small cinema, dust floating, slow push. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep027-tryexample",
+   "day": 22,
+   "title": "Try a plan on the site. Nothing is created.",
+   "palette": "sunrise",
+   "x_text": "Type any topic on nightshift-ai.studio and see what a plan looks like: working titles, a script outline, a shot list and a thumbnail brief. Nothing is generated and nothing leaves your browser.",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Type a topic. See what the plan looks like."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing is generated here and nothing leaves your browser"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Working titles"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Script outline"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Shot list"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Thumbnail brief"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Three words or fewer on the picture"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep027-tryexample-0",
+     "scene": 0,
+     "prompt": "A blueprint-like map unrolling on a desk at night under a lamp, slow push, no readable text. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep027-tryexample-1",
+     "scene": 5,
+     "prompt": "A caravan crossing dunes toward blue domes at dusk, wide slow aerial. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "done",
+     "job_id": "17571637-8abb-4b2a-8020-1fc08ca54b4d",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261113_192749_17571637-8abb-4b2a-8020-1fc08ca54b4d.mp4"
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep028-thumbnail",
+   "day": 23,
+   "title": "A thumbnail brief with every plan.",
+   "palette": "candy",
+   "x_text": "Every Nightshift plan comes with a thumbnail brief: one clear subject, three words or fewer on the picture, high contrast with one warm accent. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Subject One clear subject"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Words Three words or fewer on the picture."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Colour High contrast, one warm accent."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Working titles"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep028-thumbnail-0",
+     "scene": 0,
+     "prompt": "A single bright orange lantern against a deep blue night background, high contrast, slow drift. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep028-thumbnail-1",
+     "scene": 5,
+     "prompt": "The Registan in Samarkand at golden hour, slow aerial drift. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep029-multichannel",
+   "day": 24,
+   "title": "Run several channels. Keep the last word on each.",
+   "palette": "forest",
+   "x_text": "Nightshift is for people who run YouTube channels, often faceless ones, and want the videos made without handing over the publish button. Run one channel or several. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "Run one channel or several, and keep the last word on each."
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "For people who run YouTube channels \u2014 often faceless ones \u2014 and want the videos made without handing over the publish button"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "set per channel and never leak into another"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Auto-publish is off unless you turn it on for a channel"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep029-multichannel-0",
+     "scene": 0,
+     "prompt": "Many small lit windows in a tall building at night, one window glowing brighter, slow pull-back. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep029-multichannel-1",
+     "scene": 5,
+     "prompt": "A row of lanterns along a dark river, each a different colour, slow drift. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep030-pricetwice",
+   "day": 25,
+   "title": "You confirm the price twice.",
+   "palette": "ember",
+   "x_text": "On Nightshift you see what a video costs before it starts, and confirm a second time. If the price changes in between, you are asked again. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "You see what a video costs before it starts, and confirm a second time. If the price changes in between, you are asked again."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Held when it starts. Charged on finish, never more than the quote."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep030-pricetwice-0",
+     "scene": 0,
+     "prompt": "A vintage brass scale balancing slowly on a dark desk under warm lamplight. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep030-pricetwice-1",
+     "scene": 5,
+     "prompt": "A quiet shop at night with a single glowing price-tag-free display window, rain outside. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep031-developers",
+   "day": 26,
+   "title": "The same studio, from your own code.",
+   "palette": "ocean",
+   "x_text": "Nightshift for developers: start videos, read balances and fetch downloads from your own systems or an AI assistant. The API is a separate product with its own prepaid balance. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/youtube-channels",
+     "quote": "For teams that want to start videos, read balances and fetch downloads from their own systems or an AI assistant"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "The API is a separate developer product with its own prepaid balance, billed per use"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep031-developers-0",
+     "scene": 0,
+     "prompt": "Glowing fibre-optic light strands flowing through a dark space, slow motion, violet and cyan. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep031-developers-1",
+     "scene": 5,
+     "prompt": "A server room at night with soft blue and violet indicator lights, slow dolly. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep032-crossfade",
+   "day": 27,
+   "title": "Cross-fades and Fit or Fill, free.",
+   "palette": "sunrise",
+   "x_text": "Nightshift's editor blends one clip into the next for 0.2 to 2 seconds, and lets each clip Fit with bars or Fill the frame. Editing uses no credits. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Blend one clip into the next for 0.2 to 2 seconds. The clips overlap, so the video gets shorter by the same amount."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Fit shows the whole picture and adds bars; Fill crops the centre so no bars show"
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep032-crossfade-0",
+     "scene": 0,
+     "prompt": "Two coloured lights, violet and orange, slowly blending into each other in fog, slow motion. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep032-crossfade-1",
+     "scene": 5,
+     "prompt": "Ink drops blooming and blending in water in soft violet light. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep033-parallel",
+   "day": 28,
+   "title": "More videos at once on bigger plans.",
+   "palette": "candy",
+   "x_text": "On Nightshift, Free runs 1 video at once, Plus 2, Pro 4 and Business 8, with a head start in the render queue on paid plans. Every run shows its price first. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Videos in progress at once | 1 at once | 2 at once | 4 at once | 8 at once"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "A monthly plan brings a fresh credit allowance every billing period and unlocks more parallel runs, a head start in the render queue"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep033-parallel-0",
+     "scene": 0,
+     "prompt": "A night highway seen from above with several light trails flowing in parallel lanes, slow motion. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep033-parallel-1",
+     "scene": 5,
+     "prompt": "A quiet train station at night with warm lights, slow push. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep034-pressed",
+   "day": 29,
+   "title": "Nothing starts until you press it.",
+   "palette": "forest",
+   "x_text": "Nightshift's Studio will not start a generation you have not pressed, and the press shows the price. If one fails, the credits return on their own. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "It will not start a generation you have not pressed \u2014 and the press shows the price"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "It will not keep the credits of a generation that failed; they return on their own"
+    },
+    {
+     "page": "https://nightshift-ai.studio/solutions/creative-studio",
+     "quote": "It will not add a charge for a style kit \u2014 the price on the button is the whole price"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep034-pressed-0",
+     "scene": 0,
+     "prompt": "A single glowing button-like orb resting on a dark table, slow light pulse, macro shot. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep034-pressed-1",
+     "scene": 5,
+     "prompt": "Fireflies lifting slowly from tall grass at night. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  },
+  {
+   "id": "ep035-planmonth",
+   "day": 30,
+   "title": "60 minutes a month: about 3,600 credits.",
+   "palette": "ember",
+   "x_text": "Planning a month on Nightshift? 60 minutes of finished video takes about 3,600 credits at 60 credits a minute. Every run still shows its own price first. nightshift-ai.studio",
+   "facts": [
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "60 credits a minute of finished video"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "Finished video a month 60 min Credits it takes About 3,600 credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio/pricing",
+     "quote": "every run shows its own price on its button before it starts"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "No run is quoted below 30 credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "You see the price first"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "A failed run costs nothing"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Need just one piece? The Studio makes it."
+    },
+    {
+     "page": "https://nightshift-ai.studio/studio",
+     "quote": "Editing and exporting use no credits"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "We make the video."
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Finished videos upload to YouTube as private"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "Nothing goes public until you say so"
+    },
+    {
+     "page": "https://nightshift-ai.studio",
+     "quote": "100 free credits, once, when you sign up. No card."
+    }
+   ],
+   "clips": [
+    {
+     "key": "ep035-planmonth-0",
+     "scene": 0,
+     "prompt": "A wall calendar's pages fluttering slowly in a dark room lit by moonlight, no readable text. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep035-planmonth-1",
+     "scene": 5,
+     "prompt": "A moon moving through its phases over a calm night sea, time-lapse feel. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    }
+   ],
+   "render": "todo",
+   "asset": null,
+   "published": null
+  }
+ ]
+}

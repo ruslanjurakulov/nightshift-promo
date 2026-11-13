@@ -11,3 +11,25 @@
 ## Telegram (channel https://t.me/nightshiftaistudio)
 Telegram is sent by GitHub Actions (`.github/workflows/telegram.yml`), not by this session: the bot token is a repo secret `TELEGRAM_BOT_TOKEN` that only Actions can read.
 After the video is pushed to `videos/`, commit `captions/<id>.txt` (same text as the X post, <= 1000 chars) in a LATER commit and push: that push triggers the workflow, which re-encodes to 1080p (Telegram's 50 MB limit) and sends it. Check the run under the repo's Actions tab; if it failed, tell the owner (usual cause: secret missing).
+
+## Queue (30 pre-made days, owner decision 2026-11-13)
+The owner asked for 30 days of videos made ahead with Higgsfield b-roll, stored on GitHub and released one a day.
+Format is hybrid: Higgsfield makes silent footage (no text), our engine adds the voice, cards, Nox and CTA, so every
+claim still comes from the site. Footage is labelled "AI-GENERATED FOOTAGE" on screen while it shows.
+- `tools/make_queue.py` wrote `episodes/ep006..ep035` and `queue/plan.json` (per episode: facts with page+quote, X text, 2 clip prompts).
+- `tools/qstate.py` reads/updates the queue state (`summary`, `next`, `pending`, `ready`, `nextpublish`, ...).
+- Clips: Higgsfield `seedance_2_5`, 5 s, 720p, 16:9, `use_unlim: true` (the unlimited window covers 720p only and ends
+  2026-11-16 19:08 UTC; never spend credits on them). The account is rate-limited (429): submit one at a time; on 429 stop and try next run.
+  After the window, `qstate.py expire`: a scene without a clip keeps the plain palette background. No paid or stock substitute.
+- Render: `python3 tools/prep_broll.py <id>` then `python3 engine/build.py work/<id>.json 2`, then `engine/qa_check.py`.
+  If only the colour check fails, change `palette` in `episodes/<id>.json` to the next one in ocean/sunrise/candy/forest/ember (not aurora) and rebuild, max 2 remakes.
+- Store: `tools/stash.sh <id>` pushes the video on an orphan branch `stash/<id>`; `.github/workflows/stash.yml` uploads it to the
+  `queue` release and deletes the branch. Asset URL: https://github.com/ruslanjurakulov/nightshift-promo/releases/download/queue/<id>.mp4
+  Then `qstate.py render <id> stashed <asset-url>` and push `queue/plan.json` + `qa/<id>.json` to main.
+
+### Publishing from the queue (daily job)
+1. `id=$(python3 tools/qstate.py nextpublish)`. If empty, do the normal render flow (steps 3-8 above).
+2. `python3 tools/check_facts.py $id` re-reads the live pages. Exit 1 = a quote is gone: `qstate.py published $id "stale: <quote>"`, try the next one.
+3. Download the asset to `videos/$id.mp4`, run `engine/qa_check.py` and the contact-sheet rubric (QA_RUBRIC.md) as usual.
+4. Same publishing steps as a fresh video: commit the video to main, vidIQ (title = plan `title`, X text = plan `x_text`), caption commit for Telegram.
+5. `qstate.py published $id "<links>"`, add the row to topics.md, push.

@@ -1,0 +1,109 @@
+{
+ "id": "ep020-analytics",
+ "palette": "ember",
+ "title": "Your channel's numbers, shown only to you.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Your numbers.",
+    "*Only* for you."
+   ],
+   "sentences": [
+    "Your channel's numbers. Only for you.",
+    "Read with the access you granted."
+   ],
+   "broll": "broll/ep020-analytics-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is your dashboard.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "YOUR CHANNEL",
+   "items": [
+    {
+     "title": "Views",
+     "sub": "Of the connected channel"
+    },
+    {
+     "title": "Analytics",
+     "sub": "Read with your access"
+    },
+    {
+     "title": "Only you",
+     "sub": "See them"
+    }
+   ],
+   "sentences": [
+    "Views and analytics for the channel you connect.",
+    "Read with the access you granted.",
+    "Shown only to you."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "NEVER",
+   "items": [
+    {
+     "title": "Advertising",
+     "sub": "Your data is never used for it"
+    }
+   ],
+   "sentences": [
+    "Your Google data is never used for advertising."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep020-analytics-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Your channel's numbers. Yours.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

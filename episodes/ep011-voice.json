@@ -1,0 +1,108 @@
+{
+ "id": "ep011-voice",
+ "palette": "ocean",
+ "title": "Narration in your channel's voice.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "One line.",
+    "*Your* voice."
+   ],
+   "sentences": [
+    "Need one narration line?",
+    "The Studio voices it, priced on the button."
+   ],
+   "broll": "broll/ep011-voice-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "The Studio does voice too.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "VOICE",
+   "items": [
+    {
+     "title": "Text to speech",
+     "sub": "Type the line"
+    },
+    {
+     "title": "Your voices",
+     "sub": "The ones your workspace has"
+    }
+   ],
+   "sentences": [
+    "Type the line.",
+    "Pick from the voices your workspace has."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND IN A FULL RUN",
+   "items": [
+    {
+     "title": "Narrator",
+     "sub": "Your channel's voice"
+    },
+    {
+     "title": "Language",
+     "sub": "The channel's language"
+    }
+   ],
+   "sentences": [
+    "In a full video, the narrator is your channel's voice, in its language."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep011-voice-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Your channel. Your voice.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "id": "ep027-tryexample",
+ "palette": "sunrise",
+ "title": "Try a plan on the site. Nothing is created.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "See the plan",
+    "*before* you sign up."
+   ],
+   "sentences": [
+    "See the plan before you sign up.",
+    "Type any topic on the site."
+   ],
+   "broll": "broll/ep027-tryexample-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Try it on the site. Type any topic.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "The example plan",
+   "items": [
+    {
+     "label": "1  WORKING TITLES",
+     "sub": "Direct, curious, plain"
+    },
+    {
+     "label": "2  SCRIPT OUTLINE",
+     "sub": "Hook to close"
+    },
+    {
+     "label": "3  SHOT LIST",
+     "sub": "Opening, middle, ending"
+    }
+   ],
+   "sentences": [
+    "Working titles.",
+    "A script outline, from the hook to the close.",
+    "And a shot list."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Thumbnail brief",
+     "sub": "Three words or fewer"
+    },
+    {
+     "title": "Nothing generated",
+     "sub": "Stays in your browser"
+    }
+   ],
+   "sentences": [
+    "Plus a thumbnail brief.",
+    "Nothing is generated, and nothing leaves your browser."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep027-tryexample-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Try an example. It's free.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Try it now at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

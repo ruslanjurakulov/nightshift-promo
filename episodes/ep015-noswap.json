@@ -1,0 +1,113 @@
+{
+ "id": "ep015-noswap",
+ "palette": "ember",
+ "title": "If the voice is down, the run stops.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "No surprise",
+    "*substitutes.*"
+   ],
+   "sentences": [
+    "No surprise substitutes.",
+    "If the chosen voice is unavailable, the run stops."
+   ],
+   "broll": "broll/ep015-noswap-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is what Nightshift will not do.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "When the chosen voice is unavailable",
+   "items": [
+    {
+     "label": "1  NO SWAP",
+     "sub": "No different voice or model"
+    },
+    {
+     "label": "2  STOP",
+     "sub": "The run stops"
+    },
+    {
+     "label": "3  SAY WHY",
+     "sub": "You are told the reason"
+    }
+   ],
+   "sentences": [
+    "If the voice you chose is unavailable, it does not swap in another.",
+    "The run stops.",
+    "And it says why."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND THE CREDITS",
+   "items": [
+    {
+     "title": "Failed run",
+     "sub": "Credits come back"
+    },
+    {
+     "title": "On their own",
+     "sub": "No request"
+    }
+   ],
+   "sentences": [
+    "When a run fails, the credits come back on their own."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep015-noswap-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Your voice, or no video.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

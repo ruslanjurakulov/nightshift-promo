@@ -1,0 +1,113 @@
+{
+ "id": "ep007-threesteps",
+ "palette": "sunrise",
+ "title": "Three steps. The last one is yours.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Three steps.",
+    "The last one is *yours*."
+   ],
+   "sentences": [
+    "Three steps. The last one is yours.",
+    "Two are Nightshift's. The last one is yours."
+   ],
+   "broll": "broll/ep007-threesteps-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is how a video gets made on Nightshift.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "How it works",
+   "items": [
+    {
+     "label": "1  GIVE IT A TOPIC",
+     "sub": "Type a line"
+    },
+    {
+     "label": "2  START AT A PRICE",
+     "sub": "The price is on the button"
+    },
+    {
+     "label": "3  WATCH, THEN PUBLISH",
+     "sub": "Your decision"
+    }
+   ],
+   "sentences": [
+    "One. Give it a topic.",
+    "Two. Start it at a price you have seen.",
+    "Three. Watch it, then publish."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "IF A RUN FAILS",
+   "items": [
+    {
+     "title": "Credits come back",
+     "sub": "On their own"
+    },
+    {
+     "title": "No request",
+     "sub": "Nothing to ask for"
+    }
+   ],
+   "sentences": [
+    "If a run fails, the credits come back on their own."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "The video waits on YouTube as private.",
+    "You watch it.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep007-threesteps-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Three steps. The last one is yours.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "id": "ep018-autopublishoff",
+ "palette": "candy",
+ "title": "Auto-publish is off unless you turn it on.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Publish without you?",
+    "*Only* if you let it."
+   ],
+   "sentences": [
+    "Can it publish without you? Only if you let it.",
+    "Auto-publish is off unless you turn it on."
+   ],
+   "broll": "broll/ep018-autopublishoff-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is how publishing works.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BY DEFAULT",
+   "items": [
+    {
+     "title": "Private",
+     "sub": "Every upload"
+    },
+    {
+     "title": "Publish check",
+     "sub": "Every video"
+    },
+    {
+     "title": "Auto-publish",
+     "sub": "Off"
+    }
+   ],
+   "sentences": [
+    "Uploads are private by default.",
+    "Every video passes a publish check.",
+    "Auto-publish is off."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "YOUR SWITCH",
+   "items": [
+    {
+     "title": "Per channel",
+     "sub": "You turn it on"
+    },
+    {
+     "title": "Or not",
+     "sub": "Stays off"
+    }
+   ],
+   "sentences": [
+    "It is a switch per channel, and it stays off until you turn it on."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep018-autopublishoff-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Your channel. Your switch.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

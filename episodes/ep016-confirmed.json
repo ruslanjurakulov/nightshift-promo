@@ -1,0 +1,109 @@
+{
+ "id": "ep016-confirmed",
+ "palette": "ocean",
+ "title": "Only a channel YouTube confirmed is yours.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Your channel.",
+    "*Confirmed* by YouTube."
+   ],
+   "sentences": [
+    "Only your channel. Confirmed by YouTube.",
+    "It will not run a channel YouTube has not confirmed."
+   ],
+   "broll": "broll/ep016-confirmed-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is how a channel gets connected.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Connect your channel",
+   "items": [
+    {
+     "label": "1  GOOGLE CONSENT",
+     "sub": "Your own channel"
+    },
+    {
+     "label": "2  UPLOADS ONLY THERE",
+     "sub": "The channel you connect"
+    },
+    {
+     "label": "3  DISCONNECT",
+     "sub": "Any time"
+    }
+   ],
+   "sentences": [
+    "You connect your own channel through Google's consent screen.",
+    "Nightshift uploads only to that channel.",
+    "You can disconnect it at any time."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Not confirmed?",
+     "sub": "It will not run"
+    }
+   ],
+   "sentences": [
+    "It will not run a channel YouTube has not confirmed is yours."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep016-confirmed-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Your channel. Your say.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

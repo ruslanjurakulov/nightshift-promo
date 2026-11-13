@@ -1,0 +1,113 @@
+{
+ "id": "ep024-cancel",
+ "palette": "forest",
+ "title": "Cancel any time.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Cancel",
+    "*any* time."
+   ],
+   "sentences": [
+    "Cancel any time.",
+    "Here is how it works."
+   ],
+   "broll": "broll/ep024-cancel-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is how plans work.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Cancelling",
+   "items": [
+    {
+     "label": "1  MANAGE SUBSCRIPTION",
+     "sub": "On the Credits page"
+    },
+    {
+     "label": "2  STAYS ACTIVE",
+     "sub": "To the end of the period"
+    },
+    {
+     "label": "3  NO RENEWAL",
+     "sub": "No further charges"
+    }
+   ],
+   "sentences": [
+    "Cancel in Manage subscription, on the Credits page.",
+    "The plan stays active until the end of the period you paid for.",
+    "No further charges."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "TOP-UP PACKS",
+   "items": [
+    {
+     "title": "One-time",
+     "sub": "Payments"
+    },
+    {
+     "title": "Never renew",
+     "sub": "Ever"
+    }
+   ],
+   "sentences": [
+    "Top-up packs are one-time payments, and never renew."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "ALSO IN THE STUDIO",
+   "items": [
+    {
+     "title": "One piece at a time",
+     "sub": "Picture, clip or voice"
+    },
+    {
+     "title": "Editor",
+     "sub": "No credits"
+    }
+   ],
+   "sentences": [
+    "Need just one piece? The Studio makes it.",
+    "And the editor uses no credits."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep024-cancel-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Start free. Leave any time.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

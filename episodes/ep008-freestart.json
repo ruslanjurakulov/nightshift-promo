@@ -1,0 +1,113 @@
+{
+ "id": "ep008-freestart",
+ "palette": "candy",
+ "title": "100 free credits. No card.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "100 credits.",
+    "*No* card."
+   ],
+   "sentences": [
+    "One hundred free credits. No card.",
+    "Here is what that gets you."
+   ],
+   "broll": "broll/ep008-freestart-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is what you get when you sign up.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "ON SIGN-UP",
+   "items": [
+    {
+     "title": "100 credits",
+     "sub": "Once, when you sign up"
+    },
+    {
+     "title": "No card",
+     "sub": "Email sign-up"
+    },
+    {
+     "title": "About 1 minute",
+     "sub": "Of finished video at the current rate"
+    }
+   ],
+   "sentences": [
+    "One hundred credits, once, when you sign up.",
+    "You sign up with your email. No card.",
+    "That covers about one minute of finished video."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "You pay only when you choose",
+   "items": [
+    {
+     "label": "1  A PLAN",
+     "sub": "If you want one"
+    },
+    {
+     "label": "2  A CREDIT PACK",
+     "sub": "If you want one"
+    }
+   ],
+   "sentences": [
+    "You pay only when you choose a plan or a credit pack."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "ALSO IN THE STUDIO",
+   "items": [
+    {
+     "title": "One piece at a time",
+     "sub": "Picture, clip or voice"
+    },
+    {
+     "title": "Editor",
+     "sub": "No credits"
+    }
+   ],
+   "sentences": [
+    "Need just one piece? The Studio makes it.",
+    "And the editor uses no credits."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep008-freestart-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Start free. No card.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

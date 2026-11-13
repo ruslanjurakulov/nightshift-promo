@@ -1,0 +1,119 @@
+{
+ "id": "ep033-parallel",
+ "palette": "candy",
+ "title": "More videos at once on bigger plans.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "1, 2, 4,",
+    "or *8* at once."
+   ],
+   "sentences": [
+    "One, two, four, or eight videos at once.",
+    "It depends on your plan."
+   ],
+   "broll": "broll/ep033-parallel-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is how many videos can run together.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "VIDEOS IN PROGRESS AT ONCE",
+   "items": [
+    {
+     "title": "Free",
+     "sub": "1 at once"
+    },
+    {
+     "title": "Plus",
+     "sub": "2 at once"
+    },
+    {
+     "title": "Pro",
+     "sub": "4 at once"
+    },
+    {
+     "title": "Business",
+     "sub": "8 at once"
+    }
+   ],
+   "sentences": [
+    "Free runs one at once.",
+    "Plus, two.",
+    "Pro, four.",
+    "Business, eight."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "PLANS ALSO BRING",
+   "items": [
+    {
+     "title": "Monthly credits",
+     "sub": "A fresh allowance"
+    },
+    {
+     "title": "Queue priority",
+     "sub": "A head start in the render queue"
+    }
+   ],
+   "sentences": [
+    "A plan brings a fresh credit allowance every month.",
+    "And a head start in the render queue."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "ALSO IN THE STUDIO",
+   "items": [
+    {
+     "title": "One piece at a time",
+     "sub": "Picture, clip or voice"
+    },
+    {
+     "title": "Editor",
+     "sub": "No credits"
+    }
+   ],
+   "sentences": [
+    "Need just one piece? The Studio makes it.",
+    "And the editor uses no credits."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep033-parallel-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Start free. Grow when you need to.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

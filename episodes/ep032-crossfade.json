@@ -1,0 +1,109 @@
+{
+ "id": "ep032-crossfade",
+ "palette": "sunrise",
+ "title": "Cross-fades and Fit or Fill, free.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Smooth cuts.",
+    "*Zero* credits."
+   ],
+   "sentences": [
+    "Smooth cuts, for zero credits.",
+    "Two editor tools, both free."
+   ],
+   "broll": "broll/ep032-crossfade-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Two small editor tools.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "CROSS-FADE",
+   "items": [
+    {
+     "title": "0.2 to 2 s",
+     "sub": "Blend one clip into the next"
+    },
+    {
+     "title": "Overlap",
+     "sub": "The video gets shorter by the same"
+    }
+   ],
+   "sentences": [
+    "Blend one clip into the next for point two to two seconds.",
+    "The clips overlap, so the video gets that much shorter."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "FIT OR FILL",
+   "items": [
+    {
+     "title": "Fit",
+     "sub": "Whole picture, with bars"
+    },
+    {
+     "title": "Fill",
+     "sub": "Crops the centre, no bars"
+    }
+   ],
+   "sentences": [
+    "Fit shows the whole picture, with bars.",
+    "Fill crops the centre, so no bars show."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep032-crossfade-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Edit free.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

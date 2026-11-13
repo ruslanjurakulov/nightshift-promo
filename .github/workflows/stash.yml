@@ -1,0 +1,28 @@
+# Moves a pre-rendered queue video into the "queue" release, then deletes the branch that carried it.
+# Why: 30 queued 4K videos (~80 MB each) would bloat main by ~2.5 GB, and GitHub refuses files over 100 MB.
+# A release asset holds up to 2 GB and stays out of the git history once the carrier branch is gone.
+# The daily job downloads the asset on its publish day: https://github.com/<repo>/releases/download/queue/<id>.mp4
+name: stash
+on:
+  push:
+    branches: ["stash/**"]
+concurrency: stash
+permissions:
+  contents: write
+jobs:
+  stash:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload to the queue release
+        run: |
+          ls outbox/*.mp4 >/dev/null 2>&1 || { echo "no outbox/*.mp4 on this branch"; exit 1; }
+          gh release view queue >/dev/null 2>&1 || gh release create queue --prerelease --title "Promo queue (not yet published)" --notes "Pre-rendered daily promo videos. Each one is published by the daily job on its day, after its facts are re-checked against the live site."
+          for f in outbox/*.mp4; do
+            size=$(stat -c %s "$f"); echo "$f $size bytes"
+            gh release upload queue "$f" --clobber
+          done
+      - name: Delete the carrier branch
+        run: git push origin --delete "${GITHUB_REF_NAME}"

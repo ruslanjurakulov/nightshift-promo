@@ -1,0 +1,109 @@
+{
+ "id": "ep034-pressed",
+ "palette": "forest",
+ "title": "Nothing starts until you press it.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Nothing starts",
+    "until you *press.*"
+   ],
+   "sentences": [
+    "Nothing starts until you press.",
+    "And the press shows the price."
+   ],
+   "broll": "broll/ep034-pressed-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is what the Studio will not do.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "It will not",
+   "items": [
+    {
+     "label": "1  START ON ITS OWN",
+     "sub": "The press shows the price"
+    },
+    {
+     "label": "2  KEEP FAILED CREDITS",
+     "sub": "They return on their own"
+    },
+    {
+     "label": "3  CHARGE FOR STYLE",
+     "sub": "No extra for a style kit"
+    }
+   ],
+   "sentences": [
+    "It will not start a generation you have not pressed.",
+    "It will not keep the credits of a generation that failed.",
+    "And it will not add a charge for a style kit."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "SO",
+   "items": [
+    {
+     "title": "Price on the button",
+     "sub": "Is the whole price"
+    }
+   ],
+   "sentences": [
+    "The price on the button is the whole price."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "ALSO IN THE STUDIO",
+   "items": [
+    {
+     "title": "One piece at a time",
+     "sub": "Picture, clip or voice"
+    },
+    {
+     "title": "Editor",
+     "sub": "No credits"
+    }
+   ],
+   "sentences": [
+    "Need just one piece? The Studio makes it.",
+    "And the editor uses no credits."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep034-pressed-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "You press. You decide.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

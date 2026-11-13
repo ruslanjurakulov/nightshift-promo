@@ -93,6 +93,36 @@ _rng = np.random.default_rng(7)
 NOISE = _rng.integers(-1, 2, (H, W, 1)).astype(np.int16)
 GX, GY = np.meshgrid(np.linspace(0, 1, 320, dtype=np.float32), np.linspace(0, 1, 180, dtype=np.float32))
 BASE = (np.array(PAL["bg0"], np.float32)[None, None] * (1 - GY[..., None]) + np.array(PAL["bg1"], np.float32)[None, None] * GY[..., None])
+class Clip:
+    """Streams one b-roll clip frame by frame. Segments render frames in order, so a forward-only reader is enough;
+    a backwards jump (never expected) reopens the pipe. The clip loops if the scene outlasts it."""
+    def __init__(self, path, need):
+        # Higgsfield clips are 5 s; a scene can run 7 s. Slowing the clip to fit beats a visible loop jump.
+        d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+                                 capture_output=True, text=True).stdout or 5)
+        self.stretch = max(1.0, need / max(d, 0.5))
+        self.path, self.p, self.n, self.last = path, None, -1, None
+    def get(self, k):
+        if self.p is None or k < self.n:
+            if self.p: self.p.kill()
+            self.p = subprocess.Popen(["ffmpeg", "-v", "error", "-stream_loop", "-1", "-ss", f"{k / FPS / self.stretch:.3f}", "-i", self.path,
+                                       "-vf", f"setpts={self.stretch:.4f}*PTS,fps=30,scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080",
+                                       "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
+            self.n = k - 1
+        while self.n < k:
+            buf = self.p.stdout.read(1920 * 1080 * 3); self.n += 1
+            if len(buf) == 1920 * 1080 * 3: self.last = np.frombuffer(buf, np.uint8).reshape(1080, 1920, 3)
+        return self.last
+CLIPS = {}
+def broll_layer(t):
+    """B-roll sits under the scene: dimmed and tinted toward the palette so the cards and Nox stay readable.
+    Returns (frame, weight) for the scene active at t, or (None, 0)."""
+    for sc in TL["scenes"]:
+        if sc.get("broll") and sc["start"] - 0.3 <= t <= sc["end"]:
+            w = eio(win(t, sc["start"] - 0.3, sc["start"] + 0.3)) * (1 - eio(win(t, sc["end"] - 0.4, sc["end"])))
+            c = CLIPS.get(sc["broll"]) or CLIPS.setdefault(sc["broll"], Clip(os.path.join(ROOT, sc["broll"]), sc["end"] - sc["start"] + 0.4))
+            return c.get(max(0, int((t - sc["start"] + 0.3) * FPS))), w
+    return None, 0
 def background(t):
     g = BASE.copy()
     for i, col in enumerate(PAL["blobs"]):
@@ -100,6 +130,11 @@ def background(t):
         f = np.exp(-(((GX - cx) * 16 / 9) ** 2 + (GY - cy) ** 2) / (2 * 0.17 ** 2)) * (0.50 + 0.12 * math.sin(t * 0.9 + i))
         g += f[..., None] * np.array(col, np.float32)[None, None] * 0.55
     im = Image.fromarray(np.clip(g, 0, 255).astype(np.uint8)).resize((W, H), Image.BICUBIC)
+    fr, w = broll_layer(t)
+    if fr is not None and w > 0.004:
+        b = Image.fromarray(fr).resize((W, H), Image.BICUBIC)
+        b = Image.blend(Image.eval(b, lambda v: int(v * 0.62)), im, 0.38)   # dim + palette tint: text must win over footage
+        im = Image.blend(im, b, w)
     return Image.fromarray(np.clip(np.asarray(im).astype(np.int16) + NOISE, 0, 255).astype(np.uint8))
 random.seed(11)
 BOKEH = [dict(x=random.uniform(0, 1920), y=random.uniform(0, 1080), v=random.uniform(5, 22), r=random.uniform(2, 9), a=random.uniform(.10, .38),
@@ -334,6 +369,8 @@ def frame(t):
         a = eio(win(t, sc["start"], sc["start"] + 0.45)) * (1 - eio(win(t, sc["end"] - 0.3, sc["end"])))
         if i == 0: a = eio(win(t, 0.5, 1.0)) * (1 - eio(win(t, sc["end"] - 0.3, sc["end"])))
         if a > 0.004: SCENES[sc["type"]](cv, D, t, a, sc)
+    _, bw = broll_layer(t) if any(sc.get("broll") for sc in TL["scenes"]) else (None, 0)
+    if bw > 0.02: label(cv, "AI-GENERATED FOOTAGE", 1790, 1050, 0.8 * bw, 14)   # the site labels its AI pictures; so do we
     g = min(eio(win(t, 0.0, 0.3)), 1 - eio(win(t, DUR - 0.5, DUR)))
     if g < 0.999: cv = Image.eval(cv, lambda v: int(v * g))
     return cv

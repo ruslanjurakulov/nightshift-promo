@@ -1,0 +1,114 @@
+{
+ "id": "ep031-developers",
+ "palette": "ocean",
+ "title": "The same studio, from your own code.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Your code.",
+    "*Our* studio."
+   ],
+   "sentences": [
+    "The same studio, from your own code.",
+    "Start videos from your own systems."
+   ],
+   "broll": "broll/ep031-developers-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Nightshift has an API.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "FROM YOUR CODE",
+   "items": [
+    {
+     "title": "Start videos",
+     "sub": "From your systems"
+    },
+    {
+     "title": "Read balances",
+     "sub": "Any time"
+    },
+    {
+     "title": "Fetch downloads",
+     "sub": "When ready"
+    }
+   ],
+   "sentences": [
+    "Start videos from your own systems.",
+    "Read balances.",
+    "And fetch downloads."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "OR",
+   "items": [
+    {
+     "title": "AI assistant",
+     "sub": "The same studio"
+    },
+    {
+     "title": "Own balance",
+     "sub": "Prepaid, billed per use"
+    }
+   ],
+   "sentences": [
+    "Or from an AI assistant.",
+    "The API has its own prepaid balance, billed per use."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep031-developers-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Build on the night shift.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

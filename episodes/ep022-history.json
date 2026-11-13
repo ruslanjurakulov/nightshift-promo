@@ -1,0 +1,114 @@
+{
+ "id": "ep022-history",
+ "palette": "sunrise",
+ "title": "Every hold, charge and return, on record.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Every credit,",
+    "*on record.*"
+   ],
+   "sentences": [
+    "Every credit, on record.",
+    "Every hold, charge and return."
+   ],
+   "broll": "broll/ep022-history-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is where your credits go.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Credit history",
+   "items": [
+    {
+     "label": "1  HOLD",
+     "sub": "Set aside when the run starts"
+    },
+    {
+     "label": "2  CHARGE",
+     "sub": "Never more than the hold"
+    },
+    {
+     "label": "3  RETURN",
+     "sub": "The rest comes back"
+    }
+   ],
+   "sentences": [
+    "Every hold.",
+    "Every charge.",
+    "Every return. In your credit history."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "Before every start"
+    },
+    {
+     "title": "No request",
+     "sub": "Returns come back on their own"
+    }
+   ],
+   "sentences": [
+    "The app shows every price before you start.",
+    "Returns come straight back. You do not need to ask."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "ALSO IN THE STUDIO",
+   "items": [
+    {
+     "title": "One piece at a time",
+     "sub": "Picture, clip or voice"
+    },
+    {
+     "title": "Editor",
+     "sub": "No credits"
+    }
+   ],
+   "sentences": [
+    "Need just one piece? The Studio makes it.",
+    "And the editor uses no credits."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep022-history-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "See every credit.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

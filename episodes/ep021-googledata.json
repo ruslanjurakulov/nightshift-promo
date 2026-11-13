@@ -1,0 +1,114 @@
+{
+ "id": "ep021-googledata",
+ "palette": "ocean",
+ "title": "Your Google data, handled carefully.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Your Google data.",
+    "*Only* for your channel."
+   ],
+   "sentences": [
+    "Your Google data is used only for your channel.",
+    "Here is exactly what it is used for."
+   ],
+   "broll": "broll/ep021-googledata-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is what Nightshift does with your Google account.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Used only to",
+   "items": [
+    {
+     "label": "1  UPLOAD",
+     "sub": "To the channel you connect"
+    },
+    {
+     "label": "2  SHOW ANALYTICS",
+     "sub": "Of that channel, to you"
+    }
+   ],
+   "sentences": [
+    "It uploads to the channel you connect.",
+    "And shows that channel's analytics to you."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Encrypted",
+     "sub": "Access tokens"
+    },
+    {
+     "title": "Never in the browser",
+     "sub": "Tokens stay server-side"
+    },
+    {
+     "title": "Revoke",
+     "sub": "Any time"
+    }
+   ],
+   "sentences": [
+    "Access tokens are encrypted.",
+    "They never reach the browser.",
+    "And you can revoke access at any time."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep021-googledata-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Your data. Your channel.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

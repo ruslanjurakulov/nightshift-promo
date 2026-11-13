@@ -1,0 +1,114 @@
+{
+ "id": "ep017-publishcheck",
+ "palette": "sunrise",
+ "title": "Every video passes a publish check.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Checked",
+    "*before* you see it."
+   ],
+   "sentences": [
+    "Every video is checked before you see it.",
+    "Here is the publish check."
+   ],
+   "broll": "broll/ep017-publishcheck-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is the publish check.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "PUBLISH CHECK",
+   "items": [
+    {
+     "title": "Passed",
+     "sub": "Shown on the video's page"
+    },
+    {
+     "title": "Or blocked",
+     "sub": "And why"
+    }
+   ],
+   "sentences": [
+    "Every video passes a publish check.",
+    "The verdict is on the video's page: passed, or blocked and why."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Then",
+   "items": [
+    {
+     "label": "1  PRIVATE",
+     "sub": "Uploaded as private"
+    },
+    {
+     "label": "2  CHECKED",
+     "sub": "Publish check verdict"
+    },
+    {
+     "label": "3  YOU",
+     "sub": "Waiting for your approval"
+    }
+   ],
+   "sentences": [
+    "It is uploaded as private.",
+    "The check runs.",
+    "Then it waits for you."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep017-publishcheck-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Checked first. Yours to publish.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

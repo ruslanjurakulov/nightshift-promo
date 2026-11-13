@@ -1,0 +1,109 @@
+{
+ "id": "ep028-thumbnail",
+ "palette": "candy",
+ "title": "A thumbnail brief with every plan.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Three words",
+    "*or fewer.*"
+   ],
+   "sentences": [
+    "A thumbnail: three words or fewer.",
+    "Every plan comes with a thumbnail brief."
+   ],
+   "broll": "broll/ep028-thumbnail-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Every plan comes with a thumbnail brief.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Thumbnail brief",
+   "items": [
+    {
+     "label": "1  SUBJECT",
+     "sub": "One clear subject"
+    },
+    {
+     "label": "2  WORDS",
+     "sub": "Three or fewer"
+    },
+    {
+     "label": "3  COLOUR",
+     "sub": "High contrast, one warm accent"
+    }
+   ],
+   "sentences": [
+    "One clear subject.",
+    "Three words or fewer on the picture.",
+    "High contrast, with one warm accent."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Working titles",
+     "sub": "Three to choose from"
+    }
+   ],
+   "sentences": [
+    "Plus working titles to choose from."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep028-thumbnail-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Plan the click, too.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "id": "ep019-languages",
+ "palette": "forest",
+ "title": "Uzbek, Russian and English.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Uzbek. Russian.",
+    "*English.*"
+   ],
+   "sentences": [
+    "Uzbek. Russian. English.",
+    "The app speaks all three."
+   ],
+   "broll": "broll/ep019-languages-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Nightshift speaks three languages.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "THE APP",
+   "items": [
+    {
+     "title": "Uzbek",
+     "sub": "In the app"
+    },
+    {
+     "title": "Russian",
+     "sub": "In the app"
+    },
+    {
+     "title": "English",
+     "sub": "In the app"
+    }
+   ],
+   "sentences": [
+    "The app is in Uzbek, Russian and English."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "PER CHANNEL",
+   "items": [
+    {
+     "title": "One language",
+     "sub": "Set for its videos"
+    },
+    {
+     "title": "Captions",
+     "sub": "In the channel's language"
+    }
+   ],
+   "sentences": [
+    "Each channel is set to one of the three for its videos.",
+    "Captions come in the channel's language."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep019-languages-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Your channel, in your language.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

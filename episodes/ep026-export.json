@@ -1,0 +1,109 @@
+{
+ "id": "ep026-export",
+ "palette": "ocean",
+ "title": "Export up to 30 minutes. Free.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Export",
+    "*free.*"
+   ],
+   "sentences": [
+    "Export your cut, free.",
+    "Up to thirty minutes, for zero credits."
+   ],
+   "broll": "broll/ep026-export-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is how exports work.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "EXPORTS",
+   "items": [
+    {
+     "title": "Up to 30 min",
+     "sub": "One export"
+    },
+    {
+     "title": "No credits",
+     "sub": "Editing and exporting"
+    },
+    {
+     "title": "Your library",
+     "sub": "Where it lands"
+    }
+   ],
+   "sentences": [
+    "One export can be up to thirty minutes long.",
+    "Editing and exporting use no credits.",
+    "The export is saved to your library."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Nothing published",
+     "sub": "From an export"
+    }
+   ],
+   "sentences": [
+    "And nothing is published from it."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep026-export-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Cut it. Export it. Free.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

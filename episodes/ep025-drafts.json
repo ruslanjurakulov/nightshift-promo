@@ -1,0 +1,113 @@
+{
+ "id": "ep025-drafts",
+ "palette": "ember",
+ "title": "Unsaved edits are kept as a draft.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Closed the tab?",
+    "Your edit is *still* there."
+   ],
+   "sentences": [
+    "Closed the tab? Your edit is still there.",
+    "The editor kept a draft."
+   ],
+   "broll": "broll/ep025-drafts-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "The editor keeps a draft.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Drafts",
+   "items": [
+    {
+     "label": "1  KEPT",
+     "sub": "In this browser"
+    },
+    {
+     "label": "2  UP TO 14 DAYS",
+     "sub": "Offered back"
+    },
+    {
+     "label": "3  SAVE",
+     "sub": "Stays your button"
+    }
+   ],
+   "sentences": [
+    "Unsaved changes are kept as a draft in this browser.",
+    "For up to fourteen days, offered back when you reopen the project.",
+    "Saving stays your button."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Editing",
+     "sub": "No credits"
+    },
+    {
+     "title": "Exporting",
+     "sub": "No credits"
+    }
+   ],
+   "sentences": [
+    "And editing and exporting use no credits."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep025-drafts-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Edit free. Lose nothing.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

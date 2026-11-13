@@ -1,0 +1,109 @@
+{
+ "id": "ep035-planmonth",
+ "palette": "ember",
+ "title": "60 minutes a month: about 3,600 credits.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "A month of video,",
+    "*priced* up front."
+   ],
+   "sentences": [
+    "Plan a month of video, priced up front.",
+    "Here is the math."
+   ],
+   "broll": "broll/ep035-planmonth-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is the math for a month.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "THE RATE",
+   "items": [
+    {
+     "title": "60 credits",
+     "sub": "A minute of finished video"
+    },
+    {
+     "title": "60 minutes",
+     "sub": "About 3,600 credits"
+    }
+   ],
+   "sentences": [
+    "Sixty credits a minute of finished video.",
+    "So sixty minutes a month takes about three thousand six hundred credits."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "AND",
+   "items": [
+    {
+     "title": "Every run",
+     "sub": "Its own price on its button"
+    },
+    {
+     "title": "Minimum",
+     "sub": "30 credits a run"
+    }
+   ],
+   "sentences": [
+    "Every run still shows its own price on its button.",
+    "And no run is quoted below thirty credits."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "ALSO IN THE STUDIO",
+   "items": [
+    {
+     "title": "One piece at a time",
+     "sub": "Picture, clip or voice"
+    },
+    {
+     "title": "Editor",
+     "sub": "No credits"
+    }
+   ],
+   "sentences": [
+    "Need just one piece? The Studio makes it.",
+    "And the editor uses no credits."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep035-planmonth-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "Know the month before it starts.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "id": "ep010-clips",
+ "palette": "ember",
+ "title": "Short clips from text, or from a picture.",
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "Need one clip?",
+    "*Not* a whole video."
+   ],
+   "sentences": [
+    "Need a b-roll clip, without starting a whole video?",
+    "Here is how the Studio does it."
+   ],
+   "broll": "broll/ep010-clips-0.mp4"
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "The Studio makes short clips.",
+    "I work the night shift, so your channel does not have to."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Two ways",
+   "items": [
+    {
+     "label": "1  FROM TEXT",
+     "sub": "Describe the clip"
+    },
+    {
+     "label": "2  FROM A PICTURE",
+     "sub": "Animate one you made or uploaded"
+    }
+   ],
+   "sentences": [
+    "Make a short clip from text.",
+    "Or bring a still picture to life."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "THEN",
+   "items": [
+    {
+     "title": "Editor",
+     "sub": "Cut it together"
+    },
+    {
+     "title": "No credits",
+     "sub": "Editing and exporting"
+    }
+   ],
+   "sentences": [
+    "Then cut the pieces together in the editor.",
+    "Editing uses no credits."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "BEFORE ANYTHING STARTS",
+   "items": [
+    {
+     "title": "Price first",
+     "sub": "On the button"
+    },
+    {
+     "title": "Failed run",
+     "sub": "Costs nothing"
+    }
+   ],
+   "sentences": [
+    "You see the price before anything starts.",
+    "And a failed run costs nothing."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing airs until you say so.",
+   "button": "Approve",
+   "sign": "You decide  \u00b7  always",
+   "sentences": [
+    "Finished videos upload to YouTube as private.",
+    "You watch it first.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep010-clips-1.mp4"
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits",
+    "No card needed"
+   ],
+   "tagline": "One clip. Price on the button.",
+   "sentences": [
+    "One hundred free credits. No card needed.",
+    "Start free with one hundred credits at nightshift-ai dot studio.",
+    "We make the video. You press publish."
+   ]
+  }
+ ]
+}
