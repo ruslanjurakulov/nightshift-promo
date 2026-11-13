@@ -165,6 +165,25 @@ ADS = [
 ]
 
 
+# One cast and one set per ad, repeated prompt: shots are generated one by one, and without this
+# each one invents a different person and a different room, so the ad reads as unrelated clips glued together.
+ANCHOR = {
+ "nightshift": "Same young woman (short dark hair, oversized grey hoodie), same small city apartment with a desk by a big window, same city skyline outside.",
+ "price": "Same young man (curly hair, navy sweater), same dark home office with a wooden desk, one brass lamp and a glass jar, violet-and-amber light.",
+ "silkroad": "Same world: an ancient Silk Road city of blue-tiled domes in golden dusk light, warm dust, one traveller in a sand-coloured cloak.",
+ "airs": "Same world: a dark old theatre with red velvet curtains, one white owl, one young woman (long braid, black turtleneck) watching from the seats.",
+ "studio": "Same set: one creator's night studio with a long oak table, a big window on a lake, violet-and-amber lamp light; same pair of hands (silver ring).",
+ "languages": "Same traveller (young man, olive coat, leather backpack) walking through cities at night, same warm-lantern colour grade.",
+ "channels": "Same tall apartment building at night, same young woman (red scarf) as the operator in close shots, same owl on the roof.",
+ "noswap": "Same world: one small dark theatre, one singer (silhouette, long coat), one spotlight, one backstage corridor.",
+ "free": "Same young woman (curly hair, yellow cardigan), same cozy attic room with a round window, string lights, a wooden desk.",
+ "storyboard": "Same set: one film studio office with storyboards on the wall, one director (young man, cap, glasses), warm tungsten light.",
+ "editor": "Same set: one night editing room with a wooden desk, film reels, a turntable and neon tubes; same pair of hands (black watch).",
+ "styles": "Same set: one small art studio at night with white shelves, a work table and a lamp; same pair of hands (paint on fingers).",
+ "data": "Same set: one dark office with a steel safe, a wooden desk and a window on the city; same pair of hands (white shirt cuffs).",
+}
+
+
 def main():
     pp = os.path.join(ROOT, "queue", "plan.json"); old = json.load(open(pp))["episodes"]
     keep = [e for e in old if e["render"] == "stashed"]
@@ -182,7 +201,7 @@ def main():
         json.dump({"id": eid, "palette": pal, "title": title, "format": "cine", "scenes": scenes},
                   open(os.path.join(ROOT, "episodes", eid + ".json"), "w"), indent=1)
         prev = {c["key"]: c for e in old if e["id"] == eid for c in e["clips"]}
-        clips = [dict(key=f"{eid}-{k}", scene=k, prompt=pr + LOOK, status=prev.get(f"{eid}-{k}", {}).get("status", "todo"),
+        clips = [dict(key=f"{eid}-{k}", scene=k, prompt="Recurring cast and set of this ad (use only what the shot needs): " + ANCHOR[slug] + " Shot: " + pr + LOOK, status=prev.get(f"{eid}-{k}", {}).get("status", "todo"),
                       job_id=prev.get(f"{eid}-{k}", {}).get("job_id"), url=prev.get(f"{eid}-{k}", {}).get("url")) for k, (pr, _, _) in enumerate(shots)]
         plan.append(dict(id=eid, day=n + 1, title=title, palette=pal, format="cine", x_text=xtext,
                          facts=[{"page": p, "quote": q} for p, q in facts + TRY_FACTS],
