@@ -8,4 +8,5 @@ tmp=$(mktemp -d); git worktree add --detach "$tmp" >/dev/null 2>&1
   && cp "$here/.github/workflows/stash.yml" .github/workflows/ && cp "$here/$src" outbox/ \
   && git add -A && git commit -qm "stash $id for the queue release" && git push -q origin "stash/$id" )
 git worktree remove --force "$tmp"; git branch -D "stash/$id" >/dev/null 2>&1 || true
+rm -f "$src"   # never let a queued video reach main through a broad git add
 echo "pushed stash/$id"
