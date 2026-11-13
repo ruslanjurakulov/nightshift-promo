@@ -1,0 +1,9 @@
+{
+ "id": "ep006-topic",
+ "stage": "queued (rendered 2026-11-13, not yet published)",
+ "auto": "engine/qa_check.py passed (45.1 s, 3840x2160, 30 fps, -12.6 LUFS, peak -2.4 dBFS, saturation 0.577, 4 hues, 77.1 MB)",
+ "attempts": "ocean palette failed the hue check (3 hues); candy passed.",
+ "broll": "2 Higgsfield seedance_2_5 720p clips (hook, approve), labelled AI-GENERATED FOOTAGE on screen",
+ "facts": "all quotes in queue/plan.json found on the live site 2026-11-13 (tools/check_facts.py); re-checked on the publish day",
+ "rubric": "scored by the daily job on the publish day"
+}

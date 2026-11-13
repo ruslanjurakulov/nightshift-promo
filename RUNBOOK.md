@@ -19,7 +19,7 @@ Format is hybrid: Higgsfield makes silent footage (no text), our engine adds the
 claim still comes from the site. Footage is labelled "AI-GENERATED FOOTAGE" on screen while it shows.
 - `tools/make_queue.py` wrote `episodes/ep006..ep035` and `queue/plan.json` (per episode: facts with page+quote, X text, 2 clip prompts).
 - `tools/qstate.py` reads/updates the queue state (`summary`, `next`, `pending`, `ready`, `nextpublish`, ...).
-- Clips: Higgsfield `seedance_2_5`, 5 s, 720p, 16:9, `use_unlim: true` (the unlimited window covers 720p only and ends
+- Clips: Higgsfield `seedance_2_5` (or `seedance_2_0` with audio on when 2.5 answers 429; owner tip 2026-11-13), 5 s, 720p, 16:9, `use_unlim: true` (the unlimited window covers 720p only and ends
   2026-11-16 19:08 UTC; never spend credits on them). The account is rate-limited (429): submit one at a time; on 429 stop and try next run.
   After the window, `qstate.py expire`: a scene without a clip keeps the plain palette background. No paid or stock substitute.
 - Render: `python3 tools/prep_broll.py <id>` then `python3 engine/build.py work/<id>.json 2`, then `engine/qa_check.py`.

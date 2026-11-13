@@ -62,9 +62,9 @@
      "key": "ep006-topic-0",
      "scene": 0,
      "prompt": "A single glowing idea: a paper lantern lifting off a dark desk into a purple night sky over a city. Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces.",
-     "status": "todo",
-     "job_id": null,
-     "url": null
+     "status": "done",
+     "job_id": "fc9e3a1f-d97a-4b61-a367-6eb27d07f41e",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261113_195814_fc9e3a1f-d97a-4b61-a367-6eb27d07f41e.mp4"
     },
     {
      "key": "ep006-topic-1",
@@ -75,8 +75,8 @@
      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261113_192440_bc6653ab-d0c5-4880-95de-cbf7d0c1a020.mp4"
     }
    ],
-   "render": "todo",
-   "asset": null,
+   "render": "stashed",
+   "asset": "https://github.com/ruslanjurakulov/nightshift-promo/releases/download/queue/ep006-topic.mp4",
    "published": null
   },
   {
