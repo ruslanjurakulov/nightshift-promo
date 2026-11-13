@@ -1,0 +1,36 @@
+{
+ "id": "ep005-storyboard",
+ "palette": "candy",
+ "scenes": [
+  {"type": "hook", "lines": ["Read the plan", "*before* you pay."],
+   "sentences": ["Read the plan, before it is paid for."]},
+  {"type": "bubble", "big": "Hi, I'm Nox.", "small": "Your night-shift video editor.", "lock": true,
+   "sentences": ["Hi, I'm Nox.", "On Nightshift, a video starts with a topic, and a price you can see."]},
+  {"type": "steps", "topic": "Storyboard review",
+   "items": [
+    {"label": "1  SCRIPT", "sub": "Written from your topic"},
+    {"label": "2  SCENE PLAN", "sub": "Narration and visual, per scene"},
+    {"label": "3  STORYBOARD READY", "sub": "The run stops and waits for you"}
+   ],
+   "sentences": ["Switch on storyboard review for a channel.", "The run writes the script and the scene plan.", "Then it stops at storyboard ready, and waits for you.", "Nothing is rendered, and no render is charged, until you approve."]},
+  {"type": "chips", "header": "CHANGE THE PLAN",
+   "items": [
+    {"title": "Narration", "sub": "Edit what a scene says"},
+    {"title": "Visual", "sub": "Edit what a scene shows"},
+    {"title": "Move scenes", "sub": "Put them in any order"},
+    {"title": "Add or delete", "sub": "One scene at a time"}
+   ],
+   "sentences": ["Want changes? Edit a scene's narration.", "Or its visual description.", "Move scenes around.", "Delete one, or add one. Save, and the price updates."]},
+  {"type": "chips", "header": "YOUR CALL",
+   "items": [
+    {"title": "Approve", "sub": "Then it renders"},
+    {"title": "Discard", "sub": "Nothing rendered or charged"},
+    {"title": "Price changed?", "sub": "You are asked again before it starts"}
+   ],
+   "sentences": ["Happy with it? Approve and render, at the price on the button.", "Not happy? Discard it. Saying no costs nothing.", "And if the price changes in between, you are asked again."]},
+  {"type": "approve", "headline": "Nothing airs until you say so.", "button": "Approve", "sign": "You decide  ·  always",
+   "sentences": ["The finished video uploads to YouTube as private.", "You watch it first.", "Nothing goes public until you say so."]},
+  {"type": "cta", "pills": ["100 free credits", "No card needed"], "tagline": "Read the plan. Then decide.",
+   "sentences": ["Start free with one hundred credits at nightshift-ai dot studio."]}
+ ]
+}
