@@ -66,7 +66,7 @@ def _timing(sc, start, end):
         cues += [(t["badge"], "blip"), (t["click"], "click"), (t["sign"], "blip")]
     elif ty == "cta":
         n = len(sc.get("pills", [])); t["lock"] = round(start + 0.2, 3)
-        t["pills"] = [round(first + 0.3 + i * 0.4, 3) for i in range(n)]; t["url"] = round(S[-1]["start"] + 0.1, 3)
+        t["pills"] = [round(first + 0.3 + i * 0.4, 3) for i in range(n)]; t["url"] = round(S[min(1, len(S) - 1)]["start"] + 0.1, 3)   # the URL lands with the line that says it, not the last line
         cues += [(x, "blip") for x in t["pills"]] + [(t["url"], "pop")]
     else:
         raise ValueError("unknown scene type " + ty)

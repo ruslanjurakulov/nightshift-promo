@@ -5,7 +5,7 @@
    "id": "ep006-topic",
    "day": 1,
    "title": "One topic in. A finished YouTube video out.",
-   "palette": "ocean",
+   "palette": "candy",
    "x_text": "Give Nightshift one topic. It writes the script, the voice, the visuals and the captions, then waits for your OK. Uploads stay private until you say so. 100 free credits, no card: nightshift-ai.studio",
    "facts": [
     {
@@ -169,7 +169,7 @@
    "id": "ep008-freestart",
    "day": 3,
    "title": "100 free credits. No card.",
-   "palette": "candy",
+   "palette": "forest",
    "x_text": "Start Nightshift with 100 free credits, once, when you sign up. No card. That covers about one minute of finished video at 60 credits a minute. nightshift-ai.studio",
    "facts": [
     {
@@ -247,7 +247,7 @@
    "id": "ep009-images",
    "day": 4,
    "title": "Studio images, in the shape you need.",
-   "palette": "forest",
+   "palette": "ember",
    "x_text": "Need one picture, not a whole video? Nightshift's Studio makes images from a description in 16:9, 9:16 or square, then edits them by typing, upscales them or cuts them out. Priced on the button. nightshift-ai.studio",
    "facts": [
     {
@@ -333,7 +333,7 @@
    "id": "ep010-clips",
    "day": 5,
    "title": "Short clips from text, or from a picture.",
-   "palette": "ember",
+   "palette": "candy",
    "x_text": "Nightshift's Studio makes short video clips from text, or animates a picture you made or uploaded. Need a b-roll clip without starting a whole video? Price on the button. nightshift-ai.studio",
    "facts": [
     {
@@ -415,7 +415,7 @@
    "id": "ep011-voice",
    "day": 6,
    "title": "Narration in your channel's voice.",
-   "palette": "ocean",
+   "palette": "sunrise",
    "x_text": "Nightshift's Studio does text to speech in the voices your workspace has. One narration line, priced on the button, without starting a whole video. nightshift-ai.studio",
    "facts": [
     {
@@ -489,7 +489,7 @@
    "id": "ep012-styles",
    "day": 7,
    "title": "28 art directions. Or your own look.",
-   "palette": "sunrise",
+   "palette": "forest",
    "x_text": "Nightshift's Studio has 28 written art directions in its style library, or save your own look from 3-12 pictures. A style adds no credits. nightshift-ai.studio",
    "facts": [
     {
@@ -563,7 +563,7 @@
    "id": "ep013-characters",
    "day": 8,
    "title": "Keep a character under an @name.",
-   "palette": "candy",
+   "palette": "ember",
    "x_text": "In Nightshift's Studio you can keep a recurring character or product under an @name, so it comes back the same way. Priced on the button. nightshift-ai.studio",
    "facts": [
     {
@@ -633,7 +633,7 @@
    "id": "ep014-channelself",
    "day": 9,
    "title": "A channel that stays itself.",
-   "palette": "forest",
+   "palette": "candy",
    "x_text": "On Nightshift, language, voice, visual style and schedule are set per channel and never leak into another. Run one channel or several. nightshift-ai.studio",
    "facts": [
     {
@@ -703,7 +703,7 @@
    "id": "ep015-noswap",
    "day": 10,
    "title": "If the voice is down, the run stops.",
-   "palette": "ember",
+   "palette": "sunrise",
    "x_text": "Nightshift will not swap in a different voice or model when the chosen one is unavailable. The run stops and says why. No surprise substitutes. nightshift-ai.studio",
    "facts": [
     {
@@ -773,7 +773,7 @@
    "id": "ep016-confirmed",
    "day": 11,
    "title": "Only a channel YouTube confirmed is yours.",
-   "palette": "ocean",
+   "palette": "forest",
    "x_text": "Nightshift will not run a channel YouTube has not confirmed is yours. You connect your own channel through Google's consent screen, and it uploads only there. nightshift-ai.studio",
    "facts": [
     {
@@ -847,7 +847,7 @@
    "id": "ep017-publishcheck",
    "day": 12,
    "title": "Every video passes a publish check.",
-   "palette": "sunrise",
+   "palette": "ember",
    "x_text": "Every Nightshift video passes a publish check first, and the verdict is shown on the video's page: passed, or blocked and why. Then it waits as private for you. nightshift-ai.studio",
    "facts": [
     {
@@ -1003,7 +1003,7 @@
    "id": "ep019-languages",
    "day": 14,
    "title": "Uzbek, Russian and English.",
-   "palette": "forest",
+   "palette": "sunrise",
    "x_text": "Nightshift's app is in Uzbek, Russian and English, and each channel is set to one of the three for its videos. nightshift-ai.studio",
    "facts": [
     {
@@ -1073,7 +1073,7 @@
    "id": "ep020-analytics",
    "day": 15,
    "title": "Your channel's numbers, shown only to you.",
-   "palette": "ember",
+   "palette": "forest",
    "x_text": "Nightshift shows views and analytics for the channel you connect, read with the access you granted, shown only to you. Never used for advertising. nightshift-ai.studio",
    "facts": [
     {
@@ -1143,7 +1143,7 @@
    "id": "ep021-googledata",
    "day": 16,
    "title": "Your Google data, handled carefully.",
-   "palette": "ocean",
+   "palette": "ember",
    "x_text": "Nightshift uses your Google account only to upload to the channel you connect and show its analytics to you. Tokens are encrypted, never reach the browser, and you can revoke access any time. nightshift-ai.studio",
    "facts": [
     {
@@ -1217,7 +1217,7 @@
    "id": "ep022-history",
    "day": 17,
    "title": "Every hold, charge and return, on record.",
-   "palette": "sunrise",
+   "palette": "candy",
    "x_text": "On Nightshift every price shows before you start, and every hold, charge and return is in your organization's credit history. Nothing to ask for. nightshift-ai.studio",
    "facts": [
     {
@@ -1295,7 +1295,7 @@
    "id": "ep023-spendorder",
    "day": 18,
    "title": "Plan credits first. Then top-ups.",
-   "palette": "candy",
+   "palette": "sunrise",
    "x_text": "On Nightshift, plan credits are spent first, then top-up credits, soonest-expiring first. A run can keep going on top-up credits, and you can turn that off. nightshift-ai.studio",
    "facts": [
     {
@@ -1513,7 +1513,7 @@
    "id": "ep026-export",
    "day": 21,
    "title": "Export up to 30 minutes. Free.",
-   "palette": "ocean",
+   "palette": "candy",
    "x_text": "Nightshift's editor exports for free: one export can be up to 30 minutes long, it is saved to your library, and nothing is published from it. nightshift-ai.studio",
    "facts": [
     {
@@ -1673,7 +1673,7 @@
    "id": "ep028-thumbnail",
    "day": 23,
    "title": "A thumbnail brief with every plan.",
-   "palette": "candy",
+   "palette": "forest",
    "x_text": "Every Nightshift plan comes with a thumbnail brief: one clear subject, three words or fewer on the picture, high contrast with one warm accent. nightshift-ai.studio",
    "facts": [
     {
@@ -1751,7 +1751,7 @@
    "id": "ep029-multichannel",
    "day": 24,
    "title": "Run several channels. Keep the last word on each.",
-   "palette": "forest",
+   "palette": "ember",
    "x_text": "Nightshift is for people who run YouTube channels, often faceless ones, and want the videos made without handing over the publish button. Run one channel or several. nightshift-ai.studio",
    "facts": [
     {
@@ -1829,7 +1829,7 @@
    "id": "ep030-pricetwice",
    "day": 25,
    "title": "You confirm the price twice.",
-   "palette": "ember",
+   "palette": "candy",
    "x_text": "On Nightshift you see what a video costs before it starts, and confirm a second time. If the price changes in between, you are asked again. nightshift-ai.studio",
    "facts": [
     {
@@ -1899,7 +1899,7 @@
    "id": "ep031-developers",
    "day": 26,
    "title": "The same studio, from your own code.",
-   "palette": "ocean",
+   "palette": "sunrise",
    "x_text": "Nightshift for developers: start videos, read balances and fetch downloads from your own systems or an AI assistant. The API is a separate product with its own prepaid balance. nightshift-ai.studio",
    "facts": [
     {
@@ -1969,7 +1969,7 @@
    "id": "ep032-crossfade",
    "day": 27,
    "title": "Cross-fades and Fit or Fill, free.",
-   "palette": "sunrise",
+   "palette": "forest",
    "x_text": "Nightshift's editor blends one clip into the next for 0.2 to 2 seconds, and lets each clip Fit with bars or Fill the frame. Editing uses no credits. nightshift-ai.studio",
    "facts": [
     {
@@ -2043,7 +2043,7 @@
    "id": "ep033-parallel",
    "day": 28,
    "title": "More videos at once on bigger plans.",
-   "palette": "candy",
+   "palette": "ember",
    "x_text": "On Nightshift, Free runs 1 video at once, Plus 2, Pro 4 and Business 8, with a head start in the render queue on paid plans. Every run shows its price first. nightshift-ai.studio",
    "facts": [
     {
@@ -2113,7 +2113,7 @@
    "id": "ep034-pressed",
    "day": 29,
    "title": "Nothing starts until you press it.",
-   "palette": "forest",
+   "palette": "candy",
    "x_text": "Nightshift's Studio will not start a generation you have not pressed, and the press shows the price. If one fails, the credits return on their own. nightshift-ai.studio",
    "facts": [
     {
@@ -2187,7 +2187,7 @@
    "id": "ep035-planmonth",
    "day": 30,
    "title": "60 minutes a month: about 3,600 credits.",
-   "palette": "ember",
+   "palette": "sunrise",
    "x_text": "Planning a month on Nightshift? 60 minutes of finished video takes about 3,600 credits at 60 credits a minute. Every run still shows its own price first. nightshift-ai.studio",
    "facts": [
     {

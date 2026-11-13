@@ -10,7 +10,7 @@ import json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HOME, STUDIO, PRICING = "https://nightshift-ai.studio", "https://nightshift-ai.studio/studio", "https://nightshift-ai.studio/pricing"
 YT, CS = "https://nightshift-ai.studio/solutions/youtube-channels", "https://nightshift-ai.studio/solutions/creative-studio"
-PALS = ["ocean", "sunrise", "candy", "forest", "ember"]          # aurora left out: it failed the hue-spread check on ep005
+PALS = ["candy", "sunrise", "forest", "ember"]          # aurora (ep005) and ocean (ep006 test) failed the hue-spread check: too many blues
 STYLE = " Cinematic, slow camera, night-time mood, rich colour, shallow depth of field. No text, no letters, no logos, no screens with readable words, no faces."
 
 
