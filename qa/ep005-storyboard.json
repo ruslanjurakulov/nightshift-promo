@@ -1,0 +1,24 @@
+{
+ "id": "ep005-storyboard",
+ "auto": "engine/qa_check.py passed (51.5 s, 3840x2160, 30 fps, -12.6 LUFS, true peak -2.5 dBFS, no still stretch, saturation 0.61, 4 hues, 81.3 MB)",
+ "attempts": "first render (aurora palette) failed the auto gate on colour: only 2 hue bins (teal/blue/violet too close). Remade once with the candy palette, same script -> passed.",
+ "rubric": {
+  "hook": 4,
+  "pace": 4,
+  "message": 5,
+  "colour_energy": 4,
+  "offer_appeal": 4,
+  "technical": 4
+ },
+ "facts": "checked 2026-11-13 against nightshift-ai.studio/studio: 'Read the plan before anything is made' / 'lets you read the plan before it is paid for'; 'A video starts with a topic and a price you can see'; 'On a channel that asks for it, the run stops after the script and the scene plan and waits for you'; 'Switch it on for a channel and its runs stop at Storyboard ready. Nothing is rendered, and no render is charged, until you approve'; 'Edit a scene's narration or visual description, move scenes, delete one or add one. Save, and the price updates'; 'Approve and render ... The price is on the button'; 'Discard a storyboard and nothing is rendered or charged' / 'Saying no costs nothing'; 'If the price changes in between, you are asked again'; home page: 'Finished videos upload to YouTube as private'; 'Nothing goes public until you say so'; '100 free credits, once, when you sign up. No card.'",
+ "not_checked": "Audio not listened to by a human; pacing judged from a contact sheet (frame every 3 s) and scene timings. Storyboard review is per-channel opt-in; the video says 'Switch on storyboard review for a channel'. The video does not mention the 'Publish when approved' option; it uses the site's own wording 'Nothing goes public until you say so'.",
+ "caveat": "proxy for a viewer, not audience data",
+ "verdict": "pass (avg 4.17, no score <3, facts OK)",
+ "posted": {
+  "youtube": "https://www.youtube.com/watch?v=Phgq4ZnzpE0 (public; oEmbed answers 200)",
+  "instagram": "https://www.instagram.com/reel/DfqnAwPNMTj/",
+  "x": "https://x.com/i/status/2121074830048915779",
+  "telegram": "https://t.me/nightshiftaistudio via Actions run 43355619379 (success)"
+ },
+ "posted_at": "2026-11-13 ~03:00 UTC (~08:00 Asia/Samarkand)"
+}
