@@ -1,0 +1,10 @@
+{
+ "id": "ep036-nightshift",
+ "stage": "queued (rendered 2026-11-14, not yet published)",
+ "format": "cine",
+ "auto": "engine/qa_check.py --cine passed (30.8 s, 3840x2160, 30 fps, -13.0 LUFS, peak -2.7 dBFS, saturation 0.507, 7 hues, 63.0 MB)",
+ "attempts": "candy palette passed on the first render.",
+ "broll": "7 Higgsfield seedance_2_5 720p clips, labelled AI-GENERATED FOOTAGE on screen",
+ "facts": "quotes from queue/plan.json; re-checked on the publish day (tools/check_facts.py)",
+ "rubric": "scored by the daily job on the publish day"
+}

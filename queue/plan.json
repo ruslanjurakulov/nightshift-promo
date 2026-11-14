@@ -209,13 +209,13 @@
      "key": "ep036-nightshift-6",
      "scene": 6,
      "prompt": "CAST: Mira, 27, Central Asian features, short black bob with a few loose strands, small silver hoop earrings, oversized heather-grey hoodie with sleeves pushed up. SET: her small 9th-floor studio apartment, a wooden desk against a floor-to-ceiling window, a silver laptop and a matte black mug, a brass desk lamp, a low bed with white linen, a city skyline of glass towers outside. LIGHT PLAN: night = cool 5600K moonlight and city spill from the window, laptop glow as key, warm 2700K lamp as practical; dawn = low golden sun raking through the same window. PALETTE: deep teal shadows, magenta city bokeh, amber practicals. SHOT: Macro close-up of Mira's finger pressing one key on the laptop keyboard in morning light, 100mm macro, slow push. 0-2s: the finger hovers, dust motes in a sunbeam; 2-3s: the key goes down; 3-5s: a soft warm flare blooms from the edge of frame. Warm gold light, shallow focus. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
-     "status": "submitted",
+     "status": "done",
      "job_id": "fe5c8c1d-f74d-407a-a411-62370b446f55",
-     "url": null
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261114_011956_fe5c8c1d-f74d-407a-a411-62370b446f55.mp4"
     }
    ],
-   "render": "todo",
-   "asset": null,
+   "render": "stashed",
+   "asset": "https://github.com/ruslanjurakulov/nightshift-promo/releases/download/queue/ep036-nightshift.mp4",
    "published": null
   },
   {
@@ -296,8 +296,8 @@
      "key": "ep037-price-0",
      "scene": 0,
      "prompt": "CAST: Daniyar, 30, curly dark hair, short beard, navy cable-knit sweater, reading glasses pushed up. SET: a calm home office at night, walnut desk, one brass banker's lamp, a small clear glass jar, a stack of old gold coins, a window with rain. LIGHT PLAN: single warm 2700K lamp as key from screen left, cool rain light from the window as rim, deep falloff into black. PALETTE: amber, walnut brown, steel blue, gold highlights. SHOT: Close-up of a sealed cream envelope on the walnut desk under the brass lamp, 75mm, very slow push-in. 0-3s: rain shadows crawl across the envelope; 3-5s: Daniyar's hand enters, hesitates and does not open it. Tension, deep shadows. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
-     "status": "todo",
-     "job_id": null,
+     "status": "submitted",
+     "job_id": "dc87dde3-27f9-4ff8-9beb-48e0efd71c1f",
      "url": null
     },
     {
