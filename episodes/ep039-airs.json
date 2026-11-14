@@ -61,11 +61,11 @@
    "broll": "broll/ep039-airs-6.mp4"
   },
   {
-   "type": "try",
-   "topic": "How bread rises",
+   "type": "end",
+   "broll": "broll/ep039-airs-7.mp4",
+   "big": "Type your topic. See the plan.",
    "sentences": [
     "Type your own topic at nightshift-ai dot studio, and see the plan.",
-    "Nothing is generated, and nothing leaves your browser.",
     "One hundred free credits. No card."
    ]
   }

@@ -61,11 +61,11 @@
    "broll": "broll/ep045-storyboard-6.mp4"
   },
   {
-   "type": "try",
-   "topic": "How a lighthouse lens works",
+   "type": "end",
+   "broll": "broll/ep045-storyboard-7.mp4",
+   "big": "Type your topic. See the plan.",
    "sentences": [
     "Type your own topic at nightshift-ai dot studio, and see the plan.",
-    "Nothing is generated, and nothing leaves your browser.",
     "One hundred free credits. No card."
    ]
   }

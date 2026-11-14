@@ -16,9 +16,7 @@ PALS = ["candy", "sunrise", "forest", "ember"]
 LOOK = (" Cinematic commercial shot, anamorphic lens, shallow depth of field, smooth motivated camera move, "
         "rich night colour grade with warm highlights, premium advertising look. No readable text, no letters, no logos, no watermarks.")
 TOPICS = ["Why the Silk Road ran through Samarkand", "How a lighthouse lens works", "Why the Moon always shows the same face", "How bread rises"]
-TRY_FACTS = [(HOME, "Type a topic. See what the plan looks like."), (HOME, "Nothing is generated here and nothing leaves your browser"),
-             (HOME, "Working titles"), (HOME, "Script outline"), (HOME, "Shot list"), (HOME, "Thumbnail brief"),
-             (HOME, "100 free credits, once, when you sign up. No card.")] + [(HOME, t) for t in TOPICS]
+TRY_FACTS = [(HOME, "Type a topic. See what the plan looks like."), (HOME, "100 free credits, once, when you sign up. No card.")]   # the end card says only these
 
 # (slug, title, x_text, [(prompt, title-with-*accent*, spoken line) x7], facts)
 ADS = [
@@ -186,29 +184,35 @@ ANCHOR = {
 }
 
 
+REVIVE = {("ep037-price", 1)}   # prompt reworded after two nsfw rejections; try it again
+
+
 def main():
     pp = os.path.join(ROOT, "queue", "plan.json"); old = json.load(open(pp))["episodes"]
-    keep = [e for e in old if e["render"] == "stashed"]
+    keep = [e for e in old if e["render"] == "stashed" and e.get("format") != "cine"]
     for e in keep:
         e["published"] = e.get("published") or "superseded: owner asked for the cinematic format (2026-11-13); not published"
     plan = []
     for n, (slug, title, xtext, shots, facts) in enumerate(ADS):
         eid = f"ep{n + 36:03d}-{slug}"; pal = PALS[n % len(PALS)]; topic = TOPICS[n % len(TOPICS)]
         assert len(xtext) < 280 and "nightshift-ai.studio" in xtext and "https://" not in xtext, eid
+        done_ep = next((e for e in old if e["id"] == eid and (e["render"] == "stashed" or e.get("published"))), None)
+        if done_ep:          # already made or published: leave its files and state exactly as they are
+            plan.append(done_ep); continue
         scenes = [{"type": "shot", "big": big, "sentences": [line], "broll": f"broll/{eid}-{k}.mp4"} for k, (_, big, line) in enumerate(shots)]
-        scenes.append({"type": "try", "topic": topic, "sentences": [
+        scenes.append({"type": "end", "broll": f"broll/{eid}-7.mp4", "big": "Type your topic. See the plan.", "sentences": [
             "Type your own topic at nightshift-ai dot studio, and see the plan.",
-            "Nothing is generated, and nothing leaves your browser.",
             "One hundred free credits. No card."]})
         json.dump({"id": eid, "palette": pal, "title": title, "format": "cine", "scenes": scenes},
                   open(os.path.join(ROOT, "episodes", eid + ".json"), "w"), indent=1)
         prev = {c["key"]: c for e in old if e["id"] == eid for c in e["clips"]}
-        clips = [dict(key=f"{eid}-{k}", scene=k, prompt=cine_prompts.BIBLE[slug] + " SHOT: " + cine_prompts.SHOTS[slug][k] + " " + cine_prompts.FILM, status=prev.get(f"{eid}-{k}", {}).get("status", "todo"),
-                      job_id=prev.get(f"{eid}-{k}", {}).get("job_id"), url=prev.get(f"{eid}-{k}", {}).get("url")) for k, (pr, _, _) in enumerate(shots)]
+        o = next((e for e in old if e["id"] == eid), {})
+        clips = [dict(key=f"{eid}-{k}", scene=k, prompt=cine_prompts.BIBLE[slug] + " SHOT: " + (cine_prompts.SHOTS[slug] + [cine_prompts.END[slug]])[k] + " " + cine_prompts.FILM, status=("todo" if prev.get(f"{eid}-{k}", {}).get("status") == "skipped" and (eid, k) in REVIVE else prev.get(f"{eid}-{k}", {}).get("status", "todo")),
+                      job_id=prev.get(f"{eid}-{k}", {}).get("job_id"), url=prev.get(f"{eid}-{k}", {}).get("url"), **({"note": prev[f"{eid}-{k}"]["note"]} if prev.get(f"{eid}-{k}", {}).get("note") and not (eid, k) in REVIVE else {})) for k, (pr, _, _) in enumerate(shots + [("", "", "")])]
         plan.append(dict(id=eid, day=n + 1, title=title, palette=pal, format="cine", x_text=xtext,
                          facts=[{"page": p, "quote": q} for p, q in facts + TRY_FACTS],
-                         clips=clips, render="todo", asset=None, published=None))
-    json.dump({"note": "Cinematic queue (2026-11-13). 13 ads x 7 Higgsfield shots. See RUNBOOK.md 'Queue'. "
+                         clips=clips, render=o.get("render", "todo"), asset=o.get("asset"), published=o.get("published")))
+    json.dump({"note": "Cinematic queue (2026-11-13). 13 ads x 7 Higgsfield shots + 1 cinematic end shot (from ep037). See RUNBOOK.md 'Queue'. "
                        "status: todo -> submitted -> done | skipped; render: todo -> stashed | failed", "episodes": keep + plan},
               open(pp, "w"), indent=1)
     print("wrote", len(plan), "cinematic ads;", sum(len(e["clips"]) for e in plan), "clips")

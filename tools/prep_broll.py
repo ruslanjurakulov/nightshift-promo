@@ -13,6 +13,9 @@ for c in plan["clips"]:
     if c["status"] == "done" and c.get("url"):
         if not os.path.exists(dst): subprocess.run(["curl", "-sSL", "--fail", "-o", dst, c["url"]], check=True)
         sc["broll"] = f"broll/{c['key']}.mp4"
+    elif ep.get("format") == "cine" and sc["type"] == "shot":
+        sc["drop"] = True; print("no clip for", c["key"], "-> shot dropped (a cinematic ad never shows a plain-background shot)")
     else:
         sc.pop("broll", None); print("no clip for", c["key"], "-> plain background")
+ep["scenes"] = [sc for sc in ep["scenes"] if not sc.get("drop")]
 out = os.path.join(ROOT, "work", eid + ".json"); json.dump(ep, open(out, "w"), indent=1); print(out)

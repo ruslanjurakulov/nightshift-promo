@@ -71,6 +71,11 @@ def _timing(sc, start, end):
     elif ty == "shot":
         # cinematic format: one full-screen clip, one line of text, one line of voice
         t["in"] = round(start + 0.15, 3); cues.append((t["in"], "pop"))
+    elif ty == "end":
+        # cinematic last shot: the call to action is type over footage, no cards and no mascot
+        t["logo"] = round(start + 0.3, 3); t["big"] = round(first + 0.1, 3)
+        t["url"] = round(first + S[0]["dur"] * 0.55, 3); t["small"] = round(S[-1]["start"] + 0.1, 3)
+        cues += [(t["big"], "pop"), (t["url"], "ding")]
     elif ty == "try":
         # the site's own "type a topic, see the plan" box, typed out on screen: the ask is to go and try it
         t["type0"] = round(first + 0.2, 3); t["type1"] = round(t["type0"] + min(2.4, S[0]["dur"] * 0.8), 3)
@@ -91,7 +96,7 @@ def make_plan(ep, work):
         for text in sc["sentences"]:
             p = synth(text, model, vdir); d = _dur(p)
             sents.append(dict(start=round(cur, 3), dur=round(d, 3), path=p)); cur += d + 0.22
-        end = sents[-1]["start"] + sents[-1]["dur"] + (1.0 if sc["type"] == "shot" else 0.5)   # let the footage breathe after the line
+        end = sents[-1]["start"] + sents[-1]["dur"] + (1.0 if sc["type"] in ("shot", "end") else 0.5)   # let the footage breathe after the line
         s = dict(sc); s.update(start=round(start, 3), end=round(end, 3), sents=sents)
         s["t"], s["cues"] = _timing(s, start, end); scenes.append(s); t = end - 0.25
     total = round(scenes[-1]["end"] + 0.5, 2)

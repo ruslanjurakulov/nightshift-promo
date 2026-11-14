@@ -118,16 +118,16 @@ def broll_layer(t):
     """B-roll sits under the scene: dimmed and tinted toward the palette so the cards and Nox stay readable.
     Returns (frame, weight) for the scene active at t, or (None, 0)."""
     for sc in reversed(TL["scenes"]):            # the latest scene wins, so back-to-back shots hard-cut instead of dipping
-        if sc["type"] == "shot" and sc.get("broll") and sc["start"] <= t <= sc["end"]:
+        if sc["type"] in ("shot", "end") and sc.get("broll") and sc["start"] <= t <= sc["end"] + 0.6:
             c = CLIPS.get(sc["broll"]) or CLIPS.setdefault(sc["broll"], Clip(os.path.join(ROOT, sc["broll"]), sc["end"] - sc["start"] + 0.4))
             return c.get(max(0, int((t - sc["start"]) * FPS))), 1.0
-        if sc.get("broll") and sc["type"] != "shot" and sc["start"] - 0.3 <= t <= sc["end"]:
+        if sc.get("broll") and sc["type"] not in ("shot", "end") and sc["start"] - 0.3 <= t <= sc["end"]:
             w = eio(win(t, sc["start"] - 0.3, sc["start"] + 0.3)) * (1 - eio(win(t, sc["end"] - 0.4, sc["end"])))
             c = CLIPS.get(sc["broll"]) or CLIPS.setdefault(sc["broll"], Clip(os.path.join(ROOT, sc["broll"]), sc["end"] - sc["start"] + 0.4))
             return c.get(max(0, int((t - sc["start"] + 0.3) * FPS))), w
     return None, 0
 def SHOT_AT(t):
-    return any(sc["type"] == "shot" and sc["start"] - 0.1 <= t <= sc["end"] for sc in TL["scenes"])
+    return any(sc["type"] in ("shot", "end") and sc["start"] - 0.1 <= t <= sc["end"] + 0.6 for sc in TL["scenes"])
 _shade = None
 def shade(cv):
     """Bottom-up dark gradient so a title over bright footage still reads."""
@@ -381,6 +381,21 @@ def sc_shot(cv, D, t, a, sc):
         put(cv, l, x, y, p * a, color=ACC if h else WHITE, left=True); x += tw(l)
     if sc.get("sub"): put(cv, text_layer(sc["sub"], MEDF, 40), 960, 965, A(t, tt["in"] + 0.35, 0.4) * a, color=MUTED)
 
+def sc_end(cv, D, t, a, sc):
+    """Last shot: the brand and the ask in clean type over the footage. Upper-middle stays calm in the end-shot prompts."""
+    tt = sc["t"]; D2 = ImageDraw.Draw(cv, "RGBA")
+    veil = A(t, tt["logo"], 0.8) * a                                   # a soft darkening so white type reads on any sky
+    D2.rectangle([0, 0, W, H], fill=(0, 0, 0, int(95 * veil)))
+    put_lock(cv, 960, 250 + (1 - A(t, tt["logo"], 0.8)) * 20, 560, A(t, tt["logo"], 0.8) * a)
+    p = A(t, tt["big"], 0.5); b = back(win(t, tt["big"], tt["big"] + 0.5))
+    put(cv, text_layer(sc.get("big", "Type your topic. See the plan."), HEAD, 92), 960, 470 + (1 - b) * 40, p * a)
+    u = A(t, tt["url"], 0.5) * a
+    if u > 0.004:
+        l = text_layer("nightshift-ai.studio", HEAD, 62); w = tw(l) + 120
+        rr(D2, (960 - w / 2, 600 - 58, 960 + w / 2, 600 + 58), 58, fill=rgba(WHITE, 0.10 * u), outline=rgba(WHITE, 0.85 * u), w=3)
+        put(cv, l, 960, 600, u)
+    put(cv, text_layer("100 free credits  ·  No card", MEDF, 38), 960, 715, A(t, tt["small"], 0.5) * a, color=(230, 230, 240))
+
 def sc_try(cv, D, t, a, sc):
     tt = sc["t"]; topic = sc["topic"]
     label(cv, "TRY IT ON THE SITE  ·  NOTHING IS GENERATED", CXC, 215, A(t, sc["start"] + 0.2, 0.5) * a, 22)
@@ -400,18 +415,18 @@ def sc_try(cv, D, t, a, sc):
     put(cv, text_layer(sc.get("tagline", "Type your topic. See the plan. Free."), MEDF, 38), CXC, 905, A(t, tt["url"] + 0.4, 0.5) * a)
     pill(cv, D, CXC, 985, "100 free credits  ·  No card", A(t, tt["url"] + 0.8, 0.5) * a, 26, h=60)
 
-SCENES = dict(shot=sc_shot, hook=sc_hook, bubble=sc_bubble, steps=sc_steps, price=sc_price, fail=sc_fail, chips=sc_chips, approve=sc_approve, cta=sc_cta, **{"try": sc_try})
+SCENES = dict(shot=sc_shot, hook=sc_hook, bubble=sc_bubble, steps=sc_steps, price=sc_price, fail=sc_fail, chips=sc_chips, approve=sc_approve, cta=sc_cta, end=sc_end, **{"try": sc_try})
 
 
 def frame(t):
     cv = background(t); D = ImageDraw.Draw(cv, "RGBA")
-    for p in BOKEH:
+    for p in ([] if SHOT_AT(t) else BOKEH):          # graphic sparkles belong to the card scenes, not to filmed footage
         yy = (p["y"] - p["v"] * t) % 1080; tw_ = 0.55 + 0.45 * math.sin(t * 1.3 + p["ph"]); r = U(p["r"])
         cx, cy = U(p["x"] + 8 * math.sin(t * 0.4 + p["ph"])), U(yy)
         D.ellipse([cx - r, cy - r, cx + r, cy + r], fill=rgba(p["c"], p["a"] * tw_ * eio(win(t, 0, 0.8))))
     if not SHOT_AT(t): draw_owl(cv, D, t); eq_bars(cv, D, t)     # Nox steps aside while the footage tells the story
     for i, sc in enumerate(TL["scenes"]):
-        fi, fo = (0.12, 0.12) if sc["type"] == "shot" else (0.45, 0.3)     # cuts, not dissolves, between shots
+        fi, fo = (0.12, 0.12) if sc["type"] == "shot" else (0.25, 0.3) if sc["type"] == "end" else (0.45, 0.3)     # cuts, not dissolves, between shots
         a = eio(win(t, sc["start"], sc["start"] + fi)) * (1 - eio(win(t, sc["end"] - fo, sc["end"])))
         if i == 0: a = eio(win(t, 0.5, 1.0)) * (1 - eio(win(t, sc["end"] - 0.3, sc["end"])))
         if a > 0.004: SCENES[sc["type"]](cv, D, t, a, sc)

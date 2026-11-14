@@ -1,5 +1,5 @@
 {
- "note": "Cinematic queue (2026-11-13). 13 ads x 7 Higgsfield shots. See RUNBOOK.md 'Queue'. status: todo -> submitted -> done | skipped; render: todo -> stashed | failed",
+ "note": "Cinematic queue (2026-11-13). 13 ads x 7 Higgsfield shots + 1 cinematic end shot (from ep037). See RUNBOOK.md 'Queue'. status: todo -> submitted -> done | skipped; render: todo -> stashed | failed",
  "episodes": [
   {
    "id": "ep006-topic",
@@ -253,43 +253,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -304,11 +268,10 @@
     {
      "key": "ep037-price-1",
      "scene": 1,
-     "prompt": "CAST: Daniyar, 30, curly dark hair, short beard, navy cable-knit sweater, reading glasses pushed up. SET: a calm home office at night, walnut desk, one brass banker's lamp, a small clear glass jar, a stack of old gold coins, a window with rain. LIGHT PLAN: single warm 2700K lamp as key from screen left, cool rain light from the window as rim, deep falloff into black. PALETTE: amber, walnut brown, steel blue, gold highlights. SHOT: Medium close-up of Daniyar at the desk, 50mm, slow arc around him. 0-2s: he looks down at a single softly glowing round button set into the desk; 2-4s: his finger hovers above it, steady; 4-5s: a small calm nod, he understands. Warm lamp key, rain rim light. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
-     "status": "skipped",
+     "prompt": "CAST: Daniyar, 30, curly dark hair, short beard, navy cable-knit sweater, reading glasses pushed up. SET: a calm home office at night, walnut desk, one brass banker's lamp, a small clear glass jar, a stack of old gold coins, a window with rain. LIGHT PLAN: single warm 2700K lamp as key from screen left, cool rain light from the window as rim, deep falloff into black. PALETTE: amber, walnut brown, steel blue, gold highlights. SHOT: Medium close-up of Daniyar at the walnut desk, 50mm, slow arc around him. 0-2s: he looks at a small polished brass desk bell glowing in the lamp light; 2-4s: he rests his hand calmly on the desk beside it; 4-5s: a small relaxed nod. Warm lamp key, rain rim light. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
      "job_id": "8d02341a-6ba5-473d-91fe-46e74daed537",
-     "url": null,
-     "note": "provider returned nsfw twice (e2a78139..., 8d02341a...) on a harmless prompt; skipped 2026-11-14, scene keeps plain background unless owner rewrites the prompt and sets it back to todo"
+     "url": null
     },
     {
      "key": "ep037-price-2",
@@ -346,6 +309,14 @@
      "key": "ep037-price-6",
      "scene": 6,
      "prompt": "CAST: Daniyar, 30, curly dark hair, short beard, navy cable-knit sweater, reading glasses pushed up. SET: a calm home office at night, walnut desk, one brass banker's lamp, a small clear glass jar, a stack of old gold coins, a window with rain. LIGHT PLAN: single warm 2700K lamp as key from screen left, cool rain light from the window as rim, deep falloff into black. PALETTE: amber, walnut brown, steel blue, gold highlights. SHOT: Medium shot of Daniyar leaning back in his chair by the rainy window, 40mm, slow pull-back. 0-3s: he takes off his glasses and smiles; 3-5s: the room feels warm and settled, rain glittering outside. Amber and steel blue. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep037-price-7",
+     "scene": 7,
+     "prompt": "CAST: Daniyar, 30, curly dark hair, short beard, navy cable-knit sweater, reading glasses pushed up. SET: a calm home office at night, walnut desk, one brass banker's lamp, a small clear glass jar, a stack of old gold coins, a window with rain. LIGHT PLAN: single warm 2700K lamp as key from screen left, cool rain light from the window as rim, deep falloff into black. PALETTE: amber, walnut brown, steel blue, gold highlights. SHOT: Wide shot of Daniyar's home office as the rain stops, 32mm, slow pull-back. 0-5s: he stands at the window with a cup of tea, the glass jar of gold coins glowing on the desk, clouds parting over the city; open dark sky in the upper half. Calm, settled. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
      "status": "todo",
      "job_id": null,
      "url": null
@@ -393,43 +364,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -488,6 +423,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep038-silkroad-7",
+     "scene": 7,
+     "prompt": "WORLD: the Silk Road at its height, a caravan of Bactrian camels with woven saddle blankets, a traveller in a sand-coloured hooded cloak with an indigo sash, the city of Samarkand with the turquoise-tiled domes and mosaic portals of the Registan. LIGHT PLAN: golden hour turning to dusk, sun low and behind, long shadows, warm dust hanging in the air, first lanterns igniting. PALETTE: saffron gold, turquoise, terracotta, deep indigo sky. SHOT: Extreme wide aerial at blue hour, 24mm, slow rise. 0-5s: the caravan rests outside the walls of Samarkand, lanterns glowing along the walls, the turquoise domes lit, a vast deep-indigo sky with the first stars filling the upper half. Epic and serene. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -528,43 +471,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -623,6 +530,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep039-airs-7",
+     "scene": 7,
+     "prompt": "WORLD: an empty 19th-century theatre at night, red velvet curtain with gold fringe, dust drifting in a single follow spot, rows of worn red seats. CAST: Lola, 25, long dark braid, black turtleneck, sitting alone in row five; a white snowy owl perched on the edge of the balcony. LIGHT PLAN: one hard tungsten follow spot, everything else falling to black, gentle haze. PALETTE: crimson, gold, black, warm white. SHOT: Wide shot from the stage looking out at the theatre, 24mm, slow push-in. 0-5s: warm stage light washes over the empty red seats, Lola stands in row five smiling, the white owl glides across the balcony; dark ornate ceiling fills the upper half. Triumphant, quiet. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -667,43 +582,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -762,6 +641,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep040-studio-7",
+     "scene": 7,
+     "prompt": "SET: a creator's studio at night on the shore of a still lake, long oak work table, floor-to-ceiling window over the water, tools and paper prints on the table. HANDS: the same pair of hands throughout, slim, a thin silver ring on the right index finger, cream knit sleeve cuffs. LIGHT PLAN: blue hour outside, warm 3000K practical lamps inside, reflections on the glass. PALETTE: dusk blue, peach, cream, soft violet. SHOT: Wide shot of the lake studio at night from the water, 35mm, slow drift. 0-5s: the studio's tall windows glow warm, the hot air balloon drifts high above, reflections doubling everything on the still lake; open night sky in the upper half. Dreamy. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -790,43 +677,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -885,6 +736,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep041-languages-7",
+     "scene": 7,
+     "prompt": "CAST: Timur, 28, short dark hair, light stubble, olive wool coat, worn brown leather backpack; he is a traveller walking through three cities in one night. LIGHT PLAN: each city lit by its own practicals (lanterns, street lamps, neon) but one shared grade. PALETTE: warm amber practicals against deep blue night, wet reflections. SHOT: Extreme wide aerial at sunrise over Samarkand's domes, 24mm, slow forward glide. 0-5s: Timur stands small on a terrace, golden light spilling across turquoise tiles, three paper lanterns still drifting high in a soft pink sky that fills the upper half. Warm, open. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -917,43 +776,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -1012,6 +835,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep042-channels-7",
+     "scene": 7,
+     "prompt": "SET: one tall modernist apartment block at night with a grid of identical windows, seen from across a quiet street; inside one corner apartment, the operator. CAST: Aziza, 32, red wool scarf, hair in a low bun, calm and focused; a white owl on the roof parapet. LIGHT PLAN: windows glow warm 3200K, street in cool sodium and moonlight, light haze. PALETTE: warm window amber in a blue-black grid. SHOT: Wide shot of the apartment block at dawn from across the street, 35mm, slow rise. 0-5s: every window glows gold in the first sunlight, Aziza on her balcony, the white owl lifting off the roof into a pale sky that fills the upper half. Confident. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -1040,43 +871,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -1135,6 +930,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep043-noswap-7",
+     "scene": 7,
+     "prompt": "WORLD: a small black-box theatre, one singer: tall silhouette in a long charcoal coat, short hair, always seen from behind or in profile, never a clear face; one hard spotlight; a narrow backstage corridor with a steel door. LIGHT PLAN: single hard spot, haze, deep shadows, one red exit light. PALETTE: black, cold white, one accent of red. SHOT: Wide shot from the back of the theatre, 28mm, slow push-in. 0-5s: the singer stands in a warm full spotlight, silhouette from behind, arms slightly open, haze glowing; deep black above them in the upper half. Strong, resolved. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -1167,43 +970,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -1262,6 +1029,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep044-free-7",
+     "scene": 7,
+     "prompt": "CAST: Nodira, 24, curly shoulder-length hair, mustard-yellow cardigan over a white tee, warm and curious. SET: a cozy attic room with a round window, warm string lights, a wooden desk, a small wrapped gift box with a cream ribbon. LIGHT PLAN: warm 2700K string lights and desk lamp, blue night through the round window; dawn = pink-gold light through the same window. PALETTE: honey, cream, rose, night blue. SHOT: Wide shot of the attic at sunrise, 28mm, slow pull-back. 0-5s: Nodira sits by the open round window with the laptop on her knees (screen not visible), pink-gold light, string lights still glowing; soft open sky through the window fills the upper half. Fresh start. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -1302,43 +1077,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -1397,6 +1136,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep045-storyboard-7",
+     "scene": 7,
+     "prompt": "SET: a film director's office at night, a cork wall of hand-drawn storyboard panels, a wooden table, a vintage clapperboard, a 16mm projector. CAST: Sardor, 34, director, flat cap, round glasses, rolled-up denim shirt sleeves. LIGHT PLAN: warm tungsten desk lamp key, cool window fill, projector beam in haze. PALETTE: tungsten amber, ink black, paper cream, cyan beam. SHOT: Wide shot of the director's office, 28mm, slow push-in. 0-5s: the 16mm projector throws a big warm moving light onto the wall above Sardor, who leans back in his chair watching; the bright projected wall fills the upper half. Satisfied. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -1441,43 +1188,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -1536,6 +1247,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep046-editor-7",
+     "scene": 7,
+     "prompt": "SET: a night editing room, wooden desk, analogue film reels and a splicer, a turntable with a vinyl record, a few neon tubes on the wall. HANDS: the same pair of hands throughout, black leather watch strap, dark sweater cuffs. LIGHT PLAN: neon magenta and cyan rims, warm desk lamp key, deep shadows. PALETTE: magenta, cyan, warm amber, black. SHOT: Wide shot of the editing room, 28mm, slow pull-back. 0-5s: neon magenta and cyan glow, reels spinning, the vinyl turning, the hands lean back from the desk; dark wall with soft neon haze in the upper half. Cool, finished. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -1568,43 +1287,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -1663,6 +1346,14 @@
      "status": "todo",
      "job_id": null,
      "url": null
+    },
+    {
+     "key": "ep047-styles-7",
+     "scene": 7,
+     "prompt": "SET: a small art studio at night, white shelves with three identical white ceramic vases, a paint-stained work table, a clay figure on a pottery wheel, a desk lamp. HANDS: the same pair of hands throughout, paint on the fingertips, rolled linen sleeves. LIGHT PLAN: soft window-like key from the left, coloured accent lights on the vases, gentle falloff. PALETTE: off-white, terracotta, cobalt, saffron. SHOT: Wide shot of the art studio, 28mm, slow pull-back. 0-5s: the finished artworks in one consistent cobalt-and-saffron style line the walls, the three vases glow in their colours; calm empty wall space fills the upper half. Proud. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
     }
    ],
    "render": "todo",
@@ -1699,43 +1390,7 @@
     },
     {
      "page": "https://nightshift-ai.studio",
-     "quote": "Nothing is generated here and nothing leaves your browser"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Working titles"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Script outline"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Shot list"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Thumbnail brief"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
      "quote": "100 free credits, once, when you sign up. No card."
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Silk Road ran through Samarkand"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How a lighthouse lens works"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "Why the Moon always shows the same face"
-    },
-    {
-     "page": "https://nightshift-ai.studio",
-     "quote": "How bread rises"
     }
    ],
    "clips": [
@@ -1791,6 +1446,14 @@
      "key": "ep048-data-6",
      "scene": 6,
      "prompt": "SET: a quiet private office at night, a dark walnut desk, a heavy steel safe with a brass dial, a tall window on a sleeping city. HANDS: the same pair of hands throughout, crisp white shirt cuffs, a simple steel watch. LIGHT PLAN: cool moonlight from the window as key, one warm green-shaded banker's lamp as practical. PALETTE: steel blue, deep green, brass, black. SHOT: Macro of the hands turning the key back and pulling it out of the lock, 100mm. 0-5s: calm, deliberate, the brass catching the green lamp. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
+     "status": "todo",
+     "job_id": null,
+     "url": null
+    },
+    {
+     "key": "ep048-data-7",
+     "scene": 7,
+     "prompt": "SET: a quiet private office at night, a dark walnut desk, a heavy steel safe with a brass dial, a tall window on a sleeping city. HANDS: the same pair of hands throughout, crisp white shirt cuffs, a simple steel watch. LIGHT PLAN: cool moonlight from the window as key, one warm green-shaded banker's lamp as practical. PALETTE: steel blue, deep green, brass, black. SHOT: Wide shot of the private office from behind the desk, 28mm, slow push toward the window. 0-5s: the safe closed, the green lamp glowing, the sleeping city calm under moonlight; wide night sky in the upper half. Safe, quiet. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 5-second take, no cuts inside the shot, no on-screen text, no logos.",
      "status": "todo",
      "job_id": null,
      "url": null

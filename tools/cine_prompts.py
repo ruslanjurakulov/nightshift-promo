@@ -37,7 +37,7 @@ SHOTS = {
  ],
  "price": [
   "Close-up of a sealed cream envelope on the walnut desk under the brass lamp, 75mm, very slow push-in. 0-3s: rain shadows crawl across the envelope; 3-5s: Daniyar's hand enters, hesitates and does not open it. Tension, deep shadows.",
-  "Medium close-up of Daniyar at the desk, 50mm, slow arc around him. 0-2s: he looks down at a single softly glowing round button set into the desk; 2-4s: his finger hovers above it, steady; 4-5s: a small calm nod, he understands. Warm lamp key, rain rim light.",
+  "Medium close-up of Daniyar at the walnut desk, 50mm, slow arc around him. 0-2s: he looks at a small polished brass desk bell glowing in the lamp light; 2-4s: he rests his hand calmly on the desk beside it; 4-5s: a small relaxed nod. Warm lamp key, rain rim light.",   # reworded: the first version was rejected twice as nsfw
   "Close-up of an antique brass hourglass on the desk, 85mm, locked off. 0-5s: fine golden sand pours through the neck in slow motion, each grain catching the lamp light; rain-soaked window bokeh behind.",
   "Top-down close-up of the small clear glass jar on the walnut desk, 65mm, slow lowering crane. 0-5s: Daniyar's fingers place gold coins one by one into the jar, each landing with a gentle bounce, slow motion, warm reflections in the glass.",
   "Low-angle close-up of a line of wooden dominoes on the desk, 40mm, slow dolly along the line. 0-3s: the dominoes topple toward camera; 3-5s: the run stops dead, one domino stays standing. Hard warm side light, long shadows.",
@@ -143,4 +143,22 @@ SHOTS = {
   "Wide shot of rooftop billboards over the night city, 28mm, slow pan. 0-5s: the billboards (blank, no letters) switch off one by one, leaving only moonlight.",
   "Macro of the hands turning the key back and pulling it out of the lock, 100mm. 0-5s: calm, deliberate, the brass catching the green lamp.",
  ],
+}
+
+# The last shot of each ad (owner, 2026-11-14: "it starts cinematic and ends as the old plain card"). The call to action
+# is laid over this footage in clean type, so every end shot keeps calm negative space in the upper-middle of the frame.
+END = {
+ "nightshift": "Wide shot of Mira's apartment in full morning light, 28mm, slow pull-back from the window. 0-5s: she sits at the desk with the black mug, laptop open (screen not visible), the glass towers glowing gold outside; soft open sky fills the upper half of the frame. Hopeful, warm.",
+ "price": "Wide shot of Daniyar's home office as the rain stops, 32mm, slow pull-back. 0-5s: he stands at the window with a cup of tea, the glass jar of gold coins glowing on the desk, clouds parting over the city; open dark sky in the upper half. Calm, settled.",
+ "silkroad": "Extreme wide aerial at blue hour, 24mm, slow rise. 0-5s: the caravan rests outside the walls of Samarkand, lanterns glowing along the walls, the turquoise domes lit, a vast deep-indigo sky with the first stars filling the upper half. Epic and serene.",
+ "airs": "Wide shot from the stage looking out at the theatre, 24mm, slow push-in. 0-5s: warm stage light washes over the empty red seats, Lola stands in row five smiling, the white owl glides across the balcony; dark ornate ceiling fills the upper half. Triumphant, quiet.",
+ "studio": "Wide shot of the lake studio at night from the water, 35mm, slow drift. 0-5s: the studio's tall windows glow warm, the hot air balloon drifts high above, reflections doubling everything on the still lake; open night sky in the upper half. Dreamy.",
+ "languages": "Extreme wide aerial at sunrise over Samarkand's domes, 24mm, slow forward glide. 0-5s: Timur stands small on a terrace, golden light spilling across turquoise tiles, three paper lanterns still drifting high in a soft pink sky that fills the upper half. Warm, open.",
+ "channels": "Wide shot of the apartment block at dawn from across the street, 35mm, slow rise. 0-5s: every window glows gold in the first sunlight, Aziza on her balcony, the white owl lifting off the roof into a pale sky that fills the upper half. Confident.",
+ "noswap": "Wide shot from the back of the theatre, 28mm, slow push-in. 0-5s: the singer stands in a warm full spotlight, silhouette from behind, arms slightly open, haze glowing; deep black above them in the upper half. Strong, resolved.",
+ "free": "Wide shot of the attic at sunrise, 28mm, slow pull-back. 0-5s: Nodira sits by the open round window with the laptop on her knees (screen not visible), pink-gold light, string lights still glowing; soft open sky through the window fills the upper half. Fresh start.",
+ "storyboard": "Wide shot of the director's office, 28mm, slow push-in. 0-5s: the 16mm projector throws a big warm moving light onto the wall above Sardor, who leans back in his chair watching; the bright projected wall fills the upper half. Satisfied.",
+ "editor": "Wide shot of the editing room, 28mm, slow pull-back. 0-5s: neon magenta and cyan glow, reels spinning, the vinyl turning, the hands lean back from the desk; dark wall with soft neon haze in the upper half. Cool, finished.",
+ "styles": "Wide shot of the art studio, 28mm, slow pull-back. 0-5s: the finished artworks in one consistent cobalt-and-saffron style line the walls, the three vases glow in their colours; calm empty wall space fills the upper half. Proud.",
+ "data": "Wide shot of the private office from behind the desk, 28mm, slow push toward the window. 0-5s: the safe closed, the green lamp glowing, the sleeping city calm under moonlight; wide night sky in the upper half. Safe, quiet.",
 }
