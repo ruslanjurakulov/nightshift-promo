@@ -51,4 +51,5 @@ quoted from the site (facts[] in queue/plan.json). Captions end with a question 
 - `tools/make_cine2.py`: ep049+ (60 ads), each a creator world (lighthouse keeper, night baker, ...) x an angle (topic, price, private, ...), 8 shots + end shot, two spoken lines per shot, 54-64 s.
 - **Clip duration comes from the clip: `qstate.py next` prints `duration` (8 for ep049+). Use it in generate_video, not a fixed 5.**
 - While a clip is generating, render ready episodes, so Higgsfield is never idle.
+- One-minute 4K renders are ~130 MB; GitHub refuses pushed files over 100 MB. `tools/stash.sh` re-encodes anything over 95 MB (libx264 11 Mbps, 4K 30 fps, audio copied) and re-runs qa_check before storing (owner OK 2026-11-14).
 - ep037-ep048 (short first-wave format) are dropped; ep036 was published.
