@@ -1,0 +1,88 @@
+{
+ "id": "ep080-bakery-storyboard",
+ "palette": "candy",
+ "title": "Read the plan before anything is made.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Read the *plan*.",
+   "sentences": [
+    "Read the plan,",
+    "The script and the scene plan come first."
+   ],
+   "broll": "broll/ep080-bakery-storyboard-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Before it's *made*.",
+   "sentences": [
+    "before anything is made.",
+    "Nothing is rendered yet."
+   ],
+   "broll": "broll/ep080-bakery-storyboard-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Storyboard *ready*.",
+   "sentences": [
+    "On a channel that asks for it, the run stops at storyboard ready.",
+    "It stops, and waits for you."
+   ],
+   "broll": "broll/ep080-bakery-storyboard-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Change any *scene*.",
+   "sentences": [
+    "Edit a scene's narration or visual. Move it, add one, or delete one.",
+    "Your words. Your shots."
+   ],
+   "broll": "broll/ep080-bakery-storyboard-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "The price *updates*.",
+   "sentences": [
+    "Save, and the price updates.",
+    "You see the new price before you go on."
+   ],
+   "broll": "broll/ep080-bakery-storyboard-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "No? It costs *nothing*.",
+   "sentences": [
+    "Discard it, and nothing is rendered or charged.",
+    "Saying no costs nothing."
+   ],
+   "broll": "broll/ep080-bakery-storyboard-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Yes? *Render*.",
+   "sentences": [
+    "Approve, and it renders.",
+    "No render is charged until you approve."
+   ],
+   "broll": "broll/ep080-bakery-storyboard-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep080-bakery-storyboard-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

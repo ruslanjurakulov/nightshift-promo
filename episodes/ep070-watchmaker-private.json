@@ -1,0 +1,88 @@
+{
+ "id": "ep070-watchmaker-private",
+ "palette": "forest",
+ "title": "Uploads stay private. You decide.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Who *publishes?*",
+   "sentences": [
+    "Who presses publish?",
+    "You do."
+   ],
+   "broll": "broll/ep070-watchmaker-private-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Uploads as *private*.",
+   "sentences": [
+    "Every finished video uploads to YouTube as private.",
+    "Only you, and the people you share it with, can watch it."
+   ],
+   "broll": "broll/ep070-watchmaker-private-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Publish check *first*.",
+   "sentences": [
+    "It passes a publish check first.",
+    "Every video, every time."
+   ],
+   "broll": "broll/ep070-watchmaker-private-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Passed, or *blocked and why*.",
+   "sentences": [
+    "The verdict is on the video's page: passed, or blocked and why.",
+    "So you know where it stands."
+   ],
+   "broll": "broll/ep070-watchmaker-private-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Auto-publish: *off*.",
+   "sentences": [
+    "Auto-publish stays off unless you turn it on.",
+    "And so does Publish when approved. Both are switches per channel."
+   ],
+   "broll": "broll/ep070-watchmaker-private-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "You *watch* it.",
+   "sentences": [
+    "You watch it first.",
+    "Then you record your decision in the app."
+   ],
+   "broll": "broll/ep070-watchmaker-private-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*You* decide.",
+   "sentences": [
+    "Going public is your decision.",
+    "Nothing goes public until you say so."
+   ],
+   "broll": "broll/ep070-watchmaker-private-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep070-watchmaker-private-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

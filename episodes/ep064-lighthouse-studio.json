@@ -1,0 +1,88 @@
+{
+ "id": "ep064-lighthouse-studio",
+ "palette": "candy",
+ "title": "One picture, one clip, one voice-over. Priced on the button.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Just *one* piece?",
+   "sentences": [
+    "Need just one piece?",
+    "Not a whole video."
+   ],
+   "broll": "broll/ep064-lighthouse-studio-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "A *picture*.",
+   "sentences": [
+    "A picture,",
+    "From a description, in the shape you need."
+   ],
+   "broll": "broll/ep064-lighthouse-studio-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "A *clip*.",
+   "sentences": [
+    "a clip,",
+    "From text, or from a picture you made."
+   ],
+   "broll": "broll/ep064-lighthouse-studio-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "A *voice-over*.",
+   "sentences": [
+    "or a voice-over.",
+    "Text to speech, in your workspace's voices."
+   ],
+   "broll": "broll/ep064-lighthouse-studio-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Price on the *button*.",
+   "sentences": [
+    "Each one shows its price on its button.",
+    "The press shows the price."
+   ],
+   "broll": "broll/ep064-lighthouse-studio-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Failed? Credits *return*.",
+   "sentences": [
+    "If a generation fails, its credits return on their own.",
+    "Nothing to ask for."
+   ],
+   "broll": "broll/ep064-lighthouse-studio-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Edit it *free*.",
+   "sentences": [
+    "Then edit it in the editor, for no credits.",
+    "Trim, split, add text and music."
+   ],
+   "broll": "broll/ep064-lighthouse-studio-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep064-lighthouse-studio-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "ep067-teacher-data",
+ "palette": "ember",
+ "title": "Your Google data, only for your channel.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Your *data*.",
+   "sentences": [
+    "Your Google data.",
+    "Here is what Nightshift does with it."
+   ],
+   "broll": "broll/ep067-teacher-data-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Only for *your* channel.",
+   "sentences": [
+    "Used only to upload to the channel you connect,",
+    "And nowhere else."
+   ],
+   "broll": "broll/ep067-teacher-data-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Your *numbers*, for you.",
+   "sentences": [
+    "and to show you its analytics.",
+    "Shown only to you."
+   ],
+   "broll": "broll/ep067-teacher-data-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*Encrypted.*",
+   "sentences": [
+    "Access tokens are encrypted,",
+    "Locked away."
+   ],
+   "broll": "broll/ep067-teacher-data-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Never in the *browser*.",
+   "sentences": [
+    "and never reach the browser.",
+    "They stay out of your browser."
+   ],
+   "broll": "broll/ep067-teacher-data-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*Never* for ads.",
+   "sentences": [
+    "Never used for advertising.",
+    "Not for advertising."
+   ],
+   "broll": "broll/ep067-teacher-data-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Revoke *any time*.",
+   "sentences": [
+    "Revoke access any time.",
+    "In your Google account."
+   ],
+   "broll": "broll/ep067-teacher-data-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep067-teacher-data-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

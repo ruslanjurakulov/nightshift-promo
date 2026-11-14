@@ -96,7 +96,7 @@ def make_plan(ep, work):
         for text in sc["sentences"]:
             p = synth(text, model, vdir); d = _dur(p)
             sents.append(dict(start=round(cur, 3), dur=round(d, 3), path=p)); cur += d + 0.22
-        end = sents[-1]["start"] + sents[-1]["dur"] + (1.0 if sc["type"] in ("shot", "end") else 0.5)   # let the footage breathe after the line
+        end = sents[-1]["start"] + sents[-1]["dur"] + (sc.get("hold", 1.0) if sc["type"] in ("shot", "end") else 0.5)   # let the footage breathe after the line
         s = dict(sc); s.update(start=round(start, 3), end=round(end, 3), sents=sents)
         s["t"], s["cues"] = _timing(s, start, end); scenes.append(s); t = end - 0.25
     total = round(scenes[-1]["end"] + 0.5, 2)

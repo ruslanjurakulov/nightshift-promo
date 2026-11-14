@@ -1,0 +1,88 @@
+{
+ "id": "ep059-pottery-topic",
+ "palette": "ember",
+ "title": "One topic. A finished video. You press publish.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Up all *night*?",
+   "sentences": [
+    "Up all night again?",
+    "Type a line, or let your channel pick its next topic."
+   ],
+   "broll": "broll/ep059-pottery-topic-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Give it *one* topic.",
+   "sentences": [
+    "Give Nightshift one topic.",
+    "One run, from topic to finished video."
+   ],
+   "broll": "broll/ep059-pottery-topic-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Script. Voice. *Visuals.*",
+   "sentences": [
+    "It writes the script, the voice and the visuals,",
+    "Made for the length you choose."
+   ],
+   "broll": "broll/ep059-pottery-topic-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "And the *captions*.",
+   "sentences": [
+    "and the captions.",
+    "In your channel's voice, in its language."
+   ],
+   "broll": "broll/ep059-pottery-topic-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "It waits for *your* OK.",
+   "sentences": [
+    "Then it waits for your OK.",
+    "Nothing goes out without you."
+   ],
+   "broll": "broll/ep059-pottery-topic-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Private until *you* say so.",
+   "sentences": [
+    "Finished videos upload as private, until you say so.",
+    "And it passes a publish check first."
+   ],
+   "broll": "broll/ep059-pottery-topic-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*You* press publish.",
+   "sentences": [
+    "You press publish.",
+    "We make the video. You press publish."
+   ],
+   "broll": "broll/ep059-pottery-topic-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep059-pottery-topic-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

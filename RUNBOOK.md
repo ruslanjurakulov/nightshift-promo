@@ -45,3 +45,10 @@ The plain b-roll episodes were judged not engaging. The queue is now 13 cinemati
 7 full-screen Higgsfield shots, each with one big title and one spoken line, then the site's own "type a topic, see the plan"
 box typed on screen as the call to action (interactive: it sends people to try the site). ~30 s. Every title and line is
 quoted from the site (facts[] in queue/plan.json). Captions end with a question to invite comments. ep006 (plain) is superseded, not published.
+
+### One-minute format and full-speed production (owner, 2026-11-14)
+- Owner: nobody else uses Higgsfield until the unlimited window ends; make as many ads as possible, nonstop. And each video about a minute or longer, never very short.
+- `tools/make_cine2.py`: ep049+ (60 ads), each a creator world (lighthouse keeper, night baker, ...) x an angle (topic, price, private, ...), 8 shots + end shot, two spoken lines per shot, 54-64 s.
+- **Clip duration comes from the clip: `qstate.py next` prints `duration` (8 for ep049+). Use it in generate_video, not a fixed 5.**
+- While a clip is generating, render ready episodes, so Higgsfield is never idle.
+- ep037-ep048 (short first-wave format) are dropped; ep036 was published.

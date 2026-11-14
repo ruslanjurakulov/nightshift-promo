@@ -14,7 +14,7 @@ P = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "q
 d = json.load(open(P)); eps = d["episodes"]; cmd = sys.argv[1]
 clips = [c for e in eps for c in e["clips"]]
 if cmd == "next":
-    c = next((c for c in clips if c["status"] == "todo"), None); print(json.dumps(c and {"key": c["key"], "prompt": c["prompt"]}))
+    c = next((c for c in clips if c["status"] == "todo"), None); print(json.dumps(c and {"key": c["key"], "duration": c.get("duration", 5), "prompt": c["prompt"]}))
 elif cmd == "pending":
     for c in clips:
         if c["status"] == "submitted": print(c["key"], c["job_id"])

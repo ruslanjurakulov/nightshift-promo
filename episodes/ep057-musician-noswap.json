@@ -1,0 +1,88 @@
+{
+ "id": "ep057-musician-noswap",
+ "palette": "sunrise",
+ "title": "Your voice, or no video.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*Your* voice.",
+   "sentences": [
+    "You chose the voice.",
+    "For a reason."
+   ],
+   "broll": "broll/ep057-musician-noswap-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*Unavailable?*",
+   "sentences": [
+    "What if it is unavailable?",
+    "It happens."
+   ],
+   "broll": "broll/ep057-musician-noswap-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "No *swap*.",
+   "sentences": [
+    "Nightshift will not swap in a different voice or model.",
+    "No quiet substitute."
+   ],
+   "broll": "broll/ep057-musician-noswap-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "The run *stops*.",
+   "sentences": [
+    "The run stops,",
+    "Nothing goes out in a voice you did not choose."
+   ],
+   "broll": "broll/ep057-musician-noswap-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "...and says *why*.",
+   "sentences": [
+    "and says why.",
+    "So you know what to fix."
+   ],
+   "broll": "broll/ep057-musician-noswap-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Credits *come back*.",
+   "sentences": [
+    "If a run fails, the credits come back on their own.",
+    "You do not need to ask."
+   ],
+   "broll": "broll/ep057-musician-noswap-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Your voice, or *no video*.",
+   "sentences": [
+    "Your voice, or no video.",
+    "That is the promise."
+   ],
+   "broll": "broll/ep057-musician-noswap-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep057-musician-noswap-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

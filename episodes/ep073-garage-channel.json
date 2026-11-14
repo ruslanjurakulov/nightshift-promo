@@ -1,0 +1,88 @@
+{
+ "id": "ep073-garage-channel",
+ "palette": "sunrise",
+ "title": "Every channel keeps its own voice.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*Your* channel.",
+   "sentences": [
+    "Your channel.",
+    "Faceless or not."
+   ],
+   "broll": "broll/ep073-garage-channel-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Its own *language*.",
+   "sentences": [
+    "Its own language,",
+    "Uzbek, Russian or English."
+   ],
+   "broll": "broll/ep073-garage-channel-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Its own *voice*.",
+   "sentences": [
+    "its own voice,",
+    "The narrator speaks as your channel."
+   ],
+   "broll": "broll/ep073-garage-channel-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Its own *style*.",
+   "sentences": [
+    "its own visual style,",
+    "Your channel's look, in every video."
+   ],
+   "broll": "broll/ep073-garage-channel-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Its own *schedule*.",
+   "sentences": [
+    "and its own schedule.",
+    "When it posts is set per channel."
+   ],
+   "broll": "broll/ep073-garage-channel-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Never *mixed*.",
+   "sentences": [
+    "Set per channel, and never leaking into another.",
+    "Nothing leaks from one channel into another."
+   ],
+   "broll": "broll/ep073-garage-channel-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Uzbek. Russian. *English.*",
+   "sentences": [
+    "In Uzbek, Russian or English.",
+    "The app speaks all three, too."
+   ],
+   "broll": "broll/ep073-garage-channel-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep073-garage-channel-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

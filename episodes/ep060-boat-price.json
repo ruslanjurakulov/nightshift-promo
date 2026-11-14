@@ -1,0 +1,88 @@
+{
+ "id": "ep060-boat-price",
+ "palette": "candy",
+ "title": "See the price first. A failed run costs nothing.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "What will it *cost?*",
+   "sentences": [
+    "What will it cost?",
+    "No guessing, no surprises."
+   ],
+   "broll": "broll/ep060-boat-price-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "The price comes *first*.",
+   "sentences": [
+    "The price is on the button before anything starts.",
+    "You see it before you press start."
+   ],
+   "broll": "broll/ep060-boat-price-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "60 credits a *minute*.",
+   "sentences": [
+    "Sixty credits a minute of finished video.",
+    "A five minute video is quoted at three hundred credits."
+   ],
+   "broll": "broll/ep060-boat-price-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Held when it *starts*.",
+   "sentences": [
+    "The credits are held when the run starts.",
+    "Set aside, so it is not spent on anything else."
+   ],
+   "broll": "broll/ep060-boat-price-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Never more than the *quote*.",
+   "sentences": [
+    "You never pay more than the quote.",
+    "You are charged for what it actually used."
+   ],
+   "broll": "broll/ep060-boat-price-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Failed? *Nothing* to pay.",
+   "sentences": [
+    "A failed run costs nothing.",
+    "Every held credit comes back on its own."
+   ],
+   "broll": "broll/ep060-boat-price-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Pay for what you *make*.",
+   "sentences": [
+    "Pay for what you make. Never for a failure.",
+    "Every hold, charge and return is in your credit history."
+   ],
+   "broll": "broll/ep060-boat-price-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep060-boat-price-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

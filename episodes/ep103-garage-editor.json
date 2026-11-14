@@ -1,0 +1,88 @@
+{
+ "id": "ep103-garage-editor",
+ "palette": "ember",
+ "title": "Edit for zero credits.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Your *cut*.",
+   "sentences": [
+    "Your cut.",
+    "In the editor, it is yours."
+   ],
+   "broll": "broll/ep103-garage-editor-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Trim. *Split.*",
+   "sentences": [
+    "Trim and split.",
+    "At the playhead, one frame at a time."
+   ],
+   "broll": "broll/ep103-garage-editor-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Text on *screen*.",
+   "sentences": [
+    "Put text on screen.",
+    "At the top, the middle or the bottom."
+   ],
+   "broll": "broll/ep103-garage-editor-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Music and *sound*.",
+   "sentences": [
+    "Add music and sound.",
+    "Music lowered under speech."
+   ],
+   "broll": "broll/ep103-garage-editor-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "0.5x to *2x*.",
+   "sentences": [
+    "Change the speed, from half to double.",
+    "Point five to two times."
+   ],
+   "broll": "broll/ep103-garage-editor-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "9:16. 16:9. *1:1.*",
+   "sentences": [
+    "Vertical, wide or square.",
+    "Vertical suits Shorts and Reels."
+   ],
+   "broll": "broll/ep103-garage-editor-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*Zero* credits.",
+   "sentences": [
+    "Editing and exporting use no credits.",
+    "Exports land in your library."
+   ],
+   "broll": "broll/ep103-garage-editor-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep103-garage-editor-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}

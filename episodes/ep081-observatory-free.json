@@ -1,0 +1,88 @@
+{
+ "id": "ep081-observatory-free",
+ "palette": "sunrise",
+ "title": "100 free credits. No card.",
+ "format": "cine",
+ "scenes": [
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*Curious?*",
+   "sentences": [
+    "Curious?",
+    "Try Nightshift free."
+   ],
+   "broll": "broll/ep081-observatory-free-0.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*100* free credits.",
+   "sentences": [
+    "One hundred free credits, once, when you sign up.",
+    "Welcome credits, once."
+   ],
+   "broll": "broll/ep081-observatory-free-1.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "*No* card.",
+   "sentences": [
+    "No card.",
+    "Nothing to enter but your email."
+   ],
+   "broll": "broll/ep081-observatory-free-2.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Just your *email*.",
+   "sentences": [
+    "You sign up with your email.",
+    "That is all it takes."
+   ],
+   "broll": "broll/ep081-observatory-free-3.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "About *1 minute* of video.",
+   "sentences": [
+    "That covers about one minute of finished video.",
+    "At sixty credits a minute."
+   ],
+   "broll": "broll/ep081-observatory-free-4.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Pay only when *you* choose.",
+   "sentences": [
+    "You pay only when you pick a plan or a pack.",
+    "Plans and credit packs are your choice."
+   ],
+   "broll": "broll/ep081-observatory-free-5.mp4"
+  },
+  {
+   "type": "shot",
+   "hold": 3.2,
+   "big": "Start *tonight*.",
+   "sentences": [
+    "Start tonight.",
+    "Your first video starts with one topic."
+   ],
+   "broll": "broll/ep081-observatory-free-6.mp4"
+  },
+  {
+   "type": "end",
+   "hold": 2.5,
+   "broll": "broll/ep081-observatory-free-7.mp4",
+   "big": "Type your topic. See the plan.",
+   "sentences": [
+    "Type your own topic at nightshift-ai dot studio, and see the plan.",
+    "One hundred free credits. No card."
+   ]
+  }
+ ]
+}
