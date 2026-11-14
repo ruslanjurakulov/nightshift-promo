@@ -1,0 +1,10 @@
+{
+ "id": "ep049-lighthouse-topic",
+ "stage": "stashed 2026-11-14 (queue producer)",
+ "format": "cine",
+ "auto": "engine/qa_check.py --cine passed (59.43 s, 3840x2160, 30 fps, -13.5 LUFS, peak -2.5 dBFS, saturation 0.344, 5 hues, 81.1 MB after re-encode)",
+ "attempts": "sunrise palette passed on the first render.",
+ "broll": "Higgsfield seedance_2_5 720p 8 s clips, labelled AI-GENERATED FOOTAGE on screen",
+ "not_checked": "Contact-sheet rubric, live fact re-check and listening are left to the daily publish job.",
+ "reencode": "Engine output was 136 MB; GitHub rejects files over 100 MB on the stash branch, so it was re-encoded with ffmpeg libx264 -b:v 11M (audio copied, still 4K 30 fps) and qa_check --cine passed again."
+}
