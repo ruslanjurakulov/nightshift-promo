@@ -1,10 +1,20 @@
 {
  "id": "ep036-nightshift",
- "stage": "queued (rendered 2026-11-14, not yet published)",
+ "stage": "published 2026-11-14",
  "format": "cine",
  "auto": "engine/qa_check.py --cine passed (30.8 s, 3840x2160, 30 fps, -13.0 LUFS, peak -2.7 dBFS, saturation 0.507, 7 hues, 63.0 MB)",
  "attempts": "candy palette passed on the first render.",
  "broll": "7 Higgsfield seedance_2_5 720p clips, labelled AI-GENERATED FOOTAGE on screen",
- "facts": "quotes from queue/plan.json; re-checked on the publish day (tools/check_facts.py)",
- "rubric": "scored by the daily job on the publish day"
+ "facts": "tools/check_facts.py re-read nightshift-ai.studio on 2026-11-14: all 17 quotes present after one rewording. The site changed 'then waits for your OK' to 'Let Nightshift make your channel's next video and wait for your OK'; the video's line 'Then it waits for your OK' states the same claim, so the plan quote was updated to 'and wait for your OK' (no number or feature changed). Other lines: 'Nightshift writes the script, the voice, the visuals and the captions'; 'Finished videos upload to YouTube as private'; 'Nothing goes public until you say so'; 'You press publish.'; 'Type a topic. See what the plan looks like.'; 'Nothing is generated here and nothing leaves your browser'; '100 free credits, once, when you sign up. No card.'",
+ "rubric": {
+  "hook": 4,
+  "pace": 4,
+  "message": 5,
+  "colour_energy": 4,
+  "offer_appeal": 4,
+  "technical": 5
+ },
+ "not_checked": "Audio not heard by a human; pacing judged from a contact sheet (frame every 3 s) and a 2 s hook strip. Palette is candy, the same as yesterday's ep005: it was pre-rendered in the queue, and in the cinematic format the palette only shows on the final try-card.",
+ "caveat": "proxy for a viewer, not audience data",
+ "verdict": "pass (avg 4.33, no score <3, facts OK)"
 }
