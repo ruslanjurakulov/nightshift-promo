@@ -1,0 +1,9 @@
+{
+ "id": "ep050-bakery-price",
+ "stage": "stashed 2026-11-14 (queue producer)",
+ "format": "cine",
+ "auto": "engine/qa_check.py --cine passed on the engine output (63.16 s, 3840x2160, 30 fps, peak -2.5 dBFS, saturation 0.495); tools/stash.sh re-encoded it under 95 MB and qa_check passed again before storing",
+ "attempts": "forest palette passed on the first render.",
+ "broll": "Higgsfield seedance_2_5 720p 8 s clips, labelled AI-GENERATED FOOTAGE on screen",
+ "not_checked": "Contact-sheet rubric, live fact re-check and listening are left to the daily publish job."
+}

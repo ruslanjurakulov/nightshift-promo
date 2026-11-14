@@ -1724,13 +1724,13 @@
      "scene": 7,
      "duration": 8,
      "prompt": "CAST: Bekzod, 35, flour-dusted dark apron over a white tee, short beard, runs a channel about bread. SET: a small night bakery with a stone oven, a wooden kneading table, linen-covered proofing baskets, a laptop on a shelf. LIGHT PLAN: night = warm oven glow and one hanging bulb, blue street light through the window; dawn = soft gold through the front glass. PALETTE: wheat gold, fire orange, flour white, night blue. SHOT: Wide shot of the bakery front at sunrise from the street, 28mm, slow pull-back. 0-8s: warm windows, loaves stacked, the first customers arriving; clear morning sky over the rooftops in the upper half. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 8-second take, no cuts inside the shot, no on-screen text, no logos.",
-     "status": "submitted",
+     "status": "done",
      "job_id": "ef9696fd-8242-4088-a023-f8cda8c6bd81",
-     "url": null
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261114_181142_ef9696fd-8242-4088-a023-f8cda8c6bd81.mp4"
     }
    ],
-   "render": "todo",
-   "asset": null,
+   "render": "stashed",
+   "asset": "https://github.com/ruslanjurakulov/nightshift-promo/releases/download/queue/ep050-bakery-price.mp4",
    "published": null
   },
   {
@@ -1788,17 +1788,17 @@
      "scene": 0,
      "duration": 8,
      "prompt": "CAST: Malika, 29, round glasses, burgundy knit beanie, oversized denim jacket, runs a channel about the night sky. SET: a small rooftop observatory with a brass telescope, star charts pinned to wood panels, a laptop on a folding table, a thermos. LIGHT PLAN: deep blue moonlight, red astronomer's headlamp as practical, faint city glow on the horizon; dawn = lavender to gold. PALETTE: indigo, moon silver, brass, red accent. SHOT: Medium close-up of Malika at the folding table at 2 a.m., 50mm, slow push-in. 0-5s: she yawns, her red headlamp lighting her breath in the cold; 5-8s: the laptop glow on her tired face, the telescope behind her. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 8-second take, no cuts inside the shot, no on-screen text, no logos.",
-     "status": "todo",
-     "job_id": null,
-     "url": null
+     "status": "done",
+     "job_id": "3c1f664c-bd3e-4005-8fe6-0ee621f71c48",
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261114_212013_3c1f664c-bd3e-4005-8fe6-0ee621f71c48.mp4"
     },
     {
      "key": "ep051-observatory-private-1",
      "scene": 1,
      "duration": 8,
      "prompt": "CAST: Malika, 29, round glasses, burgundy knit beanie, oversized denim jacket, runs a channel about the night sky. SET: a small rooftop observatory with a brass telescope, star charts pinned to wood panels, a laptop on a folding table, a thermos. LIGHT PLAN: deep blue moonlight, red astronomer's headlamp as practical, faint city glow on the horizon; dawn = lavender to gold. PALETTE: indigo, moon silver, brass, red accent. SHOT: Close-up of Malika's gloved hands on the laptop, 65mm. 0-5s: she types one short line (screen not visible); 5-8s: she closes it and pulls her beanie down, smiling. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 8-second take, no cuts inside the shot, no on-screen text, no logos.",
-     "status": "todo",
-     "job_id": null,
+     "status": "submitted",
+     "job_id": "b3f584b8-ded5-4278-8920-f8104edd6edc",
      "url": null
     },
     {
