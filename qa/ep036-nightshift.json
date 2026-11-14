@@ -16,5 +16,12 @@
  },
  "not_checked": "Audio not heard by a human; pacing judged from a contact sheet (frame every 3 s) and a 2 s hook strip. Palette is candy, the same as yesterday's ep005: it was pre-rendered in the queue, and in the cinematic format the palette only shows on the final try-card.",
  "caveat": "proxy for a viewer, not audience data",
- "verdict": "pass (avg 4.33, no score <3, facts OK)"
+ "verdict": "pass (avg 4.33, no score <3, facts OK)",
+ "posted": {
+  "youtube": "https://www.youtube.com/watch?v=mMP0-UviAxM (public; oEmbed answers 200)",
+  "instagram": "https://www.instagram.com/reel/DftKGq1BPhD/ (@nightshift_ai.studio; succeeded on vidIQ's 2nd internal attempt)",
+  "x": "https://x.com/i/status/2121433331908669680",
+  "telegram": "https://t.me/nightshiftaistudio via Actions run 43547692864 (success)"
+ },
+ "posted_at": "2026-11-14 ~02:45 UTC (~07:45 Asia/Samarkand)"
 }
