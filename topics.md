@@ -15,6 +15,7 @@
 - ~~Storyboard review~~ (ep005)  · Thumbnail brief & working titles  · Image / clip / voice / upscale / cut-out tools
 
 ## Run log (not published; does not consume a topic)
+- 2026-11-15 producer pass (after ep049 publish): ep052 clip 6 collected (done); clip 7 submitted (job a45997aa), still queued at Higgsfield after ~16 min, left as `submitted` for the next run. No episode ready to render. X/Telegram text changed from the plan's 'made with Nightshift' to 'with Nightshift' (footage not made in the app).
 - 2026-11-14 producer pass (after ep036 publish): ep037-price-1 flagged `nsfw` by Higgsfield a second time on the same prompt (job 8d02341a); a concurrent session set it to `skipped` (kept). ep037-price-2 submitted (job abc7ef65). ep036 publish-day fact check: site reworded 'then waits for your OK' to '...and wait for your OK'; quote updated, claim unchanged.
 - 2026-11-14 (Asia/Samarkand): ep006-topic blocked before rendering. Seedance 2.5 unlimited request returned `429 rate_limit_reached`; stopped per RUNBOOK, with no paid fallback or platform posts. Queue remains 2/60 clips and 0/30 stashed videos. Selected ocean instead of yesterday's candy. See `qa/ep006-topic.json`.
 - 2026-11-14 owner-requested retry: MCP balance confirmed unlimited access after a transient connection failure, but Seedance 2.5 (720p, 5 s, use_unlim=true) again returned `429 rate_limit_reached`. No job ID, render, or publication. This does not establish the status of concurrent Claude requests.
