@@ -5,6 +5,20 @@
  "auto": "engine/qa_check.py --cine passed (59.43 s, 3840x2160, 30 fps, -13.5 LUFS, peak -2.5 dBFS, saturation 0.344, 5 hues, 81.1 MB after re-encode)",
  "attempts": "sunrise palette passed on the first render.",
  "broll": "Higgsfield seedance_2_5 720p 8 s clips, labelled AI-GENERATED FOOTAGE on screen",
- "not_checked": "Contact-sheet rubric, live fact re-check and listening are left to the daily publish job.",
- "reencode": "Engine output was 136 MB; GitHub rejects files over 100 MB on the stash branch, so it was re-encoded with ffmpeg libx264 -b:v 11M (audio copied, still 4K 30 fps) and qa_check --cine passed again."
+ "not_checked": "Narration was not listened to by ear (no audio playback here); only loudness/peak/silence measured. No audience data; this is not a performance prediction.",
+ "reencode": "Engine output was 136 MB; GitHub rejects files over 100 MB on the stash branch, so it was re-encoded with ffmpeg libx264 -b:v 11M (audio copied, still 4K 30 fps) and qa_check --cine passed again.",
+ "publish_day": "2026-11-15",
+ "auto_publish_day": "engine/qa_check.py --cine re-run on the downloaded release asset: passed (59.43 s, 3840x2160, 30 fps, -13.5 LUFS, peak -2.5 dBFS, sat 0.344, 5 hues, 81.1 MB)",
+ "scores": {
+  "hook": 4,
+  "pace": 4,
+  "one_message": 5,
+  "colour_energy": 4,
+  "offer_appeal": 4,
+  "technical": 5
+ },
+ "average": 4.33,
+ "facts": "OK. tools/check_facts.py passed; live home page read 2026-11-15: 'Type a line, or let your channel pick its next topic from its niche. Nightshift writes the script, the voice, the visuals and the captions.' / 'Narrator Your channel's voice, in its language.' / 'Let Nightshift make your channel's next video and wait for your OK' / 'Finished videos upload to YouTube as private and pass a publish check first. Nothing goes public until you say so.' / 'We make the video. You press publish.' / 'Type a topic. See what the plan looks like.' / '100 free credits, once, when you sign up. No card.' 'Made for the length you choose' from /solutions/youtube-channels via check_facts.",
+ "notes": "Contact sheet (frame every 3 s) reviewed: title readable from ~0.5 s, AI-GENERATED FOOTAGE label present, end card shows site + 100 free credits/No card. Shots hold ~7 s but footage moves throughout, so pace scored 4 not 5.",
+ "verdict": "pass"
 }
