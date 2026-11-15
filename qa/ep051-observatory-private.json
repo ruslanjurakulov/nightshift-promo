@@ -1,0 +1,9 @@
+{
+ "id": "ep051-observatory-private",
+ "stage": "stashed 2026-11-15 (queue producer)",
+ "format": "cine",
+ "auto": "engine/qa_check.py --cine passed on the engine output (62.0 s, 3840x2160, 30 fps, peak -2.6 dBFS, saturation 0.498); tools/stash.sh re-encoded it under 95 MB and qa_check passed again before storing",
+ "attempts": "ember palette passed on the first render.",
+ "broll": "Higgsfield seedance_2_5 720p 8 s clips, labelled AI-GENERATED FOOTAGE on screen",
+ "not_checked": "Contact-sheet rubric, live fact re-check and listening are left to the daily publish job."
+}
