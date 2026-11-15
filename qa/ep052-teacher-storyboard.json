@@ -1,0 +1,9 @@
+{
+ "id": "ep052-teacher-storyboard",
+ "stage": "stashed 2026-11-15 (queue producer)",
+ "format": "cine",
+ "auto": "engine/qa_check.py --cine passed on the engine output (61.95 s, 3840x2160, 30 fps, -12.9 LUFS, peak -2.5 dBFS, saturation 0.417, 4 hues); tools/stash.sh re-encoded it under 95 MB and qa_check passed again before storing",
+ "attempts": "candy palette passed on the first render.",
+ "broll": "Higgsfield seedance_2_5 720p 8 s clips, labelled AI-GENERATED FOOTAGE on screen",
+ "not_checked": "Contact-sheet rubric, live fact re-check and listening are left to the daily publish job."
+}

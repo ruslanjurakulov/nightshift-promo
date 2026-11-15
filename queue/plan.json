@@ -1983,8 +1983,8 @@
      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261115_024347_a45997aa-b42a-4e31-9886-0a95bdbbdb7f.mp4"
     }
    ],
-   "render": "todo",
-   "asset": null,
+   "render": "stashed",
+   "asset": "https://github.com/ruslanjurakulov/nightshift-promo/releases/download/queue/ep052-teacher-storyboard.mp4",
    "published": null
   },
   {
@@ -2030,17 +2030,17 @@
      "scene": 0,
      "duration": 8,
      "prompt": "CAST: Dilnoza, 33, white chef's jacket with rolled sleeves, hair under a black bandana, runs a cooking channel. SET: a small restaurant kitchen after closing, steel counters, copper pans on hooks, a gas range, a laptop beside a cutting board. LIGHT PLAN: night = single warm pendant over the pass, blue flame glow, dark dining room; dawn = clean white light through a back window. PALETTE: copper, steel, flame blue, herb green. SHOT: Medium close-up of Dilnoza at the steel counter after midnight, 50mm, slow push-in. 0-5s: she leans on the counter, exhausted, the pendant light above; 5-8s: the laptop glow beside the cutting board. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 8-second take, no cuts inside the shot, no on-screen text, no logos.",
-     "status": "submitted",
+     "status": "done",
      "job_id": "4f19804e-266d-47bf-8f25-3c69f782ab1c",
-     "url": null
+     "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3IhmPbEwO3AiEmBdUBKbzNK21MR/hf_20261115_031006_4f19804e-266d-47bf-8f25-3c69f782ab1c.mp4"
     },
     {
      "key": "ep053-chef-free-1",
      "scene": 1,
      "duration": 8,
      "prompt": "CAST: Dilnoza, 33, white chef's jacket with rolled sleeves, hair under a black bandana, runs a cooking channel. SET: a small restaurant kitchen after closing, steel counters, copper pans on hooks, a gas range, a laptop beside a cutting board. LIGHT PLAN: night = single warm pendant over the pass, blue flame glow, dark dining room; dawn = clean white light through a back window. PALETTE: copper, steel, flame blue, herb green. SHOT: Close-up of Dilnoza's hands on the laptop, 65mm. 0-5s: she types one short line (screen not visible); 5-8s: she closes it and unties her bandana. Shot on ARRI Alexa 35 with Cooke anamorphic lenses, 2.39 feel inside a 16:9 frame, natural film grain, soft halation on highlights, real practical light sources, photoreal, high-end commercial cinematography, one continuous 8-second take, no cuts inside the shot, no on-screen text, no logos.",
-     "status": "todo",
-     "job_id": null,
+     "status": "submitted",
+     "job_id": "a8bf22bf-9827-46b4-8526-873dc1c1913a",
      "url": null
     },
     {
