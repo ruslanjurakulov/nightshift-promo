@@ -20,5 +20,13 @@
  "average": 4.33,
  "facts": "OK. tools/check_facts.py passed; live home page read 2026-11-15: 'Type a line, or let your channel pick its next topic from its niche. Nightshift writes the script, the voice, the visuals and the captions.' / 'Narrator Your channel's voice, in its language.' / 'Let Nightshift make your channel's next video and wait for your OK' / 'Finished videos upload to YouTube as private and pass a publish check first. Nothing goes public until you say so.' / 'We make the video. You press publish.' / 'Type a topic. See what the plan looks like.' / '100 free credits, once, when you sign up. No card.' 'Made for the length you choose' from /solutions/youtube-channels via check_facts.",
  "notes": "Contact sheet (frame every 3 s) reviewed: title readable from ~0.5 s, AI-GENERATED FOOTAGE label present, end card shows site + 100 free credits/No card. Shots hold ~7 s but footage moves throughout, so pace scored 4 not 5.",
- "verdict": "pass"
+ "verdict": "pass",
+ "published": {
+  "date": "2026-11-15",
+  "youtube": "https://www.youtube.com/watch?v=ScXgzKx1UPs (public)",
+  "instagram": "https://www.instagram.com/reel/Dfvu194B_oW/",
+  "x": "https://x.com/i/status/2121795739927838766",
+  "telegram": "Actions run 43668961946 success",
+  "x_text_change": "plan text said 'A lighthouse channel's night shift, made with Nightshift'; changed to 'A lighthouse keeper's night shift, with Nightshift' because this ad's footage was not made in the Nightshift app"
+ }
 }
