@@ -1,0 +1,9 @@
+{
+ "id": "ep053-chef-free",
+ "stage": "stashed 2026-11-20 (queue producer)",
+ "format": "cine",
+ "auto": "engine/qa_check.py --cine passed on the engine output (41.73 s, 3840x2160, 30 fps, -13.3 LUFS, peak -2.7 dBFS, saturation 0.486, 7 hues, 75.2 MB)",
+ "attempts": "sunrise palette passed on the first render.",
+ "broll": "Higgsfield seedance_2_5 720p 8 s clips for 5 of 8 shots, labelled AI-GENERATED FOOTAGE on screen; clips 5-7 were never generated (the unlimited window ended), so shots 5 and 6 were dropped and shot 7 uses the plain palette background. Hence 42 s instead of ~60 s.",
+ "not_checked": "Contact-sheet rubric, live fact re-check and listening are left to the daily publish job."
+}
