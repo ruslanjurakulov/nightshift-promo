@@ -35,6 +35,9 @@ def fetch_line(text, cfg, out_dir):
             if r.returncode:
                 raise SystemExit(f"ElevenLabs line missing from the voice release ({name}): {text!r}\n"
                                  "fix: run the voice workflow (mode=make) for this episode, then render again")
-        # mono wav like Piper's; the mixer resamples every line to 48 kHz itself, so the 44.1 kHz detail is kept
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-ac", "1", wav], check=True)
+        # The mixer was tuned on Piper lines (~-15 LUFS each). ElevenLabs lines arrive ~9 dB quieter (~-24 LUFS), and the
+        # first trial mix (ep053, 2026-11-20) came out at -20.1 LUFS, failing qa_check's -20 floor. So each line is
+        # normalised to Piper's level. Mono like Piper; the mixer resamples to 48 kHz itself, so 44.1 kHz detail is kept.
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", "loudnorm=I=-15:TP=-1.5:LRA=11",
+                        "-ar", "44100", "-ac", "1", wav], check=True)
     return wav
