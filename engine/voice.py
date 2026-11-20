@@ -38,6 +38,10 @@ def fetch_line(text, cfg, out_dir):
         # The mixer was tuned on Piper lines (~-15 LUFS each). ElevenLabs lines arrive ~9 dB quieter (~-24 LUFS), and the
         # first trial mix (ep053, 2026-11-20) came out at -20.1 LUFS, failing qa_check's -20 floor. So each line is
         # normalised to Piper's level. Mono like Piper; the mixer resamples to 48 kHz itself, so 44.1 kHz detail is kept.
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", "loudnorm=I=-15:TP=-1.5:LRA=11",
+        # Each ElevenLabs line also ends in ~0.3 s of silence that Piper lines do not have, and the planner adds its own
+        # 0.22 s gap after every line. Over 16 lines that pushed ep050/ep051 to 66-67 s, past qa_check's 65 s ceiling,
+        # so the trailing silence is cut (keeping 50 ms so the last word's decay is not clipped).
+        trim = "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", trim + ",loudnorm=I=-15:TP=-1.5:LRA=11",
                         "-ar", "44100", "-ac", "1", wav], check=True)
     return wav
