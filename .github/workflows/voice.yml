@@ -1,0 +1,42 @@
+# Makes the ElevenLabs narration for promo episodes and stores it in the "voice" release, where renders read it.
+# Why here: ELEVENLABS_API_KEY lives only in this repo's Actions secrets. No session, log or commit ever sees it.
+# mode=list prints the account's voices (to pick voice.json's elevenlabs_voice_id from, never typed by hand).
+# mode=make synthesises every sentence of the given episodes; lines already in the release are not paid for twice.
+name: voice
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "list | make"
+        required: true
+        default: list
+      episodes:
+        description: "space-separated episode ids (mode=make)"
+        required: false
+        default: ""
+concurrency: voice
+permissions:
+  contents: write
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: List voices
+        if: inputs.mode == 'list'
+        run: python3 tools/eleven_tts.py list
+      - name: Make lines
+        if: inputs.mode == 'make'
+        env:
+          EPISODES: ${{ inputs.episodes }}
+        run: |
+          [[ "$EPISODES" =~ ^[a-z0-9\ -]+$ ]] || { echo "episodes must be ids like ep053-chef-free"; exit 1; }
+          mkdir -p out
+          gh release view voice >/dev/null 2>&1 || gh release create voice --prerelease --title "Promo narration (ElevenLabs)" --notes "One mp3 per narration line, named by voice, model and text. Made by the voice workflow; renders read from here."
+          gh release download voice --dir out --pattern 'el-*.mp3' || true   # already-made lines are skipped, never re-billed
+          before=$(ls out | wc -l)
+          python3 tools/eleven_tts.py make out $EPISODES
+          if [ "$(ls out | wc -l)" -gt "$before" ]; then gh release upload voice out/*.mp3 --clobber; else echo "nothing new to upload"; fi

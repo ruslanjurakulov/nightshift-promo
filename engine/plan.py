@@ -5,6 +5,7 @@ instead of a guessed fraction of the scene. Visuals and sound effects read the S
 """
 import hashlib, json, os, subprocess, sys
 from palettes import PALETTES
+import voice
 
 VOICE_BASE = "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high/en_US-ryan-high"
 
@@ -89,12 +90,16 @@ def _timing(sc, start, end):
 
 
 def make_plan(ep, work):
-    model = ensure_voice(work)
-    vdir = os.path.join(work, "voice"); scenes = []; t = 0.0
+    cfg = voice.load_cfg()
+    if cfg["engine"] == "elevenlabs":
+        line = lambda text: voice.fetch_line(text, cfg, os.path.join(work, "voice_el"))
+    else:
+        model = ensure_voice(work); line = lambda text: synth(text, model, os.path.join(work, "voice"))
+    scenes = []; t = 0.0
     for i, sc in enumerate(ep["scenes"]):
         start = t; cur = start + (0.7 if i == 0 else 0.45); sents = []
         for text in sc["sentences"]:
-            p = synth(text, model, vdir); d = _dur(p)
+            p = line(text); d = _dur(p)
             sents.append(dict(start=round(cur, 3), dur=round(d, 3), path=p)); cur += d + 0.22
         end = sents[-1]["start"] + sents[-1]["dur"] + (sc.get("hold", 1.0) if sc["type"] in ("shot", "end") else 0.5)   # let the footage breathe after the line
         s = dict(sc); s.update(start=round(start, 3), end=round(end, 3), sents=sents)

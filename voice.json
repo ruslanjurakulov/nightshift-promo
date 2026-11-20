@@ -1,0 +1,6 @@
+{
+  "engine": "piper",
+  "elevenlabs_voice_id": "",
+  "elevenlabs_model": "eleven_multilingual_v2",
+  "note": "engine=elevenlabs makes every render read its narration from the 'voice' release (made by the voice workflow); a missing line stops the render, it never falls back to Piper. Pick voice ids from the account's list (voice workflow, mode=list), never type one."
+}
