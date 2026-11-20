@@ -1,8 +1,8 @@
 {
  "id": "ep036-nightshift",
- "stage": "published 2026-11-14",
+ "stage": "stashed 2026-11-20 (re-voiced with ElevenLabs, replaces the Piper cut)",
  "format": "cine",
- "auto": "engine/qa_check.py --cine passed (30.8 s, 3840x2160, 30 fps, -13.0 LUFS, peak -2.7 dBFS, saturation 0.507, 7 hues, 63.0 MB)",
+ "auto": "engine/qa_check.py passed on the engine output (33.47 s, -14.1 LUFS, peak -2.4 dBFS, 64.9 MB)",
  "attempts": "candy palette passed on the first render.",
  "broll": "7 Higgsfield seedance_2_5 720p clips, labelled AI-GENERATED FOOTAGE on screen",
  "facts": "tools/check_facts.py re-read nightshift-ai.studio on 2026-11-14: all 17 quotes present after one rewording. The site changed 'then waits for your OK' to 'Let Nightshift make your channel's next video and wait for your OK'; the video's line 'Then it waits for your OK' states the same claim, so the plan quote was updated to 'and wait for your OK' (no number or feature changed). Other lines: 'Nightshift writes the script, the voice, the visuals and the captions'; 'Finished videos upload to YouTube as private'; 'Nothing goes public until you say so'; 'You press publish.'; 'Type a topic. See what the plan looks like.'; 'Nothing is generated here and nothing leaves your browser'; '100 free credits, once, when you sign up. No card.'",
@@ -14,7 +14,7 @@
   "offer_appeal": 4,
   "technical": 5
  },
- "not_checked": "Audio not heard by a human; pacing judged from a contact sheet (frame every 3 s) and a 2 s hook strip. Palette is candy, the same as yesterday's ep005: it was pre-rendered in the queue, and in the cinematic format the palette only shows on the final try-card.",
+ "not_checked": "Nobody has listened to the ElevenLabs cut yet; contact-sheet rubric and live fact re-check are left to the daily publish job.",
  "caveat": "proxy for a viewer, not audience data",
  "verdict": "pass (avg 4.33, no score <3, facts OK)",
  "posted": {
@@ -23,5 +23,6 @@
   "x": "https://x.com/i/status/2121433331908669680",
   "telegram": "https://t.me/nightshiftaistudio via Actions run 43547692864 (success)"
  },
- "posted_at": "2026-11-14 ~02:45 UTC (~07:45 Asia/Samarkand)"
+ "posted_at": "2026-11-14 ~02:45 UTC (~07:45 Asia/Samarkand)",
+ "voice": "ElevenLabs eleven_multilingual_v2, voice Brian - Deep, Resonant and Comforting (premade) (nPczCjzI2devNBz1zQrb); lines loudness-normalised to -15 LUFS"
 }

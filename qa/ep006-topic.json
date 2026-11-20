@@ -1,9 +1,11 @@
 {
  "id": "ep006-topic",
- "stage": "queued (rendered 2026-11-13, not yet published)",
- "auto": "engine/qa_check.py passed (45.1 s, 3840x2160, 30 fps, -12.6 LUFS, peak -2.4 dBFS, saturation 0.577, 4 hues, 77.1 MB)",
+ "stage": "stashed 2026-11-20 (re-voiced with ElevenLabs, replaces the Piper cut)",
+ "auto": "engine/qa_check.py passed on the engine output (48.83 s, -14.1 LUFS, peak -1.7 dBFS, 78.7 MB)",
  "attempts": "ocean palette failed the hue check (3 hues); candy passed.",
  "broll": "2 Higgsfield seedance_2_5 720p clips (hook, approve), labelled AI-GENERATED FOOTAGE on screen",
  "facts": "all quotes in queue/plan.json found on the live site 2026-11-13 (tools/check_facts.py); re-checked on the publish day",
- "rubric": "scored by the daily job on the publish day"
+ "rubric": "scored by the daily job on the publish day",
+ "voice": "ElevenLabs eleven_multilingual_v2, voice Brian - Deep, Resonant and Comforting (premade) (nPczCjzI2devNBz1zQrb); lines loudness-normalised to -15 LUFS",
+ "not_checked": "Nobody has listened to the ElevenLabs cut yet; contact-sheet rubric and live fact re-check are left to the daily publish job."
 }

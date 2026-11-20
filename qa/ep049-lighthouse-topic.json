@@ -1,11 +1,11 @@
 {
  "id": "ep049-lighthouse-topic",
- "stage": "stashed 2026-11-14 (queue producer)",
+ "stage": "stashed 2026-11-20 (re-voiced with ElevenLabs, replaces the Piper cut)",
  "format": "cine",
- "auto": "engine/qa_check.py --cine passed (59.43 s, 3840x2160, 30 fps, -13.5 LUFS, peak -2.5 dBFS, saturation 0.344, 5 hues, 81.1 MB after re-encode)",
+ "auto": "engine/qa_check.py passed on the engine output (64.17 s, -15.3 LUFS, peak -2.5 dBFS, 136.9 MB)",
  "attempts": "sunrise palette passed on the first render.",
  "broll": "Higgsfield seedance_2_5 720p 8 s clips, labelled AI-GENERATED FOOTAGE on screen",
- "not_checked": "Narration was not listened to by ear (no audio playback here); only loudness/peak/silence measured. No audience data; this is not a performance prediction.",
+ "not_checked": "Nobody has listened to the ElevenLabs cut yet; contact-sheet rubric and live fact re-check are left to the daily publish job.",
  "reencode": "Engine output was 136 MB; GitHub rejects files over 100 MB on the stash branch, so it was re-encoded with ffmpeg libx264 -b:v 11M (audio copied, still 4K 30 fps) and qa_check --cine passed again.",
  "publish_day": "2026-11-15",
  "auto_publish_day": "engine/qa_check.py --cine re-run on the downloaded release asset: passed (59.43 s, 3840x2160, 30 fps, -13.5 LUFS, peak -2.5 dBFS, sat 0.344, 5 hues, 81.1 MB)",
@@ -28,5 +28,6 @@
   "x": "https://x.com/i/status/2121795739927838766",
   "telegram": "Actions run 43668961946 success",
   "x_text_change": "plan text said 'A lighthouse channel's night shift, made with Nightshift'; changed to 'A lighthouse keeper's night shift, with Nightshift' because this ad's footage was not made in the Nightshift app"
- }
+ },
+ "voice": "ElevenLabs eleven_multilingual_v2, voice Brian - Deep, Resonant and Comforting (premade) (nPczCjzI2devNBz1zQrb); lines loudness-normalised to -15 LUFS"
 }
