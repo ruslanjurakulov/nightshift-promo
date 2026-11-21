@@ -1,0 +1,1 @@
+Wrong voice? No video. If your channel's voice can't be reached, Nightshift stops the run and says what to fix. It never quietly uses something worse, and a failed run returns it all. Which would you rather get: no video, or the wrong one? nightshift-ai.studio
