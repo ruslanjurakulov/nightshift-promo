@@ -1,0 +1,94 @@
+{
+ "id": "ep109-nofallback",
+ "palette": "ocean",
+ "title": "No video is a better failure than a video in the wrong voice.",
+ "facts": [
+  {"page": "https://nightshift-ai.studio", "quote": "If the channel’s voice cannot be reached, the run stops: it never switches to another voice."},
+  {"page": "https://nightshift-ai.studio", "quote": "Before anything is paid for, the run checks that the voice and the picture models the channel is set to can really be reached."},
+  {"page": "https://nightshift-ai.studio", "quote": "When a channel is set to a particular voice, model or source and it is not available, the run stops and says what to fix. It does not quietly use something worse."},
+  {"page": "https://nightshift-ai.studio", "quote": "No video is a better failure than a video in the wrong voice."},
+  {"page": "https://nightshift-ai.studio", "quote": "If the run fails or does not finish, the whole hold comes back and nothing is charged"},
+  {"page": "https://nightshift-ai.studio", "quote": "A failed run returns it all."},
+  {"page": "https://nightshift-ai.studio", "quote": "Every upload is private, and nothing goes public unless you make it public or turn on a setting that does."},
+  {"page": "https://nightshift-ai.studio", "quote": "100 credits, once. No card."},
+  {"page": "https://nightshift-ai.studio", "quote": "Your 100 free credits cover about 1 min of finished video at this rate."}
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": ["Wrong voice?", "*No video.*"],
+   "mark": "!",
+   "sentences": [
+    "Your channel has its own voice.",
+    "If that voice cannot be reached, the run stops."
+   ]
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is what Nightshift does when something is missing."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "Checked before anything is paid for",
+   "items": [
+    {"label": "1  VOICE", "sub": "Can it really be reached?"},
+    {"label": "2  PICTURE MODELS", "sub": "Can they really be reached?"},
+    {"label": "3  NOTHING PAID YET", "sub": "The check comes first"}
+   ],
+   "sentences": [
+    "Before anything is paid for, the run checks the voice your channel is set to.",
+    "Then the picture models.",
+    "Both must really be reached."
+   ]
+  },
+  {
+   "type": "fail",
+   "note": "A failed run returns it all.",
+   "sentences": [
+    "If one is not available, the run stops and says what to fix.",
+    "It does not quietly use something worse.",
+    "The whole hold comes back, and nothing is charged."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "NO SILENT FALLBACK",
+   "items": [
+    {"title": "Your voice", "sub": "never switched to another"},
+    {"title": "Your models", "sub": "or the run stops"},
+    {"title": "Your source", "sub": "or the run stops"},
+    {"title": "Says what to fix", "sub": "instead of something worse"}
+   ],
+   "sentences": [
+    "A particular voice, model or source.",
+    "If it is not available, you hear about it.",
+    "Your viewers never hear a stand-in."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing goes public without you.",
+   "button": "Approve",
+   "sign": "Private by default",
+   "sentences": [
+    "Every upload is private.",
+    "Nothing goes public unless you make it public, or turn on a setting that does."
+   ]
+  },
+  {
+   "type": "cta",
+   "pills": ["100 free credits, once", "No card"],
+   "tagline": "No video beats the wrong voice.",
+   "sentences": [
+    "No video is a better failure than a video in the wrong voice.",
+    "Start free at nightshift-ai dot studio. One hundred credits, no card."
+   ]
+  }
+ ]
+}
