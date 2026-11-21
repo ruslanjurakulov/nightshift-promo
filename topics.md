@@ -8,6 +8,7 @@
 | ep005-storyboard | 2026-11-13 | Read the plan before you pay (storyboard review: edit, approve and render, or discard for free) | candy (aurora failed hue check) | posted: YouTube public, Instagram, X, Telegram |
 | ep036-nightshift | 2026-11-14 | 3 AM, still editing? One topic in; script, voice, visuals, captions; waits for your OK; private until you say so (queue, cinematic) | candy (pre-rendered queue video; palette shows only on the end card) | posted: YouTube public, Instagram, X, Telegram |
 | ep049-lighthouse-topic | 2026-11-15 | One topic. A finished video. You press publish. (lighthouse keeper world, queue, cinematic 1-min) | sunrise (pre-rendered queue video) | posted: YouTube public, Instagram, X, Telegram |
+| ep109-nofallback | 2026-11-21 | No silent fallback: wrong voice? no video; run checks voice and picture models before anything is paid for; a failed run returns it all (fresh render, ElevenLabs voice) | candy (ocean failed hue check) | posted: YouTube public https://www.youtube.com/watch?v=QVwLQCRhr0I, Instagram https://www.instagram.com/reel/Df_M5xDhcZS/, X https://x.com/i/status/2123972672040075324, Telegram run 44858160988 success |
 
 ## Topic bank (all must be backed by facts read from the live site that day)
 - Why failed runs cost 0 credits  · Private until you say so (approve step)  · 100 free credits: what you can make
@@ -15,6 +16,7 @@
 - ~~Storyboard review~~ (ep005)  · Thumbnail brief & working titles  · Image / clip / voice / upscale / cut-out tools
 
 ## Run log (not published; does not consume a topic)
+- 2026-11-21: site homepage redesigned. check_facts failed for all 4 stashed queue videos (ep050-ep053): homepage quotes gone, incl. the 'Type a topic. See what the plan looks like.' CTA box their end card points to. Marked stale in queue/plan.json; queue now has nothing to publish. Fresh episode ep109 rendered instead. Producer pass skipped: Higgsfield window ended, no ready episodes.
 - 2026-11-15 producer pass (after ep049 publish): ep052 clip 6 collected (done); clip 7 submitted (job a45997aa), still queued at Higgsfield after ~16 min, left as `submitted` for the next run. No episode ready to render. X/Telegram text changed from the plan's 'made with Nightshift' to 'with Nightshift' (footage not made in the app).
 - 2026-11-14 producer pass (after ep036 publish): ep037-price-1 flagged `nsfw` by Higgsfield a second time on the same prompt (job 8d02341a); a concurrent session set it to `skipped` (kept). ep037-price-2 submitted (job abc7ef65). ep036 publish-day fact check: site reworded 'then waits for your OK' to '...and wait for your OK'; quote updated, claim unchanged.
 - 2026-11-14 (Asia/Samarkand): ep006-topic blocked before rendering. Seedance 2.5 unlimited request returned `429 rate_limit_reached`; stopped per RUNBOOK, with no paid fallback or platform posts. Queue remains 2/60 clips and 0/30 stashed videos. Selected ocean instead of yesterday's candy. See `qa/ep006-topic.json`.
