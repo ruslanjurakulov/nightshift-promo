@@ -1,0 +1,13 @@
+{
+ "id": "ep109-nofallback",
+ "date": "2026-11-21",
+ "why_fresh": "Queue episodes ep050-ep053 failed check_facts: the homepage was redesigned and their quotes, incl. the 'Type a topic. See what the plan looks like.' CTA box, are gone. Marked stale; normal render flow used.",
+ "attempts": "1) ocean: qa_check failed colourful (3 hues). 2) candy: passed. (sunrise skipped: last published palette.)",
+ "auto": "engine/qa_check.py passed: 48.47 s, 3840x2160, 30 fps, -14.3 LUFS, peak -2.2 dBFS, 4 hues, 76.2 MB",
+ "voice": "ElevenLabs eleven_multilingual_v2, Brian (nPczCjzI2devNBz1zQrb), 17 lines from the voice release (voice workflow run 44857206766 success)",
+ "scores": {"hook": 4, "pace": 4, "one_message": 5, "colour_energy": 4, "offer_appeal": 4, "technical": 4},
+ "average": 4.17,
+ "facts": "OK: every claim matched on https://nightshift-ai.studio read 2026-11-21 (quotes listed in episodes/ep109-nofallback.json facts[], all found verbatim)",
+ "result": "pass",
+ "not_checked": "Contact sheet only (frame every 3 s); audio pacing judged from timeline, not listened to by a person. No audience data; this does not predict performance."
+}

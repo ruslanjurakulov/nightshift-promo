@@ -1,6 +1,6 @@
 {
  "id": "ep109-nofallback",
- "palette": "ocean",
+ "palette": "candy",
  "title": "No video is a better failure than a video in the wrong voice.",
  "facts": [
   {"page": "https://nightshift-ai.studio", "quote": "If the channel’s voice cannot be reached, the run stops: it never switches to another voice."},
