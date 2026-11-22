@@ -1,0 +1,168 @@
+{
+ "id": "ep110-plans",
+ "palette": "ember",
+ "title": "How much video does $19 buy? Nightshift plans, in minutes.",
+ "facts": [
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Nightshift runs on credits. A plan brings a monthly allowance; one-time packs top up with or without a plan."
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Quote5 min × 60 credits a minute300 credits"
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "No run is quoted below 30 credits."
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "100 credits, once. No card."
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Your 100 free credits cover about 1 min of finished video at this rate."
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Plus$19a month\n2,000 credits / month≈ 33 min of finished video a month at the current per-minute rate"
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Pro$49a month\n6,000 credits / month≈ 100 min of finished video a month at the current per-minute rate"
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Business$129a month\n18,000 credits / month≈ 300 min of finished video a month at the current per-minute rate"
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Plans are billed monthly. Cancel any time."
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Plan credits are valid for the billing period they arrive in and do not roll over."
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Top-up packs are one-time payments and never renew."
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Every upload is private, and nothing goes public unless you make it public or turn on a setting that does."
+  },
+  {
+   "page": "https://nightshift-ai.studio",
+   "quote": "Pay for what you make. Never for a failure."
+  }
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "lines": [
+    "How much *video*",
+    "does *$19* buy?"
+   ],
+   "mark": "$",
+   "sentences": [
+    "How much video does nineteen dollars buy?",
+    "Let's do the math."
+   ]
+  },
+  {
+   "type": "bubble",
+   "big": "Hi, I'm Nox.",
+   "small": "Your night-shift video editor.",
+   "lock": true,
+   "sentences": [
+    "Hi, I'm Nox.",
+    "Here is what each Nightshift plan gets you."
+   ]
+  },
+  {
+   "type": "price",
+   "minutes": 5,
+   "rate": 60,
+   "min_credits": 30,
+   "quote": "Priced before it starts.",
+   "button": "Start",
+   "sentences": [
+    "Nightshift runs on credits: sixty a minute of finished video.",
+    "So a five-minute video is quoted at three hundred credits."
+   ]
+  },
+  {
+   "type": "chips",
+   "header": "PLANS, PER MONTH",
+   "items": [
+    {
+     "title": "Free",
+     "sub": "100 credits once, about 1 min"
+    },
+    {
+     "title": "Plus $19",
+     "sub": "2,000 credits, about 33 min"
+    },
+    {
+     "title": "Pro $49",
+     "sub": "6,000 credits, about 100 min"
+    },
+    {
+     "title": "Business $129",
+     "sub": "18,000 credits, about 300 min"
+    }
+   ],
+   "sentences": [
+    "Free: one hundred credits, once, no card. About one minute of video.",
+    "Plus, nineteen dollars a month: about thirty-three minutes.",
+    "Pro, forty-nine: about one hundred.",
+    "Business, one twenty-nine: about three hundred minutes."
+   ]
+  },
+  {
+   "type": "steps",
+   "topic": "The fine print, plainly",
+   "items": [
+    {
+     "label": "1  BILLED MONTHLY",
+     "sub": "Cancel any time"
+    },
+    {
+     "label": "2  PLAN CREDITS",
+     "sub": "Do not roll over"
+    },
+    {
+     "label": "3  TOP-UP PACKS",
+     "sub": "One-time, never renew"
+    }
+   ],
+   "sentences": [
+    "Plans are billed monthly. Cancel any time.",
+    "Plan credits are valid for the billing period they arrive in.",
+    "Top-up packs are one-time payments, and never renew."
+   ]
+  },
+  {
+   "type": "approve",
+   "headline": "Nothing goes public without you.",
+   "button": "Approve",
+   "sign": "Private by default",
+   "sentences": [
+    "Every upload is private.",
+    "Nothing goes public unless you make it public, or turn on a setting that does."
+   ]
+  },
+  {
+   "type": "cta",
+   "pills": [
+    "100 free credits, once",
+    "No card"
+   ],
+   "tagline": "Pay for what you make.",
+   "sentences": [
+    "Pay for what you make. Never for a failure.",
+    "Start free at nightshift-ai dot studio. One hundred credits, no card."
+   ]
+  }
+ ]
+}
