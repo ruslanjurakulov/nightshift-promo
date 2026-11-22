@@ -16,5 +16,11 @@
  "average": 4.17,
  "facts": "OK: every number and claim matched https://nightshift-ai.studio read 2026-11-22 (quotes in episodes/ep110-plans.json facts[]): 60 credits a minute, 5 min = 300 credits, min 30 per run, Free 100 once/no card/~1 min, Plus $19 2,000 ~33 min, Pro $49 6,000 ~100 min, Business $129 18,000 ~300 min, billed monthly/cancel any time, plan credits do not roll over, packs never renew, uploads private.",
  "result": "pass",
- "not_checked": "Contact sheet only (frame every 3 s) plus hook frames; audio pacing judged from timeline, not listened to by a person. Plan chip subtitles are small on a phone screen. No audience data; this does not predict performance."
+ "not_checked": "Contact sheet only (frame every 3 s) plus hook frames; audio pacing judged from timeline, not listened to by a person. Plan chip subtitles are small on a phone screen. No audience data; this does not predict performance.",
+ "published": {
+  "youtube": "https://www.youtube.com/watch?v=jZMIKb7RZkE (public)",
+  "instagram": "https://www.instagram.com/reel/DgBx4rTSiq-/",
+  "x": "https://x.com/i/status/2124335684513087707",
+  "telegram": "Actions run 44978194416 success"
+ }
 }
