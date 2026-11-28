@@ -1,0 +1,50 @@
+{
+ "id": "ep111-factcheck",
+ "palette": "forest",
+ "title": "Can you trust an AI script? Nightshift checks every claim.",
+ "facts": [
+  {"page": "https://nightshift-ai.studio", "quote": "Research, then every claim checked"},
+  {"page": "https://nightshift-ai.studio", "quote": "It gathers what is known about the topic and, once the script is written, checks each claim in it. A claim it cannot verify is marked for a person, never passed as true."},
+  {"page": "https://nightshift-ai.studio", "quote": "ClaimThe lighthouse was first lit in 1899.Fact-check: Likely accurate"},
+  {"page": "https://nightshift-ai.studio", "quote": "ClaimThe three keepers were never found.Fact-check: Could not be verified · Marked for a person to check"},
+  {"page": "https://nightshift-ai.studio", "quote": "From`video-engine/fixtures/evidence-card.json`. Shown as written in the file, in English."},
+  {"page": "https://nightshift-ai.studio", "quote": "A script in sections, hook first"},
+  {"page": "https://nightshift-ai.studio", "quote": "Two titles to compare, and sections with the length each one asks for."},
+  {"page": "https://nightshift-ai.studio", "quote": "The thumbnail gets two prompts to compare and the text that goes over it."},
+  {"page": "https://nightshift-ai.studio", "quote": "The narrator reads the script with its pauses, music and sound cues, and every word is timed for the captions."},
+  {"page": "https://nightshift-ai.studio", "quote": "Every upload is private, and nothing goes public unless you make it public or turn on a setting that does."},
+  {"page": "https://nightshift-ai.studio", "quote": "100 free credits, once, when you sign up. No card."}
+ ],
+ "scenes": [
+  {"type": "hook", "lines": ["Is your script", "*actually true?*"], "mark": "?",
+   "sentences": ["An AI wrote your script. Is it actually true?", "Nightshift checks every claim."]},
+  {"type": "bubble", "big": "Hi, I'm Nox.", "small": "Your night-shift video editor.", "lock": true,
+   "sentences": ["Hi, I'm Nox.", "Here is what happens before a single word is narrated."]},
+  {"type": "steps", "topic": "Research, then every claim checked",
+   "items": [
+    {"label": "1  RESEARCH", "sub": "What is known about the topic"},
+    {"label": "2  SCRIPT", "sub": "In sections, hook first"},
+    {"label": "3  FACT-CHECK", "sub": "Each claim in it"}
+   ],
+   "sentences": ["First, it gathers what is known about the topic.", "Then it writes the script, in sections, hook first.", "Once the script is written, it checks each claim in it."]},
+  {"type": "chips", "header": "FROM A SAMPLE FACT-CHECK",
+   "items": [
+    {"title": "First lit in 1899", "sub": "Likely accurate"},
+    {"title": "Never found", "sub": "Could not be verified"},
+    {"title": "Marked for a person", "sub": "never passed as true"}
+   ],
+   "sentences": ["Here is a sample from our repository.", "The lighthouse was first lit in 1899: likely accurate.", "The three keepers were never found: could not be verified.", "So it is marked for a person to check, never passed as true."]},
+  {"type": "chips", "header": "ALSO IN THE PLAN",
+   "items": [
+    {"title": "Two titles", "sub": "to compare"},
+    {"title": "Two thumbnail prompts", "sub": "and the text over it"},
+    {"title": "Every word timed", "sub": "for the captions"},
+    {"title": "Music and sound cues", "sub": "read with the script"}
+   ],
+   "sentences": ["You also get two titles to compare.", "Two thumbnail prompts, and the text that goes over it.", "And every narrated word is timed for the captions."]},
+  {"type": "approve", "headline": "Nothing goes public without you.", "button": "Approve", "sign": "Private by default",
+   "sentences": ["Every upload is private.", "Nothing goes public unless you make it public, or turn on a setting that does."]},
+  {"type": "cta", "pills": ["100 free credits, once", "No card"], "tagline": "Checked first. Yours to decide.",
+   "sentences": ["A claim it cannot verify goes to a person, never passed as true.", "Start free at nightshift-ai dot studio. One hundred free credits, no card."]}
+ ]
+}
