@@ -1,0 +1,13 @@
+{
+ "id": "ep111-factcheck",
+ "date": "2026-11-28",
+ "why_fresh": "Queue has nothing to publish (qstate nextpublish empty). Normal render flow.",
+ "attempts": "1) forest: passed first time (4 hues). (sunrise skipped: last posted palette.)",
+ "auto": "engine/qa_check.py passed: 55.8 s, 3840x2160, 30 fps, -14.6 LUFS, peak -2.2 dBFS, 4 hues, saturation 0.56, 88.5 MB",
+ "voice": "ElevenLabs eleven_multilingual_v2, Brian (nPczCjzI2devNBz1zQrb), lines from the voice release (voice workflow run 46099153058 success)",
+ "scores": {"hook": 4, "pace": 4, "one_message": 4, "colour_energy": 4, "offer_appeal": 4, "technical": 4},
+ "average": 4.0,
+ "facts": "OK: every claim matched https://nightshift-ai.studio read 2026-11-28 (quotes in episodes/ep111-factcheck.json facts[]): research then every claim checked; a claim it cannot verify is marked for a person, never passed as true; sample fact-check rows (1899 likely accurate; keepers never found could not be verified), shown as a sample from the repository as the site does; script in sections, hook first; two titles to compare; two thumbnail prompts and the text over it; every word timed for the captions; uploads private; 100 free credits once, no card.",
+ "result": "pass",
+ "not_checked": "Contact sheet only (frame every 3 s) plus hook frame; audio pacing judged from timeline, not listened to by a person. Chip subtitles are small on a phone screen (same as ep110). No audience data; this does not predict performance."
+}
