@@ -1,0 +1,3 @@
+Is your AI script actually true? Nightshift checks each claim once the script is written. A claim it cannot verify is marked for a person, never passed as true. Start free: 100 credits, no card.
+
+Would you trust an unchecked script? nightshift-ai.studio
